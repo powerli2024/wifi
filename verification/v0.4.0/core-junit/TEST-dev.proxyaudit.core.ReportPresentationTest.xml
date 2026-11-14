@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.ReportPresentationTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-22T06:02:51.043Z" hostname="DESKTOP-63D1DH2" time="0.008">
+  <properties/>
+  <testcase name="system DNS success does not hide HTTPS error or missing egress evidence" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.002"/>
+  <testcase name="presentation leaves config policy and report evidence unchanged" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.001"/>
+  <testcase name="disabled modules ignore inconsistent leftover observations" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="HTTPS matched and mismatched policies remain limited to this request" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="raw cancellation and nonexecution do not become protocol failures" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.001"/>
+  <testcase name="different or missing queried hosts do not locate a system DNS fault" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="raw NXDOMAIN truncation response errors and empty NOERROR are not address success" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.001"/>
+  <testcase name="HTTPS failure cancellation and nonexecution never become source IP mismatch" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="network changes and missing snapshots prevent stable causal hints" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="system untested cancelled failed and empty responses are separate states" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.001"/>
+  <testcase name="summary omits raw identifiers credentials and endpoint strings" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="a successful module does not conceal missing or failed selected modules" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.001"/>
+  <testcase name="missing trust expectation or validated echo cannot produce an egress verdict" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="missing and duplicate raw observations are explicit rather than guessed" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="reported system error raw address success and untested HTTPS remain distinct" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="synthetic evidence stays visibly separate from device results" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.001"/>
+  <testcase name="same host comparison normalizes only DNS case and terminal dot" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <testcase name="different successful DNS addresses are observations rather than poisoning diagnoses" classname="dev.proxyaudit.core.ReportPresentationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeepDiagnosticsActivityTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:14:11.460Z" hostname="DESKTOP-63D1DH2" time="9.44">
+  <properties/>
+  <testcase name="restored_missing_process_payload_reserves_request_code_and_never_exports_new_report_through_old_callback[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="2.629"/>
+  <testcase name="restored_missing_process_payload_reserves_request_code_and_never_exports_new_report_through_old_callback" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="2.417"/>
+  <testcase name="old_picker_callback_cannot_consume_new_ticket_or_write_to_old_destination[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.412"/>
+  <testcase name="old_picker_callback_cannot_consume_new_ticket_or_write_to_old_destination" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.393"/>
+  <testcase name="opening_and_rotation_preserve_only_memory_draft_and_never_run_a_probe[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.359"/>
+  <testcase name="opening_and_rotation_preserve_only_memory_draft_and_never_run_a_probe" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.462"/>
+  <testcase name="local_only_ignores_invalid_url_and_raw_checkbox_and_requires_explicit_confirmation[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.347"/>
+  <testcase name="local_only_ignores_invalid_url_and_raw_checkbox_and_requires_explicit_confirmation" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.352"/>
+  <testcase name="numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.314"/>
+  <testcase name="numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.467"/>
+  <testcase name="network_facts_and_chinese_self_test_results_are_visible_without_opening_json[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.188"/>
+  <testcase name="network_facts_and_chinese_self_test_results_are_visible_without_opening_json" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.203"/>
+  <testcase name="redacted_export_survives_rotation_and_clear_and_duplicate_completion_does_not_write_again[29]" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.426"/>
+  <testcase name="redacted_export_survives_rotation_and_clear_and_duplicate_completion_does_not_write_again" classname="dev.proxyaudit.android.DeepDiagnosticsActivityTest" time="0.468"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+System.logW: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.$$robo$$dalvik_system_CloseGuard$open(CloseGuard.java:237)
+	at jdk.internal.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowCloseGuard$CloseGuardReflector$$Reflector92.open(Unknown Source)
+	at org.robolectric.shadows.ShadowCloseGuard.open(ShadowCloseGuard.java:38)
+	at dalvik.system.CloseGuard.open(CloseGuard.java)
+	at android.view.SurfaceControl.$$robo$$android_view_SurfaceControl$__constructor__(SurfaceControl.java:830)
+	at android.view.SurfaceControl.<init>(SurfaceControl.java:829)
+	at android.view.ViewRootImpl.$$robo$$android_view_ViewRootImpl$__constructor__(ViewRootImpl.java:455)
+	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:590)
+	at android.view.WindowManagerGlobal.$$robo$$android_view_WindowManagerGlobal$addView(WindowManagerGlobal.java:377)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java)
+	at android.view.WindowManagerImpl.$$robo$$android_view_WindowManagerImpl$addView(WindowManagerImpl.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowWindowManagerImpl$ReflectorWindowManagerImpl$$Reflector90.addView(Unknown Source)
+	at org.robolectric.shadows.ShadowWindowManagerImpl.addView(ShadowWindowManagerImpl.java:49)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java)
+	at android.app.Dialog.$$robo$$android_app_Dialog$show(Dialog.java:342)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowDialog$DialogReflector$$Reflector101.show(Unknown Source)
+	at org.robolectric.shadows.ShadowDialog.show(ShadowDialog.java:66)
+	at android.app.Dialog.show(Dialog.java)
+	at androidx.appcompat.app.AlertDialog$Builder.show(AlertDialog.java:1008)
+	at dev.proxyaudit.android.DeepDiagnosticsActivity.confirm(DeepDiagnosticsActivity.kt:135)
+	at dev.proxyaudit.android.DeepDiagnosticsActivity.onCreate$lambda$11(DeepDiagnosticsActivity.kt:98)
+	at dev.proxyaudit.android.MaterialUi.button$lambda$2$lambda$0(MaterialUi.kt:18)
+	at android.view.View.$$robo$$android_view_View$performClick(View.java:7140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowView$_View_$$Reflector83.performClick(Unknown Source)
+	at org.robolectric.shadows.ShadowView.performClick(ShadowView.java:274)
+	at android.view.View.performClick(View.java)
+	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1345)
+	at dev.proxyaudit.android.DeepDiagnosticsActivityTest.numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network(DeepDiagnosticsActivityTest.kt:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:502)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:285)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+</testsuite>

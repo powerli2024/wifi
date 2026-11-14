@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-23",
+  "scope": "DOCUMENTATION_RESEARCH_AND_GOVERNANCE",
+  "git": "NO_GIT_REPOSITORY",
+  "groups": {
+    "protectedProjectFiles": {
+      "checked": 341,
+      "unchanged": 341
+    },
+    "externalEvidenceFiles": {
+      "checked": 17,
+      "unchanged": 17
+    },
+    "retainedInputs": {
+      "checked": 3,
+      "unchanged": 3
+    },
+    "originalDocumentBackups": {
+      "checked": 28,
+      "unchanged": 28
+    }
+  },
+  "mismatches": [],
+  "ok": true
+}

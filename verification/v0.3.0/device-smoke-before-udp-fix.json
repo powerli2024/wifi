@@ -1,0 +1,587 @@
+{
+  "testMarker": "DEVICE_LOOPBACK_SMOKE",
+  "testData": "LOCAL_SYNTHETIC_DNS_FIXTURES_ONLY",
+  "probeDestinations": [
+    "127.0.0.1",
+    "::1"
+  ],
+  "offlineCoreAndUiChecksIncluded": true,
+  "uiNetworkObservationScope": "CONTROLLER_START_AND_RESULT_ONLY_NOT_PACKET_CAPTURE",
+  "outerNetworkPathVerified": false,
+  "userVpnEvidence": false,
+  "limitations": "Offline core\/UI checks and device loopback sockets only; no external resolver, system DNS, HTTPS, VPN routing, leak prevention, or other-app traffic tested. Startup checks observe controller activity, not all network packets. Configuration repair is not client import or runtime validation.",
+  "failed": 1,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "launcher_and_offline_demo",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "launcherCreated": true,
+        "startupObservation": {
+          "activityCreated": true,
+          "contentVisible": true,
+          "automaticControllerProbeObserved": false,
+          "observationWindowMillis": 300,
+          "observationScope": "CONTROLLER_START_AND_RESULT_ONLY_NOT_PACKET_CAPTURE"
+        },
+        "demoOrigin": "SYNTHETIC_FIXTURE"
+      }
+    },
+    {
+      "name": "repair_activity_offline_launch",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "activityCreated": true,
+        "contentVisible": true,
+        "automaticControllerProbeObserved": false,
+        "observationWindowMillis": 300,
+        "observationScope": "CONTROLLER_START_AND_RESULT_ONLY_NOT_PACKET_CAPTURE",
+        "returnedWithoutProbeReport": true
+      }
+    },
+    {
+      "name": "offline_quick_advisor_comparison_android_api",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "inputOrigin": "SYNTHETIC_RULE_INPUTS_NOT_NETWORK_OBSERVATIONS",
+        "quickPlanConstructedOnly": true,
+        "advisorBoundariesVerified": true,
+        "comparisonJsonParsedOnAndroid": true,
+        "comparisonRedactionVerified": true,
+        "networkRequestsIssuedByTest": 0
+      }
+    },
+    {
+      "name": "offline_mihomo_repair_android_api",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "inputOrigin": "SYNTHETIC_CONFIG_FIXTURE_ONLY",
+        "inspectionExecutedOnAndroid": true,
+        "repairExecutedOnAndroid": true,
+        "nonDnsSourcePreservedExactly": true,
+        "nameserverDohWritten": true,
+        "sourceSha256Verified": true,
+        "repairIdempotent": true,
+        "diagnosticsOmitNonDnsCredentials": true,
+        "networkRequestsIssuedByTest": 0,
+        "clientImportOrRuntimeConfigVerified": false
+      }
+    },
+    {
+      "name": "offline_mihomo_rejects_unsafe_yaml",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "duplicateKeysRejected": true,
+        "customTagRejected": true,
+        "multipleDocumentsRejected": true,
+        "networkRequestsIssuedByTest": 0
+      }
+    },
+    {
+      "name": "ipv4_udp_tcp_raw_only",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "kind": "REDACTED_EXPORT_EXCERPT",
+        "schemaVersion": 2,
+        "networkIdentifiersIncluded": false,
+        "rawDnsConfig": {
+          "serverIp": "[REDACTED]",
+          "port": 34845,
+          "host": "[REDACTED]",
+          "recordType": "A",
+          "udp": true,
+          "tcp": true,
+          "requestedSocketTargetFamily": "IPv4"
+        },
+        "rawDns": [
+          {
+            "transport": "UDP",
+            "execution": "COMPLETED",
+            "transactionId": 55710,
+            "durationMillis": 2,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          },
+          {
+            "transport": "TCP",
+            "execution": "COMPLETED",
+            "transactionId": 3372,
+            "durationMillis": 2,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          }
+        ],
+        "egressVerdict": "NOT_RUN",
+        "systemDnsPrivacyVerdict": "NOT_RUN",
+        "networkSnapshotRedactionVerified": true,
+        "udpRequestsReceived": 1,
+        "tcpConnectionsAccepted": 1
+      }
+    },
+    {
+      "name": "ipv6_udp_tcp_raw_only",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "kind": "REDACTED_EXPORT_EXCERPT",
+        "schemaVersion": 2,
+        "networkIdentifiersIncluded": false,
+        "rawDnsConfig": {
+          "serverIp": "[REDACTED]",
+          "port": 38797,
+          "host": "[REDACTED]",
+          "recordType": "AAAA",
+          "udp": true,
+          "tcp": true,
+          "requestedSocketTargetFamily": "IPv6"
+        },
+        "rawDns": [
+          {
+            "transport": "UDP",
+            "execution": "COMPLETED",
+            "transactionId": 36602,
+            "durationMillis": 1,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          },
+          {
+            "transport": "TCP",
+            "execution": "COMPLETED",
+            "transactionId": 28324,
+            "durationMillis": 1,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          }
+        ],
+        "egressVerdict": "NOT_RUN",
+        "systemDnsPrivacyVerdict": "NOT_RUN",
+        "networkSnapshotRedactionVerified": true,
+        "udpRequestsReceived": 1,
+        "tcpConnectionsAccepted": 1
+      }
+    },
+    {
+      "name": "cancel_udp_then_release_slot",
+      "status": "FAIL",
+      "summary": "CONTROLLER_DID_NOT_RELEASE_SLOT",
+      "details": {
+        "kind": "BOUNDED_SLOT_RELEASE_DIAGNOSTIC",
+        "waitBudgetMillis": 4000,
+        "controllerBusy": true,
+        "reportPublished": true,
+        "rawExecutionStates": [
+          {
+            "transport": "UDP",
+            "execution": "CANCELLED",
+            "failure": "CANCELLED"
+          },
+          {
+            "transport": "TCP",
+            "execution": "NOT_STARTED",
+            "failure": null
+          }
+        ],
+        "threads": [
+          {
+            "threadName": "main",
+            "state": "RUNNABLE",
+            "frames": [
+              {
+                "className": "android.os.MessageQueue",
+                "methodName": "nativePollOnce",
+                "lineNumber": -2,
+                "nativeMethod": true
+              },
+              {
+                "className": "android.os.MessageQueue",
+                "methodName": "nextLegacy",
+                "lineNumber": 983,
+                "nativeMethod": false
+              },
+              {
+                "className": "android.os.MessageQueue",
+                "methodName": "next",
+                "lineNumber": 1092,
+                "nativeMethod": false
+              },
+              {
+                "className": "android.os.Looper",
+                "methodName": "loopOnce",
+                "lineNumber": 197,
+                "nativeMethod": false
+              },
+              {
+                "className": "android.os.Looper",
+                "methodName": "loop",
+                "lineNumber": 367,
+                "nativeMethod": false
+              },
+              {
+                "className": "android.app.ActivityThread",
+                "methodName": "main",
+                "lineNumber": 9227,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.lang.reflect.Method",
+                "methodName": "invoke",
+                "lineNumber": -2,
+                "nativeMethod": true
+              },
+              {
+                "className": "com.android.internal.os.RuntimeInit$MethodAndArgsCaller",
+                "methodName": "run",
+                "lineNumber": 566,
+                "nativeMethod": false
+              },
+              {
+                "className": "com.android.internal.os.ZygoteInit",
+                "methodName": "main",
+                "lineNumber": 929,
+                "nativeMethod": false
+              }
+            ]
+          },
+          {
+            "threadName": "probe-cleanup",
+            "state": "WAITING",
+            "frames": [
+              {
+                "className": "jdk.internal.misc.Unsafe",
+                "methodName": "park",
+                "lineNumber": -2,
+                "nativeMethod": true
+              },
+              {
+                "className": "java.util.concurrent.locks.LockSupport",
+                "methodName": "park",
+                "lineNumber": 371,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode",
+                "methodName": "block",
+                "lineNumber": 519,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ForkJoinPool",
+                "methodName": "unmanagedBlock",
+                "lineNumber": 3797,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ForkJoinPool",
+                "methodName": "managedBlock",
+                "lineNumber": 3738,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject",
+                "methodName": "await",
+                "lineNumber": 1712,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ArrayBlockingQueue",
+                "methodName": "take",
+                "lineNumber": 420,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "getTask",
+                "lineNumber": 1080,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "runWorker",
+                "lineNumber": 1140,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor$Worker",
+                "methodName": "run",
+                "lineNumber": 652,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.lang.Thread",
+                "methodName": "run",
+                "lineNumber": 1563,
+                "nativeMethod": false
+              }
+            ]
+          },
+          {
+            "threadName": "probe-deadline",
+            "state": "TIMED_WAITING",
+            "frames": [
+              {
+                "className": "jdk.internal.misc.Unsafe",
+                "methodName": "park",
+                "lineNumber": -2,
+                "nativeMethod": true
+              },
+              {
+                "className": "java.util.concurrent.locks.LockSupport",
+                "methodName": "parkNanos",
+                "lineNumber": 269,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject",
+                "methodName": "awaitNanos",
+                "lineNumber": 1763,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue",
+                "methodName": "take",
+                "lineNumber": 1236,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue",
+                "methodName": "take",
+                "lineNumber": 953,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "getTask",
+                "lineNumber": 1080,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "runWorker",
+                "lineNumber": 1140,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor$Worker",
+                "methodName": "run",
+                "lineNumber": 652,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.lang.Thread",
+                "methodName": "run",
+                "lineNumber": 1563,
+                "nativeMethod": false
+              }
+            ]
+          },
+          {
+            "threadName": "probe-worker",
+            "state": "RUNNABLE",
+            "frames": [
+              {
+                "className": "libcore.io.Linux",
+                "methodName": "poll",
+                "lineNumber": -2,
+                "nativeMethod": true
+              },
+              {
+                "className": "libcore.io.ForwardingOs",
+                "methodName": "poll",
+                "lineNumber": 584,
+                "nativeMethod": false
+              },
+              {
+                "className": "libcore.io.BlockGuardOs",
+                "methodName": "poll",
+                "lineNumber": 283,
+                "nativeMethod": false
+              },
+              {
+                "className": "libcore.io.ForwardingOs",
+                "methodName": "poll",
+                "lineNumber": 584,
+                "nativeMethod": false
+              },
+              {
+                "className": "android.system.Os",
+                "methodName": "poll",
+                "lineNumber": 545,
+                "nativeMethod": false
+              },
+              {
+                "className": "libcore.io.IoBridge",
+                "methodName": "poll",
+                "lineNumber": 864,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.net.PlainDatagramSocketImpl",
+                "methodName": "doRecv",
+                "lineNumber": 151,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.net.PlainDatagramSocketImpl",
+                "methodName": "receive0",
+                "lineNumber": 142,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.net.AbstractPlainDatagramSocketImpl",
+                "methodName": "receive",
+                "lineNumber": 164,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.net.DatagramSocket",
+                "methodName": "receive",
+                "lineNumber": 849,
+                "nativeMethod": false
+              },
+              {
+                "className": "dev.proxyaudit.core.RawDnsProbe",
+                "methodName": "udp",
+                "lineNumber": 126,
+                "nativeMethod": false
+              },
+              {
+                "className": "dev.proxyaudit.core.RawDnsProbe",
+                "methodName": "execute",
+                "lineNumber": 66,
+                "nativeMethod": false
+              },
+              {
+                "className": "dev.proxyaudit.android.DiagnosticsController",
+                "methodName": "start$lambda$23",
+                "lineNumber": 141,
+                "nativeMethod": false
+              },
+              {
+                "className": "dev.proxyaudit.android.DiagnosticsController",
+                "methodName": "$r8$lambda$-y9YNS4vi8EWocaknbNl-mEnN6U",
+                "lineNumber": 0,
+                "nativeMethod": false
+              },
+              {
+                "className": "dev.proxyaudit.android.DiagnosticsController$$ExternalSyntheticLambda5",
+                "methodName": "run",
+                "lineNumber": 0,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "runWorker",
+                "lineNumber": 1154,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor$Worker",
+                "methodName": "run",
+                "lineNumber": 652,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.lang.Thread",
+                "methodName": "run",
+                "lineNumber": 1563,
+                "nativeMethod": false
+              }
+            ]
+          },
+          {
+            "threadName": "raw-dns-deadline",
+            "state": "TIMED_WAITING",
+            "frames": [
+              {
+                "className": "jdk.internal.misc.Unsafe",
+                "methodName": "park",
+                "lineNumber": -2,
+                "nativeMethod": true
+              },
+              {
+                "className": "java.util.concurrent.locks.LockSupport",
+                "methodName": "parkNanos",
+                "lineNumber": 269,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject",
+                "methodName": "awaitNanos",
+                "lineNumber": 1763,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue",
+                "methodName": "take",
+                "lineNumber": 1236,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue",
+                "methodName": "take",
+                "lineNumber": 953,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "getTask",
+                "lineNumber": 1080,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor",
+                "methodName": "runWorker",
+                "lineNumber": 1140,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.util.concurrent.ThreadPoolExecutor$Worker",
+                "methodName": "run",
+                "lineNumber": 652,
+                "nativeMethod": false
+              },
+              {
+                "className": "java.lang.Thread",
+                "methodName": "run",
+                "lineNumber": 1563,
+                "nativeMethod": false
+              }
+            ]
+          }
+        ],
+        "scope": "CODE_LOCATIONS_AND_ENUMS_ONLY_NO_NETWORK_IDENTIFIERS_OR_EXCEPTION_TEXT"
+      }
+    }
+  ]
+}

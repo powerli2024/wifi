@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeviceSelfTestTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:14:22.978Z" hostname="DESKTOP-63D1DH2" time="0.535">
+  <properties/>
+  <testcase name="close_before_execute_keeps_every_network_scenario_unstarted[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.017"/>
+  <testcase name="close_before_execute_keeps_every_network_scenario_unstarted" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.02"/>
+  <testcase name="bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.202"/>
+  <testcase name="bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.202"/>
+  <testcase name="cancellation_closes_owned_sockets_and_stops_remaining_scenarios[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.028"/>
+  <testcase name="cancellation_closes_owned_sockets_and_stops_remaining_scenarios" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.03"/>
+  <testcase name="repeated_execution_and_invalid_budgets_are_rejected_before_new_work[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.021"/>
+  <testcase name="repeated_execution_and_invalid_budgets_are_rejected_before_new_work" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

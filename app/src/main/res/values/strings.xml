@@ -1,0 +1,19 @@
+<resources>
+    <string name="website_chatgpt_url" translatable="false">https://chatgpt.com/</string>
+    <string name="website_raw_dns_option">扩展：当前 DNS 的 A / AAAA、UDP / TCP 自动对照（明文）</string>
+    <string name="nav_overview">概览</string>
+    <string name="nav_tests">测试</string>
+    <string name="nav_repair">修复</string>
+    <string name="report_title">检查详情</string>
+    <string name="back_to_previous">返回上一页</string>
+    <string name="cancel">取消</string>
+    <string name="default_dns_query">example.com</string>
+    <string name="default_dns_port">53</string>
+    <string name="card_content">%1$s\n%2$s</string>
+    <string name="scenario_content">%1$s\n%2$s\n%3$s</string>
+    <string name="repair_stage_content">当前阶段\n%1$s\n\n%2$s\n%3$s%4$s</string>
+    <string name="repair_baseline_mismatch">\n配置关联的基线已被替换或清除，请重新审查并关联后复测。</string>
+    <string name="recovery_content">修改前准备恢复方式\n保留原配置；记录原系统 Private DNS 模式和主机名。若无法联网，先恢复本次修改前的值，再复测。不要关闭证书验证或取消 VPN 阻断策略。此提示离线可用，应用未自动备份原配置。%1$s</string>
+    <string name="source_hash_content">\n本次原配置摘要：%1$s</string>
+    <string name="retry_label">暂时性失败时再检查一次（最多 2 次，保留全部结果）</string>
+</resources>

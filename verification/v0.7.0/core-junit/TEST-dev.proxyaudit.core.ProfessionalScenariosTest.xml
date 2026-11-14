@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.ProfessionalScenariosTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:04:34.435Z" hostname="DESKTOP-63D1DH2" time="0.006">
+  <properties/>
+  <testcase name="DNS comparison defaults describe same host A and deliberate plaintext transports" classname="dev.proxyaudit.core.ProfessionalScenariosTest" time="0.005"/>
+  <testcase name="HTTPS guidance requires independent manual trust and expected IP decisions" classname="dev.proxyaudit.core.ProfessionalScenariosTest" time="0.0"/>
+  <testcase name="each supported scenario has complete independent field guidance" classname="dev.proxyaudit.core.ProfessionalScenariosTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

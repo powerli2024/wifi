@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeepDiagnosticsSessionTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:14:21.142Z" hostname="DESKTOP-63D1DH2" time="1.813">
+  <properties/>
+  <testcase name="four_usable_raw_results_preserve_website_failure_and_prioritize_its_stage[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.038"/>
+  <testcase name="four_usable_raw_results_preserve_website_failure_and_prioritize_its_stage" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.047"/>
+  <testcase name="raw_requires_domain_plan_and_numeric_server_before_any_collection[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.024"/>
+  <testcase name="raw_requires_domain_plan_and_numeric_server_before_any_collection" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.022"/>
+  <testcase name="construction_and_observation_do_not_collect_or_probe_and_local_plan_stays_local[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.03"/>
+  <testcase name="construction_and_observation_do_not_collect_or_probe_and_local_plan_stays_local" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.033"/>
+  <testcase name="proxy_change_in_final_inventory_invalidates_complete_conclusion[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.029"/>
+  <testcase name="proxy_change_in_final_inventory_invalidates_complete_conclusion" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.03"/>
+  <testcase name="cancellation_during_inventory_stops_before_creating_any_probe[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.031"/>
+  <testcase name="cancellation_during_inventory_stops_before_creating_any_probe" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.031"/>
+  <testcase name="initial_snapshot_exception_is_sanitized_and_does_not_leave_slot_busy[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.047"/>
+  <testcase name="initial_snapshot_exception_is_sanitized_and_does_not_leave_slot_busy" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.046"/>
+  <testcase name="four_raw_successes_with_mixed_website_attempts_prioritize_stability_instead_of_current_failure[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.032"/>
+  <testcase name="four_raw_successes_with_mixed_website_attempts_prioritize_stability_instead_of_current_failure" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.032"/>
+  <testcase name="cancel_initiates_cleanup_without_releasing_slot_or_starting_next_stage[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.03"/>
+  <testcase name="cancel_initiates_cleanup_without_releasing_slot_or_starting_next_stage" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.033"/>
+  <testcase name="missing_final_inventory_is_unknown_and_not_claimed_as_observed_network_change[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.031"/>
+  <testcase name="missing_final_inventory_is_unknown_and_not_claimed_as_observed_network_change" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.03"/>
+  <testcase name="raw_mismatch_names_the_protocol_and_truncated_or_cancelled_never_count_as_usable[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.046"/>
+  <testcase name="raw_mismatch_names_the_protocol_and_truncated_or_cancelled_never_count_as_usable" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.049"/>
+  <testcase name="changed_snapshot_after_local_stage_stops_website_and_raw[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.029"/>
+  <testcase name="changed_snapshot_after_local_stage_stops_website_and_raw" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.032"/>
+  <testcase name="blocked_network_observer_does_not_block_deadline_or_cleanup[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.388"/>
+  <testcase name="blocked_network_observer_does_not_block_deadline_or_cleanup" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.39"/>
+  <testcase name="late_observer_from_previous_run_cannot_cancel_a_new_run[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.091"/>
+  <testcase name="late_observer_from_previous_run_cannot_cancel_a_new_run" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.095"/>
+  <testcase name="export_freezes_old_report_defaults_to_redaction_and_request_codes_are_not_reused[29]" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.046"/>
+  <testcase name="export_freezes_old_report_defaults_to_redaction_and_request_codes_are_not_reused" classname="dev.proxyaudit.android.DeepDiagnosticsSessionTest" time="0.049"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

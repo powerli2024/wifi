@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.MihomoConfigDoctorTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:02:51.591Z" hostname="DESKTOP-63D1DH2" time="0.145">
+  <properties/>
+  <testcase name="h3 conflicts refuse even when old respect rules false" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.041"/>
+  <testcase name="system bootstrap remains explicitly preserved and uncertain" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.007"/>
+  <testcase name="missing dns gets concrete five field preview and leaves full original prefix" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.003"/>
+  <testcase name="keeps plaintext scalar spellings dates and unknown fields outside dns byte for byte" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.004"/>
+  <testcase name="repair is byte idempotent and second preview empty" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.003"/>
+  <testcase name="unsupported existing bootstrap or node list refuses instead of overwriting" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.001"/>
+  <testcase name="size unicode depth and node limits are enforced" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.031"/>
+  <testcase name="missing fields do not assert core configuration is invalid or leakage proven" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.002"/>
+  <testcase name="flow field values and CRLF and supplementary characters retain boundaries" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.012"/>
+  <testcase name="empty scalar enable and explicit empty resolver lists can be fixed" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.002"/>
+  <testcase name="all ambiguous yaml structures are rejected with sanitized errors" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.009"/>
+  <testcase name="invalid selected provider cannot inject credentials routing or yaml" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.0"/>
+  <testcase name="foreign profiles and unidentified YAML cannot become Mihomo copies" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.005"/>
+  <testcase name="URL decoded DNS parameters match core behavior without form decoding" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.002"/>
+  <testcase name="block list patch keeps following external comments and section together" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.003"/>
+  <testcase name="adding fields after final preserved mapping does not consume that mapping" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.003"/>
+  <testcase name="inserts before explicit document end" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.002"/>
+  <testcase name="malformed fragment encodings refuse with safe public exception" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.002"/>
+  <testcase name="keeps valid bootstrap node resolvers and all non target original text" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.008"/>
+  <testcase name="all previews hide upstream credentials and parameters" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.002"/>
+  <testcase name="insertion preserves inline comment on last non target field" classname="dev.proxyaudit.core.MihomoConfigDoctorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

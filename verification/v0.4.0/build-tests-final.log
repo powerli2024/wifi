@@ -1,0 +1,246 @@
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:compileKotlin UP-TO-DATE
+> Task :core:compileJava NO-SOURCE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :core:compileTestKotlin UP-TO-DATE
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+> Task :core:test UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:packageDebugUnitTestForUnitTest UP-TO-DATE
+> Task :app:generateDebugUnitTestConfig UP-TO-DATE
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:generateDebugLintReportModel
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:mergeProjectDexDebug
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:lintAnalyzeDebugAndroidTest
+
+> Task :app:compileDebugUnitTestKotlin
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:242:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:247:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:259:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:267:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:269:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:287:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:289:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:636:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintAnalyzeDebugUnitTest
+> Task :app:lintAnalyzeDebug
+
+> Task :app:testDebugUnitTest
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename[29] PASSED
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing[29] PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network[29] PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path[29] PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path PASSED
+
+MainActivityTest > result_summary_separates_dns_error_response_and_unmeasured_https_before_details[29] PASSED
+
+MainActivityTest > result_summary_separates_dns_error_response_and_unmeasured_https_before_details PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation[29] PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe[29] PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe PASSED
+
+MainActivityTest > demo_advice_cannot_be_saved_as_a_real_baseline[29] FAILED
+    java.lang.AssertionError at MainActivityTest.kt:556
+
+MainActivityTest > demo_advice_cannot_be_saved_as_a_real_baseline FAILED
+    java.lang.AssertionError at MainActivityTest.kt:556
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns[29] PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns PASSED
+
+MainActivityTest > baseline_rerun_uses_frozen_plan_requires_confirmation_and_clear_removes_it[29] PASSED
+
+MainActivityTest > baseline_rerun_uses_frozen_plan_requires_confirmation_and_clear_removes_it PASSED
+
+MainActivityTest > repair_entry_opens_activity_without_extra_config_or_starting_a_probe[29] PASSED
+
+MainActivityTest > repair_entry_opens_activity_without_extra_config_or_starting_a_probe PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers[29] PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers PASSED
+
+MainActivityTest > comparison_export_uses_frozen_redacted_pair_across_rotation_and_clear[29] PASSED
+
+MainActivityTest > comparison_export_uses_frozen_redacted_pair_across_rotation_and_clear PASSED
+
+MainActivityTest > cancelled_result_shows_incomparable_advice_instead_of_improvement[29] PASSED
+
+MainActivityTest > cancelled_result_shows_incomparable_advice_instead_of_improvement PASSED
+
+MainActivityTest > navigation_keeps_one_task_visible_and_preserves_fields_without_network[29] PASSED
+
+MainActivityTest > navigation_keeps_one_task_visible_and_preserves_fields_without_network PASSED
+
+MainActivityTest > quick_public_target_is_only_active_after_explicit_plaintext_opt_in_and_survives_rotation[29] PASSED
+
+MainActivityTest > quick_public_target_is_only_active_after_explicit_plaintext_opt_in_and_survives_rotation PASSED
+
+MainActivityTest > private_dns_active_warning_does_not_describe_raw_probe_as_encrypted[29] PASSED
+
+MainActivityTest > private_dns_active_warning_does_not_describe_raw_probe_as_encrypted PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation[29] PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation PASSED
+
+MainActivityTest > quick_default_confirms_system_query_without_input_or_implicit_public_target[29] PASSED
+
+MainActivityTest > quick_default_confirms_system_query_without_input_or_implicit_public_target PASSED
+
+MainActivityTest > https_scenario_never_invents_target_expected_ip_or_trust[29] PASSED
+
+MainActivityTest > https_scenario_never_invents_target_expected_ip_or_trust PASSED
+
+MainActivityTest > dns_scenario_fills_same_host_and_protocols_but_requires_separate_run_confirmation[29] PASSED
+
+MainActivityTest > dns_scenario_fills_same_host_and_protocols_but_requires_separate_run_confirmation PASSED
+
+MainActivityTest > invalid_field_is_identified_and_guide_contract_matches_parser[29] PASSED
+
+MainActivityTest > invalid_field_is_identified_and_guide_contract_matches_parser PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry[29] PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once[29] PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation[29] PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation PASSED
+
+MainActivityTest > launch_shows_quick_check_without_inputs_and_collapses_professional_form_without_network[29] PASSED
+
+MainActivityTest > launch_shows_quick_check_without_inputs_and_collapses_professional_form_without_network PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network[29] PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope[29] PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope PASSED
+
+MainActivityTest > professional_form_with_all_probes_disabled_rejects_before_confirmation[29] PASSED
+
+MainActivityTest > professional_form_with_all_probes_disabled_rejects_before_confirmation PASSED
+
+RepairSessionTest > invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text[29] PASSED
+
+RepairSessionTest > invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text PASSED
+
+RepairSessionTest > repair_activity_starts_without_reading_or_probing[29] PASSED
+
+RepairSessionTest > repair_activity_starts_without_reading_or_probing PASSED
+
+RepairSessionTest > clear_drops_content_preview_and_pending_ticket[29] PASSED
+
+RepairSessionTest > clear_drops_content_preview_and_pending_ticket PASSED
+
+RepairSessionTest > import_preview_export_preserve_original_and_write_only_selected_copy[29] PASSED
+
+RepairSessionTest > import_preview_export_preserve_original_and_write_only_selected_copy PASSED
+
+RepairSessionTest > same_document_export_is_rejected_before_opening_output[29] PASSED
+
+RepairSessionTest > same_document_export_is_rejected_before_opening_output PASSED
+
+RepairSessionTest > provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it[29] PASSED
+
+RepairSessionTest > provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it PASSED
+
+RepairSessionTest > stale_picker_and_restarted_process_cannot_consume_new_config[29] PASSED
+
+RepairSessionTest > stale_picker_and_restarted_process_cannot_consume_new_config PASSED
+
+> Task :app:testDebugUnitTest FAILED
+
+72 tests completed, 2 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 26s
+53 actionable tasks: 14 executed, 39 up-to-date

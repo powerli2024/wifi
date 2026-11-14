@@ -1,0 +1,23 @@
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:processResources NO-SOURCE
+> Task :core:processTestResources NO-SOURCE
+
+> Task :core:compileKotlin FAILED
+e: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/core/src/main/kotlin/dev/proxyaudit/core/WebsiteDiagnostics.kt:244:26 Interface 'interface Dns : Any' does not have constructors.
+e: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/core/src/main/kotlin/dev/proxyaudit/core/WebsiteDiagnostics.kt:244:32 Cannot infer type for this parameter. Specify it explicitly.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':core:compileKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 10s
+1 actionable task: 1 executed

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.ControllerConcurrencyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-20T05:24:23.878Z" hostname="a5afc5a86877" time="21.357">
+  <properties/>
+  <testcase name="wrong nonce redirect oversized malformed utf8 and non JSON cannot match" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.196"/>
+  <testcase name="cancel publishes promptly and rejects overlap until blocked cleanup releases" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.008"/>
+  <testcase name="controlled happy path uses exact fresh nonce and network default semantics" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.012"/>
+  <testcase name="DNS timeout is bounded cancelled and not converted into privacy success" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="1.008"/>
+  <testcase name="caller mutation cannot change the frozen expected address policy mid run" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.003"/>
+  <testcase name="concurrent repeated starts reserve exactly one slot and late cancel preserves result" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.062"/>
+  <testcase name="construction demo and clear never open network" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.001"/>
+  <testcase name="global deadline publishes no match even if platform response ignores timeout" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="20.005"/>
+  <testcase name="late DNS callback after cancellation cannot alter immutable report or start HTTPS" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.061"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

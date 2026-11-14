@@ -1,0 +1,473 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:compileKotlin UP-TO-DATE
+> Task :core:compileJava NO-SOURCE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:packageDebugUnitTestForUnitTest UP-TO-DATE
+> Task :app:generateDebugUnitTestConfig UP-TO-DATE
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:generateDebugLintReportModel
+> Task :app:mergeProjectDexDebug
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :app:lintAnalyzeDebugAndroidTest
+
+> Task :app:compileDebugUnitTestKotlin
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:142:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:146:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:158:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:164:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:166:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:179:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeepDiagnosticsActivityTest.kt:182:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeviceSelfTestTest.kt:56:43 Java type mismatch: inferred type is 'Any?', but 'Any' was expected.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeviceSelfTestTest.kt:68:37 Java type mismatch: inferred type is 'Any?', but 'Any' was expected.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:253:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:258:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:270:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:278:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:280:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:298:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:300:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/MainActivityTest.kt:653:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/NetworkInventoryTest.kt:10:8 'class NetworkInfo : Any, Parcelable' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/RepairActivityTest.kt:76:28 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/RepairActivityTest.kt:170:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/RepairActivityTest.kt:174:38 'fun callOnActivityResult(p0: Int, p1: Int, p2: Intent!): Unit' is deprecated. Deprecated in Java.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintAnalyzeDebugUnitTest
+
+> Task :app:testDebugUnitTest
+
+DeepDiagnosticsActivityTest > restored_missing_process_payload_reserves_request_code_and_never_exports_new_report_through_old_callback[29] PASSED
+
+> Task :app:lintAnalyzeDebug
+
+> Task :app:testDebugUnitTest
+
+DeepDiagnosticsActivityTest > restored_missing_process_payload_reserves_request_code_and_never_exports_new_report_through_old_callback PASSED
+
+DeepDiagnosticsActivityTest > old_picker_callback_cannot_consume_new_ticket_or_write_to_old_destination[29] PASSED
+
+DeepDiagnosticsActivityTest > old_picker_callback_cannot_consume_new_ticket_or_write_to_old_destination PASSED
+
+DeepDiagnosticsActivityTest > opening_and_rotation_preserve_only_memory_draft_and_never_run_a_probe[29] PASSED
+
+DeepDiagnosticsActivityTest > opening_and_rotation_preserve_only_memory_draft_and_never_run_a_probe PASSED
+
+DeepDiagnosticsActivityTest > local_only_ignores_invalid_url_and_raw_checkbox_and_requires_explicit_confirmation[29] PASSED
+
+DeepDiagnosticsActivityTest > local_only_ignores_invalid_url_and_raw_checkbox_and_requires_explicit_confirmation PASSED
+
+DeepDiagnosticsActivityTest > numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network[29] PASSED
+
+DeepDiagnosticsActivityTest > numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network PASSED
+
+DeepDiagnosticsActivityTest > network_facts_and_chinese_self_test_results_are_visible_without_opening_json[29] PASSED
+
+DeepDiagnosticsActivityTest > network_facts_and_chinese_self_test_results_are_visible_without_opening_json PASSED
+
+DeepDiagnosticsActivityTest > redacted_export_survives_rotation_and_clear_and_duplicate_completion_does_not_write_again[29] PASSED
+
+DeepDiagnosticsActivityTest > redacted_export_survives_rotation_and_clear_and_duplicate_completion_does_not_write_again PASSED
+
+DeepDiagnosticsSessionTest > four_usable_raw_results_preserve_website_failure_and_prioritize_its_stage[29] PASSED
+
+DeepDiagnosticsSessionTest > four_usable_raw_results_preserve_website_failure_and_prioritize_its_stage PASSED
+
+DeepDiagnosticsSessionTest > raw_requires_domain_plan_and_numeric_server_before_any_collection[29] PASSED
+
+DeepDiagnosticsSessionTest > raw_requires_domain_plan_and_numeric_server_before_any_collection PASSED
+
+DeepDiagnosticsSessionTest > construction_and_observation_do_not_collect_or_probe_and_local_plan_stays_local[29] PASSED
+
+DeepDiagnosticsSessionTest > construction_and_observation_do_not_collect_or_probe_and_local_plan_stays_local PASSED
+
+DeepDiagnosticsSessionTest > proxy_change_in_final_inventory_invalidates_complete_conclusion[29] PASSED
+
+DeepDiagnosticsSessionTest > proxy_change_in_final_inventory_invalidates_complete_conclusion PASSED
+
+DeepDiagnosticsSessionTest > cancellation_during_inventory_stops_before_creating_any_probe[29] PASSED
+
+DeepDiagnosticsSessionTest > cancellation_during_inventory_stops_before_creating_any_probe PASSED
+
+DeepDiagnosticsSessionTest > initial_snapshot_exception_is_sanitized_and_does_not_leave_slot_busy[29] PASSED
+
+DeepDiagnosticsSessionTest > initial_snapshot_exception_is_sanitized_and_does_not_leave_slot_busy PASSED
+
+DeepDiagnosticsSessionTest > cancel_initiates_cleanup_without_releasing_slot_or_starting_next_stage[29] PASSED
+
+DeepDiagnosticsSessionTest > cancel_initiates_cleanup_without_releasing_slot_or_starting_next_stage PASSED
+
+DeepDiagnosticsSessionTest > missing_final_inventory_is_unknown_and_not_claimed_as_observed_network_change[29] PASSED
+
+DeepDiagnosticsSessionTest > missing_final_inventory_is_unknown_and_not_claimed_as_observed_network_change PASSED
+
+DeepDiagnosticsSessionTest > raw_mismatch_names_the_protocol_and_truncated_or_cancelled_never_count_as_usable[29] PASSED
+
+DeepDiagnosticsSessionTest > raw_mismatch_names_the_protocol_and_truncated_or_cancelled_never_count_as_usable PASSED
+
+DeepDiagnosticsSessionTest > changed_snapshot_after_local_stage_stops_website_and_raw[29] PASSED
+
+DeepDiagnosticsSessionTest > changed_snapshot_after_local_stage_stops_website_and_raw PASSED
+
+DeepDiagnosticsSessionTest > blocked_network_observer_does_not_block_deadline_or_cleanup[29] PASSED
+
+DeepDiagnosticsSessionTest > blocked_network_observer_does_not_block_deadline_or_cleanup PASSED
+
+DeepDiagnosticsSessionTest > late_observer_from_previous_run_cannot_cancel_a_new_run[29] PASSED
+
+DeepDiagnosticsSessionTest > late_observer_from_previous_run_cannot_cancel_a_new_run PASSED
+
+DeepDiagnosticsSessionTest > export_freezes_old_report_defaults_to_redaction_and_request_codes_are_not_reused[29] PASSED
+
+DeepDiagnosticsSessionTest > export_freezes_old_report_defaults_to_redaction_and_request_codes_are_not_reused PASSED
+
+DeviceSelfTestTest > close_before_execute_keeps_every_network_scenario_unstarted[29] PASSED
+
+DeviceSelfTestTest > close_before_execute_keeps_every_network_scenario_unstarted PASSED
+
+DeviceSelfTestTest > bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios[29] PASSED
+
+DeviceSelfTestTest > bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios PASSED
+
+DeviceSelfTestTest > cancellation_closes_owned_sockets_and_stops_remaining_scenarios[29] PASSED
+
+DeviceSelfTestTest > cancellation_closes_owned_sockets_and_stops_remaining_scenarios PASSED
+
+DeviceSelfTestTest > repeated_execution_and_invalid_budgets_are_rejected_before_new_work[29] PASSED
+
+DeviceSelfTestTest > repeated_execution_and_invalid_budgets_are_rejected_before_new_work PASSED
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename[29] PASSED
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing[29] PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network[29] PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path[29] PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path PASSED
+
+MainActivityTest > material_labels_remain_present_after_entry_and_field_errors_stay_inline[29] PASSED
+
+MainActivityTest > material_labels_remain_present_after_entry_and_field_errors_stay_inline PASSED
+
+MainActivityTest > result_summary_separates_dns_error_response_and_unmeasured_https_before_details[29] PASSED
+
+MainActivityTest > result_summary_separates_dns_error_response_and_unmeasured_https_before_details PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation[29] PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe[29] PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe PASSED
+
+MainActivityTest > demo_advice_cannot_be_saved_as_a_real_baseline[29] PASSED
+
+MainActivityTest > demo_advice_cannot_be_saved_as_a_real_baseline PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns[29] PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns PASSED
+
+MainActivityTest > baseline_rerun_uses_frozen_plan_requires_confirmation_and_clear_removes_it[29] PASSED
+
+MainActivityTest > baseline_rerun_uses_frozen_plan_requires_confirmation_and_clear_removes_it PASSED
+
+MainActivityTest > repair_entry_opens_activity_without_extra_config_or_starting_a_probe[29] PASSED
+
+MainActivityTest > repair_entry_opens_activity_without_extra_config_or_starting_a_probe PASSED
+
+MainActivityTest > report_is_a_subpage_with_return_to_its_origin_even_after_rotation[29] PASSED
+
+MainActivityTest > report_is_a_subpage_with_return_to_its_origin_even_after_rotation PASSED
+
+MainActivityTest > demo_summary_never_describes_fabricated_success_as_a_device_measurement[29] PASSED
+
+MainActivityTest > demo_summary_never_describes_fabricated_success_as_a_device_measurement PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers[29] PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers PASSED
+
+MainActivityTest > comparison_export_uses_frozen_redacted_pair_across_rotation_and_clear[29] PASSED
+
+MainActivityTest > comparison_export_uses_frozen_redacted_pair_across_rotation_and_clear PASSED
+
+MainActivityTest > customized_scenario_requires_confirmation_and_cancel_preserves_inputs[29] PASSED
+
+MainActivityTest > customized_scenario_requires_confirmation_and_cancel_preserves_inputs PASSED
+
+MainActivityTest > cancelled_result_shows_incomparable_advice_instead_of_improvement[29] PASSED
+
+MainActivityTest > cancelled_result_shows_incomparable_advice_instead_of_improvement PASSED
+
+MainActivityTest > navigation_keeps_one_task_visible_and_preserves_fields_without_network[29] PASSED
+
+MainActivityTest > navigation_keeps_one_task_visible_and_preserves_fields_without_network PASSED
+
+MainActivityTest > quick_public_target_is_only_active_after_explicit_plaintext_opt_in_and_survives_rotation[29] PASSED
+
+MainActivityTest > quick_public_target_is_only_active_after_explicit_plaintext_opt_in_and_survives_rotation PASSED
+
+MainActivityTest > private_dns_active_warning_does_not_describe_raw_probe_as_encrypted[29] PASSED
+
+MainActivityTest > private_dns_active_warning_does_not_describe_raw_probe_as_encrypted PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation[29] PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation PASSED
+
+MainActivityTest > quick_default_confirms_system_query_without_input_or_implicit_public_target[29] PASSED
+
+MainActivityTest > quick_default_confirms_system_query_without_input_or_implicit_public_target PASSED
+
+MainActivityTest > https_scenario_never_invents_target_expected_ip_or_trust[29] PASSED
+
+MainActivityTest > https_scenario_never_invents_target_expected_ip_or_trust PASSED
+
+MainActivityTest > dns_scenario_fills_same_host_and_protocols_but_requires_separate_run_confirmation[29] PASSED
+
+MainActivityTest > dns_scenario_fills_same_host_and_protocols_but_requires_separate_run_confirmation PASSED
+
+MainActivityTest > invalid_field_is_identified_and_guide_contract_matches_parser[29] PASSED
+
+MainActivityTest > invalid_field_is_identified_and_guide_contract_matches_parser PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry[29] PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry PASSED
+
+MainActivityTest > retry_defaults_off_and_only_explicit_professional_choice_confirms_two_attempts[29] PASSED
+
+MainActivityTest > retry_defaults_off_and_only_explicit_professional_choice_confirms_two_attempts PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once[29] PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation[29] PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation PASSED
+
+MainActivityTest > repair_baseline_mismatch_blocks_retest_until_the_link_matches[29] PASSED
+
+MainActivityTest > repair_baseline_mismatch_blocks_retest_until_the_link_matches PASSED
+
+MainActivityTest > launch_shows_quick_check_without_inputs_and_collapses_professional_form_without_network[29] PASSED
+
+MainActivityTest > launch_shows_quick_check_without_inputs_and_collapses_professional_form_without_network PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network[29] PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope[29] PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope PASSED
+
+MainActivityTest > professional_form_with_all_probes_disabled_rejects_before_confirmation[29] PASSED
+
+MainActivityTest > professional_form_with_all_probes_disabled_rejects_before_confirmation PASSED
+
+NetworkInventoryTest > absent_network_and_missing_capabilities_have_explicit_reasons[29] PASSED
+
+NetworkInventoryTest > absent_network_and_missing_capabilities_have_explicit_reasons PASSED
+
+NetworkInventoryTest > missing_permission_is_reported_and_not_requested_or_converted_to_empty_success[29] PASSED
+
+NetworkInventoryTest > missing_permission_is_reported_and_not_requested_or_converted_to_empty_success PASSED
+
+NetworkInventoryTest > collects_visible_default_network_details_without_binding_or_executing_proxy_selection[29] PASSED
+
+NetworkInventoryTest > collects_visible_default_network_details_without_binding_or_executing_proxy_selection PASSED
+
+NetworkInventoryTest > pac_presence_is_read_without_fetching_the_script[29] PASSED
+
+NetworkInventoryTest > pac_presence_is_read_without_fetching_the_script PASSED
+
+NetworkInventoryTest > default_export_redacts_all_network_identifiers_but_preserves_observable_properties[29] FAILED
+    java.lang.AssertionError at NetworkInventoryTest.kt:145
+
+NetworkInventoryTest > default_export_redacts_all_network_identifiers_but_preserves_observable_properties FAILED
+    java.lang.AssertionError at NetworkInventoryTest.kt:145
+
+RepairActivityTest > settings_navigation_and_return_never_claim_apply_or_start_retest[29] PASSED
+
+RepairActivityTest > settings_navigation_and_return_never_claim_apply_or_start_retest PASSED
+
+RepairActivityTest > unverified_and_mismatched_copies_are_distinct_and_cannot_record_import[29] PASSED
+
+RepairActivityTest > unverified_and_mismatched_copies_are_distinct_and_cannot_record_import PASSED
+
+RepairActivityTest > picker_rotation_keeps_only_identity_and_cancelled_callback_cannot_write[29] PASSED
+
+RepairActivityTest > picker_rotation_keeps_only_identity_and_cancelled_callback_cannot_write PASSED
+
+RepairActivityTest > first_visit_requires_explicit_provider_and_uses_material_controls_without_network[29] PASSED
+
+RepairActivityTest > first_visit_requires_explicit_provider_and_uses_material_controls_without_network PASSED
+
+RepairActivityTest > only_verified_copy_enables_user_import_record_and_new_plan_invalidates_it[29] PASSED
+
+RepairActivityTest > only_verified_copy_enables_user_import_record_and_new_plan_invalidates_it PASSED
+
+RepairActivityTest > cancel_button_preserves_busy_slot_until_readback_returns[29] PASSED
+
+RepairActivityTest > cancel_button_preserves_busy_slot_until_readback_returns PASSED
+
+RepairActivityTest > explicit_choice_survives_rotation_without_serializing_config_and_generate_links_baseline[29] PASSED
+
+RepairActivityTest > explicit_choice_survives_rotation_without_serializing_config_and_generate_links_baseline PASSED
+
+RepairSessionTest > invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text[29] PASSED
+
+RepairSessionTest > invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text PASSED
+
+RepairSessionTest > user_import_confirmation_and_baseline_are_process_only_and_invalidated_by_plan_change[29] PASSED
+
+RepairSessionTest > user_import_confirmation_and_baseline_are_process_only_and_invalidated_by_plan_change PASSED
+
+RepairSessionTest > readback_happens_after_output_close_and_preserves_original_digest[29] PASSED
+
+RepairSessionTest > readback_happens_after_output_close_and_preserves_original_digest PASSED
+
+RepairSessionTest > write_or_close_failure_is_failed_copy_without_exposing_exception_text[29] PASSED
+
+RepairSessionTest > write_or_close_failure_is_failed_copy_without_exposing_exception_text PASSED
+
+RepairSessionTest > cancel_during_readback_freezes_unverified_result_and_allows_no_stale_completion[29] PASSED
+
+RepairSessionTest > cancel_during_readback_freezes_unverified_result_and_allows_no_stale_completion PASSED
+
+RepairSessionTest > absent_read_permission_or_provider_error_never_claims_verified_or_applied[29] PASSED
+
+RepairSessionTest > absent_read_permission_or_provider_error_never_claims_verified_or_applied PASSED
+
+RepairSessionTest > repair_activity_starts_without_reading_or_probing[29] PASSED
+
+RepairSessionTest > repair_activity_starts_without_reading_or_probing PASSED
+
+RepairSessionTest > readback_size_limit_consumes_only_one_extra_byte_and_closes_stream[29] PASSED
+
+RepairSessionTest > readback_size_limit_consumes_only_one_extra_byte_and_closes_stream PASSED
+
+RepairSessionTest > cancelled_picker_cannot_write_and_new_export_does_not_reuse_old_confirmation[29] PASSED
+
+RepairSessionTest > cancelled_picker_cannot_write_and_new_export_does_not_reuse_old_confirmation PASSED
+
+RepairSessionTest > cancel_during_provider_write_keeps_slot_until_return_and_never_claims_no_write[29] PASSED
+
+RepairSessionTest > cancel_during_provider_write_keeps_slot_until_return_and_never_claims_no_write PASSED
+
+RepairSessionTest > clear_drops_content_preview_and_pending_ticket[29] PASSED
+
+RepairSessionTest > clear_drops_content_preview_and_pending_ticket PASSED
+
+RepairSessionTest > generating_preview_explicitly_freezes_selected_baseline_identity[29] PASSED
+
+RepairSessionTest > generating_preview_explicitly_freezes_selected_baseline_identity PASSED
+
+RepairSessionTest > truncated_or_replaced_readback_fails_even_if_it_is_valid_yaml[29] PASSED
+
+RepairSessionTest > truncated_or_replaced_readback_fails_even_if_it_is_valid_yaml PASSED
+
+RepairSessionTest > import_preview_export_preserve_original_and_write_only_selected_copy[29] PASSED
+
+RepairSessionTest > import_preview_export_preserve_original_and_write_only_selected_copy PASSED
+
+RepairSessionTest > same_document_export_is_rejected_before_opening_output[29] PASSED
+
+RepairSessionTest > same_document_export_is_rejected_before_opening_output PASSED
+
+RepairSessionTest > same_provider_document_id_alias_is_rejected_and_never_opened_for_write[29] PASSED
+
+RepairSessionTest > same_provider_document_id_alias_is_rejected_and_never_opened_for_write PASSED
+
+RepairSessionTest > regeneration_new_source_and_clear_drop_old_copy_confirmation[29] PASSED
+
+RepairSessionTest > regeneration_new_source_and_clear_drop_old_copy_confirmation PASSED
+
+RepairSessionTest > provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it[29] PASSED
+
+RepairSessionTest > provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it PASSED
+
+RepairSessionTest > stale_picker_and_restarted_process_cannot_consume_new_config[29] PASSED
+
+RepairSessionTest > stale_picker_and_restarted_process_cannot_consume_new_config PASSED
+
+> Task :app:testDebugUnitTest FAILED
+
+180 tests completed, 2 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1m 16s
+51 actionable tasks: 14 executed, 37 up-to-date

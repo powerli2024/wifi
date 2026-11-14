@@ -1,0 +1,8 @@
+{
+  "scope": "current mapped file hashes and plain old root-relative document paths outside migration records",
+  "filesChecked": 46,
+  "hashMismatches": [],
+  "oldRootPathReferences": [],
+  "ok": true,
+  "limitations": "Compatibility labels and migration records intentionally retain original paths; source-code doc references were separately searched before migration."
+}

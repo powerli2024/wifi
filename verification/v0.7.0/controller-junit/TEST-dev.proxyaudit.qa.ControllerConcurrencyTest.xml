@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.ControllerConcurrencyTest" tests="20" skipped="0" failures="0" errors="0" timestamp="2026-10-23T07:58:47.384Z" hostname="DESKTOP-63D1DH2" time="24.888">
+  <properties/>
+  <testcase name="attempt timeout retries the same endpoint with fresh nonce and cannot close the retry" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="1.521"/>
+  <testcase name="late headers or EOF cannot be accepted when the scheduler has not fired" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.009"/>
+  <testcase name="absolute deadline disconnects and closes a pending body stream" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="1.004"/>
+  <testcase name="wrong nonce redirect oversized malformed utf8 and non JSON cannot match" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.079"/>
+  <testcase name="cancel publishes promptly and rejects overlap until blocked cleanup releases" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.022"/>
+  <testcase name="cancel closes the active HTTPS body and leaves a frozen cancelled report" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.008"/>
+  <testcase name="late cancel during frozen normal publication preserves completed result and status" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.008"/>
+  <testcase name="controlled happy path uses exact fresh nonce and network default semantics" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.007"/>
+  <testcase name="DNS timeout is bounded cancelled and not converted into privacy success" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="1.007"/>
+  <testcase name="cancel wakes system DNS while terminal metadata is blocked and never starts HTTPS" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.01"/>
+  <testcase name="visible link changes prevent match even before callback generation updates" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.015"/>
+  <testcase name="explicit HTTPS retry preserves failure and uses a distinct second nonce" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="1.012"/>
+  <testcase name="TLS generic IO HTTP and parser failures are not retried even when enabled" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.03"/>
+  <testcase name="caller mutation cannot change the frozen expected address policy mid run" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.002"/>
+  <testcase name="concurrent repeated starts reserve exactly one slot and late cancel preserves result" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.055"/>
+  <testcase name="construction demo and clear never open network" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.001"/>
+  <testcase name="global deadline publishes no match even if platform response ignores timeout" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="20.004"/>
+  <testcase name="cancel starts cleanup despite blocked snapshot and keeps slot until worker releases" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.014"/>
+  <testcase name="small successful reads cannot restart the absolute HTTPS attempt deadline" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.007"/>
+  <testcase name="late DNS callback after cancellation cannot alter immutable report or start HTTPS" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.073"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

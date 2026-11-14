@@ -1,0 +1,9 @@
+// QA-only source-set injection. Does not modify the shipped app or production build.
+allprojects { p ->
+    p.afterEvaluate {
+        if (p.path == ':core') {
+            p.kotlin.sourceSets.getByName('test').kotlin.srcDir(new File(p.rootDir, 'qa/src/test/kotlin'))
+            // Use Gradle's build/ outputs. qa/results preserves imported v0.1.0 evidence.
+        }
+    }
+}

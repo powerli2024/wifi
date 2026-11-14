@@ -1,0 +1,63 @@
+{
+  "version": "0.7.0",
+  "date": "2026-10-23",
+  "deliveryStatus": "TRIAL_LOCAL_CHECKS_PASSED",
+  "scope": "JVM, controlled loopback and simulated Android framework. No v0.7.0 phone or real proxy API verification.",
+  "emulatorCheck": "SKIPPED_AT_USER_REQUEST",
+  "physicalDeviceCheck": "NOT_CONNECTED_ADB_ENUMERATION_EMPTY",
+  "proxyApiCheck": "CONTROLLED_FIXTURES_ONLY_REAL_API_PENDING",
+  "intermediateFailure": "One existing self-test cancellation case timed out; evidence retained separately; cancellation wake-up fixed and final suite rerun.",
+  "historicalSourceManifestSha256": "e7ed139380fc2a643774085e82442531d79d4bfa6e04263bd8adb6c47f583324",
+  "core": {
+    "tests": 237,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 237
+  },
+  "ui_framework": {
+    "tests": 262,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 262
+  },
+  "controller": {
+    "tests": 51,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 51
+  },
+  "tls_fixture": {
+    "tests": 10,
+    "passed": 10,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 1,
+    "warning": "OldTargetApi: target35 retained pending device compatibility validation"
+  },
+  "apk": {
+    "file": "android-proxy-diagnostics-0.7.0-debug.apk",
+    "bytes": 16962431,
+    "sha256": "c98765675e6893ff821ac4a9503e0f7a5c35a7bfb01da6dace86f524cd3c661c"
+  },
+  "totalTests": 560,
+  "documentation": {
+    "toolTests": 16,
+    "checks": {
+      "markdownFiles": 64,
+      "links": 461,
+      "localLinks": 352,
+      "externalLinks": 109,
+      "images": 0,
+      "anchorsChecked": 0,
+      "migrationEntries": 28,
+      "errors": 0,
+      "warnings": 0
+    },
+    "externalUrlsFetched": false
+  }
+}

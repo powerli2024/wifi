@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 1,
+  "root": "D:\\gpt\\clashandroid\\android-proxy-diagnostics-0.1.0-source",
+  "ok": true,
+  "counts": {
+    "markdownFiles": 64,
+    "links": 461,
+    "localLinks": 352,
+    "externalLinks": 109,
+    "images": 0,
+    "anchorsChecked": 0,
+    "migrationEntries": 28,
+    "errors": 0,
+    "warnings": 0
+  },
+  "navigation": {
+    "roots": [
+      "README.md",
+      "docs/README.md"
+    ],
+    "reachableMarkdownFiles": 64,
+    "unreachableDocs": 0
+  },
+  "excludedDirectories": [
+    ".git",
+    ".gradle",
+    ".idea",
+    ".local",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "fixtures",
+    "generated",
+    "node_modules",
+    "third-party",
+    "third_party",
+    "thirdparty",
+    "vendor",
+    "verification"
+  ],
+  "externalLinks": [
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 18,
+      "target": "https://developer.android.com/develop/connectivity/vpn"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 18,
+      "target": "https://developer.android.com/reference/android/net/ConnectivityManager#getConnectionOwnerUid(int,%20java.net.InetSocketAddress,%20java.net.InetSocketAddress)"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 18,
+      "target": "https://developer.android.com/reference/android/net/NetworkCapabilities#getOwnerUid()"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 18,
+      "target": "https://developer.android.com/reference/android/net/LinkProperties"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 31,
+      "target": "https://developer.android.com/tools/adb"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 31,
+      "target": "https://android.googlesource.com/platform/packages/modules/adb/+/refs/heads/main/daemon/restart_service.cpp"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 31,
+      "target": "https://source.android.com/docs/security/features/selinux"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 33,
+      "target": "https://developer.android.com/privacy-and-security/security-config"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 33,
+      "target": "https://www.rfc-editor.org/rfc/rfc8446#section-2"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 37,
+      "target": "https://wiki.metacubex.one/api/"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 37,
+      "target": "https://raw.githubusercontent.com/MetaCubeX/mihomo/Meta/hub/route/server.go"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 37,
+      "target": "https://raw.githubusercontent.com/MetaCubeX/mihomo/Meta/hub/route/dns.go"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 39,
+      "target": "https://raw.githubusercontent.com/MetaCubeX/mihomo/Meta/hub/route/connections.go"
+    },
+    {
+      "file": "docs/architecture/CAPABILITY-MATRIX.md",
+      "line": 39,
+      "target": "https://raw.githubusercontent.com/MetaCubeX/mihomo/Meta/tunnel/statistic/tracker.go"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 19,
+      "target": "https://www.iana.org/help/example-domains"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 31,
+      "target": "https://developers.cloudflare.com/1.1.1.1/ip-addresses/"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 31,
+      "target": "https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/make-api-requests/"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 31,
+      "target": "https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-tls/"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 31,
+      "target": "https://docs.quad9.net/services/"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 31,
+      "target": "https://developers.google.com/speed/public-dns/docs/using"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 31,
+      "target": "https://developers.google.com/speed/public-dns/docs/doh"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 56,
+      "target": "https://wiki.metacubex.one/config/dns/"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 67,
+      "target": "https://developer.android.com/reference/android/net/LinkProperties#isPrivateDnsActive()"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 67,
+      "target": "https://developers.google.com/speed/public-dns/docs/using"
+    },
+    {
+      "file": "docs/guides/DNS-REPAIR.md",
+      "line": 91,
+      "target": "https://developer.android.com/training/data-storage/shared/documents-files"
+    },
+    {
+      "file": "docs/guides/RAW-DNS.md",
+      "line": 41,
+      "target": "https://www.rfc-editor.org/rfc/rfc1035.html"
+    },
+    {
+      "file": "docs/guides/RAW-DNS.md",
+      "line": 41,
+      "target": "https://www.rfc-editor.org/rfc/rfc6891.html"
+    },
+    {
+      "file": "docs/product/PRODUCT-SPEC.md",
+      "line": 36,
+      "target": "https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md"
+    },
+    {
+      "file": "docs/product/PRODUCT-SPEC.md",
+      "line": 57,
+      "target": "https://developer.android.com/reference/android/net/ConnectivityDiagnosticsManager"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 12,
+      "target": "https://github.com/emanuele-f/PCAPdroid"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 12,
+      "target": "https://github.com/emanuele-f/PCAPdroid/blob/master/COPYING"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 13,
+      "target": "https://github.com/M66B/NetGuard"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 13,
+      "target": "https://github.com/M66B/NetGuard/blob/master/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 14,
+      "target": "https://github.com/celzero/rethink-app"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 14,
+      "target": "https://github.com/celzero/rethink-app/blob/main/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 15,
+      "target": "https://github.com/celzero/firestack"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 15,
+      "target": "https://github.com/celzero/firestack/blob/n2/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 16,
+      "target": "https://github.com/emanuele-f/zdtun"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 16,
+      "target": "https://github.com/emanuele-f/zdtun/blob/master/COPYING"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 17,
+      "target": "https://github.com/heiher/hev-socks5-tunnel"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 17,
+      "target": "https://github.com/heiher/hev-socks5-tunnel/blob/main/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 25,
+      "target": "https://developer.android.com/develop/connectivity/vpn"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 26,
+      "target": "https://developer.android.com/reference/android/net/DnsResolver"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 27,
+      "target": "https://developer.android.com/develop/connectivity/network-ops/reading-network-state"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 28,
+      "target": "https://developer.android.com/reference/android/net/NetworkCapabilities"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 29,
+      "target": "https://developer.android.com/reference/javax/net/ssl/HttpsURLConnection"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 30,
+      "target": "https://developer.android.com/privacy-and-security/security-config"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 31,
+      "target": "https://developer.android.com/training/data-storage/shared/documents-files"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 32,
+      "target": "https://www.rfc-editor.org/rfc/rfc8484#section-8"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 33,
+      "target": "https://www.rfc-editor.org/rfc/rfc1035.html"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 34,
+      "target": "https://www.rfc-editor.org/rfc/rfc6891.html"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 40,
+      "target": "https://github.com/JetBrains/kotlin/blob/v2.1.20/license/LICENSE.txt"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 41,
+      "target": "https://github.com/snakeyaml/snakeyaml/blob/master/LICENSE.txt"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 41,
+      "target": "https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.7/snakeyaml-2.7.pom"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 42,
+      "target": "https://github.com/material-components/material-components-android/blob/1.13.0/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 43,
+      "target": "https://github.com/androidx/androidx/blob/androidx-main/LICENSE.txt"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 44,
+      "target": "https://github.com/Kotlin/kotlinx.coroutines/blob/1.6.4/LICENSE.txt"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 44,
+      "target": "https://github.com/jspecify/jspecify/blob/main/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 46,
+      "target": "https://github.com/gradle/gradle/blob/v8.13.0/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 47,
+      "target": "https://developer.android.com/studio/terms"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 49,
+      "target": "https://github.com/junit-team/junit4/blob/r4.13.2/LICENSE-junit.txt"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 50,
+      "target": "https://github.com/robolectric/robolectric/blob/robolectric-4.14.1/LICENSE"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 70,
+      "target": "https://github.com/square/okhttp"
+    },
+    {
+      "file": "docs/reference/SOURCES-LICENSES.md",
+      "line": 71,
+      "target": "https://github.com/square/okio"
+    },
+    {
+      "file": "docs/releases/0.1.0/BUILD-REPORT.md",
+      "line": 77,
+      "target": "https://developer.android.com/studio/terms"
+    },
+    {
+      "file": "docs/releases/0.3.0/REVIEW.md",
+      "line": 51,
+      "target": "https://developer.android.com/training/data-storage/shared/documents-files"
+    },
+    {
+      "file": "docs/releases/0.3.0/REVIEW.md",
+      "line": 57,
+      "target": "https://wiki.metacubex.one/config/dns/"
+    },
+    {
+      "file": "docs/releases/0.3.0/REVIEW.md",
+      "line": 61,
+      "target": "https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.7/"
+    },
+    {
+      "file": "docs/releases/0.4.0/TEST-GUIDE.md",
+      "line": 77,
+      "target": "https://developer.android.com/design/ui/mobile/guides/layout-and-content/app-anatomy"
+    },
+    {
+      "file": "docs/releases/0.4.0/TEST-GUIDE.md",
+      "line": 77,
+      "target": "https://developer.android.com/design/ui/mobile/guides/foundations/translate-designs"
+    },
+    {
+      "file": "docs/releases/0.4.0/TEST-GUIDE.md",
+      "line": 79,
+      "target": "https://m2.material.io/design/components/text-fields.html"
+    },
+    {
+      "file": "docs/releases/0.4.0/TEST-GUIDE.md",
+      "line": 81,
+      "target": "https://developer.android.com/develop/ui/views/touch-and-input/keyboard-input/style"
+    },
+    {
+      "file": "docs/releases/0.4.0/TEST-GUIDE.md",
+      "line": 83,
+      "target": "https://developer.android.com/guide/topics/ui/accessibility/apps"
+    },
+    {
+      "file": "docs/releases/0.4.0/TEST-GUIDE.md",
+      "line": 83,
+      "target": "https://developer.android.com/design/ui/mobile/guides/foundations/system-bars"
+    },
+    {
+      "file": "docs/releases/0.5.0/REVIEW.md",
+      "line": 29,
+      "target": "https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 31,
+      "target": "https://m3.material.io/m3/pages/color-roles?s=m3"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 32,
+      "target": "https://m3.material.io/styles/typography/applying-type"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 33,
+      "target": "https://github.com/material-components/material-components-android/blob/master/docs/components/BottomNavigation.md"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 34,
+      "target": "https://github.com/material-components/material-components-android/blob/master/docs/components/TextField.md"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 35,
+      "target": "https://github.com/material-components/material-components-android/blob/master/docs/components/Dialog.md"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 36,
+      "target": "https://developer.android.com/design/ui/mobile/guides/patterns/settings"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 198,
+      "target": "https://developer.android.com/develop/ui/views/theming/darktheme"
+    },
+    {
+      "file": "docs/specs/DESIGN-SYSTEM.md",
+      "line": 200,
+      "target": "https://developer.android.com/guide/topics/ui/accessibility/apps"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 46,
+      "target": "https://developer.android.com/reference/android/net/DnsResolver"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 72,
+      "target": "https://developer.android.com/reference/android/net/ConnectivityManager#registerDefaultNetworkCallback(android.net.ConnectivityManager.NetworkCallback)"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 72,
+      "target": "https://source.android.com/docs/security/app-sandbox"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 74,
+      "target": "https://datatracker.ietf.org/doc/html/rfc8484"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 74,
+      "target": "https://www.rfc-editor.org/rfc/rfc7858.html"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 74,
+      "target": "https://www.rfc-editor.org/rfc/rfc9000.html"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 79,
+      "target": "https://developer.android.com/develop/connectivity/vpn"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 80,
+      "target": "https://developer.android.com/reference/android/net/Network#bindSocket(java.net.DatagramSocket)"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 86,
+      "target": "https://developer.android.com/reference/android/net/LinkProperties#isPrivateDnsActive()"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 94,
+      "target": "https://developer.android.com/guide/topics/manifest/application-element#usesCleartextTraffic"
+    },
+    {
+      "file": "docs/specs/EVIDENCE-ACQUISITION-SPEC.md",
+      "line": 197,
+      "target": "https://www.rfc-editor.org/rfc/rfc9110.html#section-9.2.2"
+    },
+    {
+      "file": "docs/specs/NETWORK-DEEP-DIAGNOSTICS.md",
+      "line": 53,
+      "target": "https://raw.githubusercontent.com/square/okhttp/parent-4.12.0/okhttp/src/main/kotlin/okhttp3/EventListener.kt"
+    },
+    {
+      "file": "docs/specs/NETWORK-DEEP-DIAGNOSTICS.md",
+      "line": 55,
+      "target": "https://developer.android.com/reference/android/net/LinkProperties"
+    },
+    {
+      "file": "docs/specs/NETWORK-DEEP-DIAGNOSTICS.md",
+      "line": 69,
+      "target": "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 53,
+      "target": "https://developer.android.com/training/data-storage/shared/documents-files"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 55,
+      "target": "https://developer.android.com/reference/android/Manifest.permission#WRITE_SECURE_SETTINGS"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 55,
+      "target": "https://developer.android.com/reference/android/app/admin/DevicePolicyManager#setGlobalPrivateDnsModeSpecifiedHost(android.content.ComponentName,%20java.lang.String)"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 67,
+      "target": "https://shizuku.rikka.app/guide/setup/"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 69,
+      "target": "https://developer.android.com/develop/connectivity/vpn"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 101,
+      "target": "https://developer.android.com/reference/android/net/DnsResolver"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 101,
+      "target": "https://developer.android.com/reference/android/net/DnsResolver.Callback"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 206,
+      "target": "https://wiki.metacubex.one/config/dns/"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 212,
+      "target": "https://developers.google.com/speed/public-dns/docs/using"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 227,
+      "target": "https://developers.cloudflare.com/1.1.1.1/ip-addresses/"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 227,
+      "target": "https://docs.quad9.net/services/"
+    },
+    {
+      "file": "docs/specs/REPAIR-WORKFLOW-SPEC.md",
+      "line": 238,
+      "target": "https://developer.android.com/privacy-and-security/keystore"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Checks a Markdown subset, not full CommonMark/GFM rendering.",
+    "HTML href/src attributes, MDX, tables generated by scripts, and bare URLs are not parsed.",
+    "Reference definitions must have their destination and optional title on one line.",
+    "Headings support ATX/setext text and basic GitHub-style duplicate slugs; complex HTML headings may differ.",
+    "Only fragments targeting Markdown are checked; fragments in PDFs, source files, and HTML are not checked.",
+    "External links are counted but never fetched; network reachability is not verified.",
+    "Indented code blocks and deeply nested container/fence syntax are not interpreted as full CommonMark.",
+    "Navigation is graph reachability from README.md and docs/README.md, not a reading-order or usability judgment.",
+    "Migration originalSha256 is validated as metadata syntax only; rewritten targets need not retain the original hash.",
+    "Leading-slash local links are interpreted relative to --root; machine-specific drive/file URLs are rejected."
+  ]
+}

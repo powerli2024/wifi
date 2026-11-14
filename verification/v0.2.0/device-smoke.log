@@ -1,0 +1,6 @@
+launcher_and_offline_demo: PASS (LOOPBACK_CHECKS_PASSED)
+ipv4_udp_tcp_raw_only: PASS (LOOPBACK_CHECKS_PASSED)
+ipv6_udp_tcp_raw_only: PASS (LOOPBACK_CHECKS_PASSED)
+cancel_udp_then_release_slot: PASS (LOOPBACK_CHECKS_PASSED)
+DEVICE_LOOPBACK_SMOKE: failed=0 skipped=0 reportWritten=true
+

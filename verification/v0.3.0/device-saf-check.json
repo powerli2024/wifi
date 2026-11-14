@@ -1,0 +1,12 @@
+{
+  "testMarker": "DEVICE_SAF_SYNTHETIC_FIXTURE",
+  "originalUnchanged": true,
+  "repairedCopyReadBack": true,
+  "nameserverDohPresent": true,
+  "rulesPreserved": true,
+  "clientImportVerified": false,
+  "originalSha256": "a3e523fd5ec220c8f86770e3ee2e7e8f34194e60323506841303dc8e139aa89b",
+  "repairedSha256": "6b656af0cd34facdddce1adf4700cc259d6bd7d99142660c6bc2066c77fcd928",
+  "repeatedSaveCreatedDistinctDocument": true,
+  "concreteChangeConfirmationVisible": true
+}

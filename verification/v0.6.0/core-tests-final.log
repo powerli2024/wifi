@@ -1,0 +1,429 @@
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:processResources NO-SOURCE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:compileKotlin
+> Task :core:compileJava NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :core:compileTestKotlin
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+
+> Task :core:test
+
+AttemptEvidenceTest > retry policy difference and legacy missing retries prevent comparison PASSED
+
+AttemptEvidenceTest > additional success does not turn preserved failure into an improvement PASSED
+
+AttemptEvidenceTest > mixed later observations cannot imply regression or unchanged availability PASSED
+
+AttemptEvidenceTest > duplicate unfinished reordered or falsely aggregated attempts cannot compare PASSED
+
+AttemptEvidenceTest > mixed baseline cannot imply improvement when the later first attempt succeeds PASSED
+
+AttemptEvidenceTest > cancellation during backoff is incomparable despite completed first failure PASSED
+
+AttemptEvidenceTest > all result types in attempt records redact their identifiers PASSED
+
+AttemptEvidenceTest > consistent completed retries remain comparable while retaining all attempts PASSED
+
+AttemptEvidenceTest > retry opt in is bounded and never enlarges original run budget PASSED
+
+AttemptEvidenceTest > attempt records export full details using the same address redaction PASSED
+
+CoreTest > numeric ipv4 strict parsing rejects ambiguous input PASSED
+
+CoreTest > strict echo refuses version coercion PASSED
+
+CoreTest > disabled or not started probes remain not run PASSED
+
+CoreTest > endpoint refuses credentials secrets paths and non https PASSED
+
+CoreTest > minimal export redacts hosts and all addresses PASSED
+
+CoreTest > run timeout must be bounded PASSED
+
+CoreTest > vpn presence never overrides mismatching echo PASSED
+
+CoreTest > ip equivalence compares canonical addresses PASSED
+
+CoreTest > all error categories and cancellations remain insufficient PASSED
+
+CoreTest > missing tls and unsuccessful http cannot produce pass PASSED
+
+CoreTest > dns host validates without regex crashes or implicit network PASSED
+
+CoreTest > ipv6 canonicalizes equivalent values and mapped ipv4 PASSED
+
+CoreTest > matching echo is scoped match not a global safety score PASSED
+
+CoreTest > full export is explicit and structured without raw payload fields PASSED
+
+CoreTest > strict echo refuses missing mismatched wrong type and extra fields PASSED
+
+CoreTest > inconsistent network snapshot and missing endpoint cannot pass PASSED
+
+CoreTest > json encoding escapes control characters and quotes PASSED
+
+CoreTest > same network id with changed DNS capabilities or links cannot produce a verdict PASSED
+
+CoreTest > endpoint strips default port and allows explicit origin only PASSED
+
+CoreTest > vpn absence does not negate narrowly matching source address PASSED
+
+CoreTest > strict echo accepts exact contract and field ordering PASSED
+
+CoreTest > strict echo rejects duplicates escaped duplicates malformed and trailing content PASSED
+
+CoreTest > only explicit ipv6 exclusion produces not applicable PASSED
+
+CoreTest > expected ips enforce numeric bounded unambiguous list PASSED
+
+CoreTest > empty expectation or untrusted endpoint remains insufficient PASSED
+
+CoreTest > wrong nonce invalid ip network change missing snapshot cannot produce pass PASSED
+
+DiagnosticAdvisorTest > mixed raw attempts do not report first protocol failure as a whole-run difference PASSED
+
+DiagnosticAdvisorTest > consistent finished attempts retain bounded per-probe observations PASSED
+
+DiagnosticAdvisorTest > different queried hosts never suggest a system resolver problem from raw success PASSED
+
+DiagnosticAdvisorTest > protocol difference is actionable but never attributes blocking or privacy PASSED
+
+DiagnosticAdvisorTest > cancelled or unstarted protocol is not treated as a transport discrepancy PASSED
+
+DiagnosticAdvisorTest > synthetic evidence only gets an explicit demonstration finding PASSED
+
+DiagnosticAdvisorTest > mixed DNS attempts suppress first-only operational advice and retain neutral context PASSED
+
+DiagnosticAdvisorTest > system success failure not started and cancellation remain distinct PASSED
+
+DiagnosticAdvisorTest > system error action hints distinguish API failures negative answers and legacy detail gaps PASSED
+
+DiagnosticAdvisorTest > Private DNS false is not leakage and true does not encrypt the raw probe PASSED
+
+DiagnosticAdvisorTest > run stop and incomplete retry suppress apparently complete first observations PASSED
+
+DiagnosticAdvisorTest > NXDOMAIN TC empty NOERROR and error response codes never become usable addresses PASSED
+
+DiagnosticAdvisorTest > unstable or unavailable network suppresses operational diagnosis PASSED
+
+DiagnosticAdvisorTest > VPN virtual resolver context is retained without calling it a broken public resolver PASSED
+
+DiagnosticAdvisorTest > system and raw discrepancy includes configuration checks without automatic repair PASSED
+
+DiagnosticAdvisorTest > different successful answer addresses never create poisoning or a protocol failure PASSED
+
+DnsRepairAdvisorTest > unstarted cancelled missing and duplicate DNS observations are incomplete rather than failures PASSED
+
+DnsRepairAdvisorTest > legacy DNS_FAILURE and short duration cannot identify root cause PASSED
+
+DnsRepairAdvisorTest > network instability missing snapshots and global stops suppress operational settings advice PASSED
+
+DnsRepairAdvisorTest > system timeout with conflicting raw protocol results does not advance to settings review PASSED
+
+DnsRepairAdvisorTest > ERROR_SYSTEM with known unknown or missing errno is not a resolver replacement diagnosis PASSED
+
+DnsRepairAdvisorTest > advice is deterministic preserves evidence and omits query and network identifiers PASSED
+
+DnsRepairAdvisorTest > permission and invalid argument require API investigation even when raw DNS succeeds PASSED
+
+DnsRepairAdvisorTest > raw truncation negative and protocol difference retain independent observations PASSED
+
+DnsRepairAdvisorTest > parse and unknown resolver errors retain platform code without claiming poisoning PASSED
+
+DnsRepairAdvisorTest > stable same host timeout offers conditional reversible reviews without choosing a provider PASSED
+
+DnsRepairAdvisorTest > unfinished and cancelled attempt records cannot be hidden by complete aggregate fields PASSED
+
+DnsRepairAdvisorTest > Private DNS active does not block explicit plain protocol diagnostics or recommend disabling it PASSED
+
+DnsRepairAdvisorTest > no evidence and demonstration do not diagnose the current phone PASSED
+
+DnsRepairAdvisorTest > HTTPS failure with successful DNS is not a DNS provider recommendation PASSED
+
+DnsRepairAdvisorTest > NXDOMAIN checks name and policy without suggesting DNS replacement PASSED
+
+DnsRepairAdvisorTest > successful addresses do not require settings changes or claim HTTPS coverage PASSED
+
+DnsRepairAdvisorTest > different missing invalid and redacted system hosts cannot justify settings advice PASSED
+
+DnsRepairAdvisorTest > same host difference is bounded and normalized but does not prove same lookup type PASSED
+
+DnsRepairAdvisorTest > empty NOERROR and other response codes ask for bounded evidence PASSED
+
+DnsRepairAdvisorTest > mixed retries retain first failure and require more evidence instead of settings changes PASSED
+
+DnsRepairAdvisorTest > source record and baseline provenance do not claim live settings or repair success PASSED
+
+MihomoConfigDoctorTest > h3 conflicts refuse even when old respect rules false PASSED
+
+MihomoConfigDoctorTest > system bootstrap remains explicitly preserved and uncertain PASSED
+
+MihomoConfigDoctorTest > missing dns gets concrete five field preview and leaves full original prefix PASSED
+
+MihomoConfigDoctorTest > keeps plaintext scalar spellings dates and unknown fields outside dns byte for byte PASSED
+
+MihomoConfigDoctorTest > repair is byte idempotent and second preview empty PASSED
+
+MihomoConfigDoctorTest > unsupported existing bootstrap or node list refuses instead of overwriting PASSED
+
+MihomoConfigDoctorTest > size unicode depth and node limits are enforced PASSED
+
+MihomoConfigDoctorTest > missing fields do not assert core configuration is invalid or leakage proven PASSED
+
+MihomoConfigDoctorTest > flow field values and CRLF and supplementary characters retain boundaries PASSED
+
+MihomoConfigDoctorTest > empty scalar enable and explicit empty resolver lists can be fixed PASSED
+
+MihomoConfigDoctorTest > all ambiguous yaml structures are rejected with sanitized errors PASSED
+
+MihomoConfigDoctorTest > invalid selected provider cannot inject credentials routing or yaml PASSED
+
+MihomoConfigDoctorTest > foreign profiles and unidentified YAML cannot become Mihomo copies PASSED
+
+MihomoConfigDoctorTest > URL decoded DNS parameters match core behavior without form decoding PASSED
+
+MihomoConfigDoctorTest > block list patch keeps following external comments and section together PASSED
+
+MihomoConfigDoctorTest > adding fields after final preserved mapping does not consume that mapping PASSED
+
+MihomoConfigDoctorTest > inserts before explicit document end PASSED
+
+MihomoConfigDoctorTest > malformed fragment encodings refuse with safe public exception PASSED
+
+MihomoConfigDoctorTest > keeps valid bootstrap node resolvers and all non target original text PASSED
+
+MihomoConfigDoctorTest > all previews hide upstream credentials and parameters PASSED
+
+MihomoConfigDoctorTest > insertion preserves inline comment on last non target field PASSED
+
+ProfessionalScenariosTest > DNS comparison defaults describe same host A and deliberate plaintext transports PASSED
+
+ProfessionalScenariosTest > HTTPS guidance requires independent manual trust and expected IP decisions PASSED
+
+ProfessionalScenariosTest > each supported scenario has complete independent field guidance PASSED
+
+QuickCheckTest > Private DNS active does not silently rewrite an explicitly selected raw plan PASSED
+
+QuickCheckTest > choosing a public preset alone does not enable raw probes PASSED
+
+QuickCheckTest > public catalog contains verified distinct protocol endpoints and explicit raw opt in PASSED
+
+QuickCheckTest > raw network plan fails clearly if configured list contains no supported literal PASSED
+
+QuickCheckTest > raw network target uses first strict numeric address without changing IPv6 intent PASSED
+
+QuickCheckTest > default quick check is system only with no required endpoint or resolver input PASSED
+
+RawDnsTest > transaction question type class QR opcode and reserved flag must match PASSED
+
+RawDnsTest > query is one standard recursive question without EDNS or hidden followup PASSED
+
+RawDnsTest > NXDOMAIN and truncated answers remain explicit observations without address success PASSED
+
+RawDnsTest > authority and additional records cannot masquerade as answer addresses PASSED
+
+RawDnsTest > close before execute sends no packet and one instance cannot run twice PASSED
+
+RawDnsTest > schema two redacts raw DNS identifiers and keeps error and coverage evidence PASSED
+
+RawDnsTest > bounded random malformed packet inputs terminate without unchecked parser crashes PASSED
+
+RawDnsTest > UDP timeout returns no claim and no retry PASSED
+
+RawDnsTest > UDP delayed response survives multiple receive polls without resending PASSED
+
+RawDnsTest > matching A AAAA and case insensitive question responses are observed PASSED
+
+RawDnsTest > answer extraction follows CNAME and excludes unrelated and wrong class records PASSED
+
+RawDnsTest > TCP loopback handles split length prefix and fragmented response PASSED
+
+RawDnsTest > TCP slow drip is limited by total deadline rather than per read timeout PASSED
+
+RawDnsTest > UDP polling keeps the original total timeout budget PASSED
+
+RawDnsTest > UDP truncation preserves TC and does not open a TCP fallback PASSED
+
+RawDnsTest > configuration rejects ambiguous targets bad hosts ports and disabled protocols PASSED
+
+RawDnsTest > oversized UDP payload and TCP length are bounded before parsing PASSED
+
+RawDnsTest > UDP loopback sends one query and validates the actual response PASSED
+
+RawDnsTest > message and resource length bounds reject truncation trailing garbage and invalid addresses PASSED
+
+RawDnsTest > numeric sockets use address bytes with explicit IPv6 literal family PASSED
+
+RawDnsTest > invalid UDP reply and premature TCP EOF cannot complete PASSED
+
+RawDnsTest > close before TCP execute does not connect PASSED
+
+RawDnsTest > OPT extended response code is not misreported as NOERROR PASSED
+
+RawDnsTest > close cancels a ten second UDP receive within one second PASSED
+
+RawDnsTest > close cancels an active TCP read PASSED
+
+RawDnsTest > compressed names reject out of range forward interior and cyclic pointers PASSED
+
+ReportComparisonTest > same positive answers with different addresses and timings are not ranked as repaired PASSED
+
+ReportComparisonTest > timeout after successful result is observed regression with unknown cause PASSED
+
+ReportComparisonTest > one protocol improves and another regresses is reported as mixed evidence PASSED
+
+ReportComparisonTest > unstable run unavailable snapshots and changed network or VPN prevent comparison PASSED
+
+ReportComparisonTest > export embeds both complete reports and defaults to redacting both sets of identifiers PASSED
+
+ReportComparisonTest > success after timeout is bounded availability improvement not a repaired privacy claim PASSED
+
+ReportComparisonTest > canonical endpoint equality does not depend on object identity PASSED
+
+ReportComparisonTest > missing cancelled or duplicate raw observations make the comparison inconclusive PASSED
+
+ReportComparisonTest > different raw resolver type transport or socket family is not the same experiment PASSED
+
+ReportComparisonTest > NXDOMAIN truncation and empty NOERROR are not address availability PASSED
+
+ReportComparisonTest > not started cancelled and internal error are never treated as regression PASSED
+
+ReportComparisonTest > demonstrations same report versions and query plan changes are not comparable PASSED
+
+ReportComparisonTest > DNS setting changes between stable runs allow facts but explicitly forbid attribution PASSED
+
+ReportPresentationTest > system DNS success does not hide HTTPS error or missing egress evidence PASSED
+
+ReportPresentationTest > presentation leaves config policy and report evidence unchanged PASSED
+
+ReportPresentationTest > disabled modules ignore inconsistent leftover observations PASSED
+
+ReportPresentationTest > HTTPS matched and mismatched policies remain limited to this request PASSED
+
+ReportPresentationTest > raw cancellation and nonexecution do not become protocol failures PASSED
+
+ReportPresentationTest > different or missing queried hosts do not locate a system DNS fault PASSED
+
+ReportPresentationTest > HTTPS attempt success requires its own echoed identifier and is not a policy verdict PASSED
+
+ReportPresentationTest > system error row includes recorded phase rather than generic resolver attribution PASSED
+
+ReportPresentationTest > raw NXDOMAIN truncation response errors and empty NOERROR are not address success PASSED
+
+ReportPresentationTest > HTTPS failure cancellation and nonexecution never become source IP mismatch PASSED
+
+ReportPresentationTest > cancelled or unfinished attempts are not hidden by a successful aggregate PASSED
+
+ReportPresentationTest > network changes and missing snapshots prevent stable causal hints PASSED
+
+ReportPresentationTest > system untested cancelled failed and empty responses are separate states PASSED
+
+ReportPresentationTest > summary omits raw identifiers credentials and endpoint strings PASSED
+
+ReportPresentationTest > a successful module does not conceal missing or failed selected modules PASSED
+
+ReportPresentationTest > global stopping conditions override complete looking aggregate observations PASSED
+
+ReportPresentationTest > missing trust expectation or validated echo cannot produce an egress verdict PASSED
+
+ReportPresentationTest > missing and duplicate raw observations are explicit rather than guessed PASSED
+
+ReportPresentationTest > reported system error raw address success and untested HTTPS remain distinct PASSED
+
+ReportPresentationTest > synthetic evidence stays visibly separate from device results PASSED
+
+ReportPresentationTest > same host comparison normalizes only DNS case and terminal dot PASSED
+
+ReportPresentationTest > retries expose first failure and later success without rewriting aggregate evidence PASSED
+
+ReportPresentationTest > different successful DNS addresses are observations rather than poisoning diagnoses PASSED
+
+SystemDnsDiagnosticsTest > inconsistent success with diagnostic error cannot become usable or advisor success PASSED
+
+SystemDnsDiagnosticsTest > answer callback distinguishes negative response empty NOERROR and addresses PASSED
+
+SystemDnsDiagnosticsTest > new diagnostic fields export additively while network identifiers stay redacted PASSED
+
+SystemDnsDiagnosticsTest > platform codes distinguish response parse system and unknown errors without attribution PASSED
+
+SystemDnsDiagnosticsTest > report overload preserves demonstration and unselected probe provenance PASSED
+
+SystemDnsDiagnosticsTest > local exception categories are fixed and cancellation takes precedence PASSED
+
+SystemDnsDiagnosticsTest > legacy quick failure does not invent timeout or resolver cause PASSED
+
+SystemDnsDiagnosticsTest > advisor shows recorded system detail and never upgrades DNS privacy PASSED
+
+WebsiteDiagnosticsTest > full attempt deadline can recheck once within the unchanged total budget PASSED
+
+WebsiteDiagnosticsTest > plan defaults bare domain to https but rejects ambiguous or credentialed URLs PASSED
+
+WebsiteDiagnosticsTest > untrusted certificate fails TLS while preserving established connection PASSED
+
+WebsiteDiagnosticsTest > trusted but wrong hostname is rejected with no insecure fallback PASSED
+
+WebsiteDiagnosticsTest > HTTP send failure after verified TLS cannot erase the TLS success PASSED
+
+WebsiteDiagnosticsTest > absolute DNS deadline returns without starting replacement worker PASSED
+
+WebsiteDiagnosticsTest > trusted expired leaf is classified without bypassing certificate validation PASSED
+
+WebsiteDiagnosticsTest > trusted not yet valid leaf suggests clock or certificate investigation PASSED
+
+WebsiteDiagnosticsTest > advertised idle permits consecutive admissions without spurious busy rejection PASSED
+
+WebsiteDiagnosticsTest > body ceiling is partial evidence not website failure PASSED
+
+WebsiteDiagnosticsTest > redirect is not followed and exports only its origin when explicitly requested PASSED
+
+WebsiteDiagnosticsTest > slow response body respects absolute budget and preserves successful headers PASSED
+
+WebsiteDiagnosticsTest > HTTP forbidden is response evidence and never triggers automatic retry PASSED
+
+WebsiteDiagnosticsTest > close before execution never starts network work PASSED
+
+WebsiteDiagnosticsTest > local validated HTTPS GET records every layer without saving the body PASSED
+
+WebsiteDiagnosticsTest > system proxy selection is respected without silently connecting to target PASSED
+
+WebsiteDiagnosticsTest > same plan temporary failure is preserved when one automatic recheck responds PASSED
+
+WebsiteDiagnosticsTest > cancellation returns promptly but blocked DNS keeps the single work slot until actual exit PASSED
+
+WebsiteDiagnosticsTest > DNS failure does not blindly retry or expose exception text PASSED
+
+IndependentAdversarialTest > dns and ipv6 never become privacy pass or failure from incidental results PASSED
+
+IndependentAdversarialTest > request URL nonce format matches the declared UUID wire contract PASSED
+
+IndependentAdversarialTest > host and expected list length boundaries are enforced PASSED
+
+IndependentAdversarialTest > ip canonicalization covers compression boundaries and embedded ipv4 PASSED
+
+IndependentAdversarialTest > canonical duplicate expected addresses collapse without false disagreement PASSED
+
+IndependentAdversarialTest > five verdicts stay distinct and narrowly scoped PASSED
+
+IndependentAdversarialTest > random numeric parser inputs terminate and canonical output is idempotent PASSED
+
+IndependentAdversarialTest > random echo parser input is rejected without unchecked crashes PASSED
+
+IndependentAdversarialTest > strict echo rejects duplicate decoded keys arrays nesting illegal JSON and excessive size PASSED
+
+IndependentAdversarialTest > endpoint does not tolerate URL authority ambiguity PASSED
+
+IndependentAdversarialTest > echo nonce is exact and replay wrong case and whitespace are refused PASSED
+
+IndependentAdversarialTest > missing network identifiers unavailable snapshots and any change prevent match PASSED
+
+IndependentAdversarialTest > untrusted missing policy and unavailable actual data fail closed PASSED
+
+IndependentAdversarialTest > exhaustive execution failure tls status matrix never produces false match PASSED
+
+IndependentAdversarialTest > minimal export redacts every network identifier location while retaining limitations PASSED
+
+BUILD SUCCESSFUL in 14s
+4 actionable tasks: 4 executed

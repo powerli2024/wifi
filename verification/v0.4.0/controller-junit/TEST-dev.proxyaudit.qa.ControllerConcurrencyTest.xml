@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.ControllerConcurrencyTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-22T06:03:43.662Z" hostname="DESKTOP-63D1DH2" time="21.359">
+  <properties/>
+  <testcase name="wrong nonce redirect oversized malformed utf8 and non JSON cannot match" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.142"/>
+  <testcase name="cancel publishes promptly and rejects overlap until blocked cleanup releases" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.012"/>
+  <testcase name="late cancel during frozen normal publication preserves completed result and status" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.01"/>
+  <testcase name="controlled happy path uses exact fresh nonce and network default semantics" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.007"/>
+  <testcase name="DNS timeout is bounded cancelled and not converted into privacy success" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="1.005"/>
+  <testcase name="cancel wakes system DNS while terminal metadata is blocked and never starts HTTPS" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.001"/>
+  <testcase name="visible link changes prevent match even before callback generation updates" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.012"/>
+  <testcase name="caller mutation cannot change the frozen expected address policy mid run" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.006"/>
+  <testcase name="concurrent repeated starts reserve exactly one slot and late cancel preserves result" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.063"/>
+  <testcase name="construction demo and clear never open network" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.0"/>
+  <testcase name="global deadline publishes no match even if platform response ignores timeout" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="20.009"/>
+  <testcase name="cancel starts cleanup despite blocked snapshot and keeps slot until worker releases" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.014"/>
+  <testcase name="late DNS callback after cancellation cannot alter immutable report or start HTTPS" classname="dev.proxyaudit.qa.ControllerConcurrencyTest" time="0.076"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.ReportComparisonTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-20T17:28:20.752Z" hostname="DESKTOP-63D1DH2" time="0.006">
+  <properties/>
+  <testcase name="same positive answers with different addresses and timings are not ranked as repaired" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.001"/>
+  <testcase name="timeout after successful result is observed regression with unknown cause" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="one protocol improves and another regresses is reported as mixed evidence" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="unstable run unavailable snapshots and changed network or VPN prevent comparison" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.001"/>
+  <testcase name="export embeds both complete reports and defaults to redacting both sets of identifiers" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.003"/>
+  <testcase name="success after timeout is bounded availability improvement not a repaired privacy claim" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="canonical endpoint equality does not depend on object identity" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="missing cancelled or duplicate raw observations make the comparison inconclusive" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="different raw resolver type transport or socket family is not the same experiment" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="NXDOMAIN truncation and empty NOERROR are not address availability" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="not started cancelled and internal error are never treated as regression" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <testcase name="demonstrations same report versions and query plan changes are not comparable" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.001"/>
+  <testcase name="DNS setting changes between stable runs allow facts but explicitly forbid attribution" classname="dev.proxyaudit.core.ReportComparisonTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

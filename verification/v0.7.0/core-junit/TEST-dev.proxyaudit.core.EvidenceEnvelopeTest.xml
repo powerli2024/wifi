@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.EvidenceEnvelopeTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:04:34.261Z" hostname="DESKTOP-63D1DH2" time="0.016">
+  <properties/>
+  <testcase name="synthetic_demo_origin_is_preserved_in_envelope_and_legacy_fields" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.002"/>
+  <testcase name="enabled_but_never_started_probes_do_not_appear_as_execution_sources" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.011"/>
+  <testcase name="failure_after_start_is_a_source_even_without_successful_answer" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.001"/>
+  <testcase name="envelope_deduplicates_source_categories_and_preserves_explicit_origin_without_auto_upgrade" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.0"/>
+  <testcase name="cancelled_active_probe_is_kept_while_unstarted_following_probes_are_excluded" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.0"/>
+  <testcase name="stopped_false_does_not_mean_success_complete_probes_or_safety_pass" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.001"/>
+  <testcase name="unavailable_snapshot_remains_a_framework_attempt_without_claiming_network_observed" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.0"/>
+  <testcase name="additive_envelope_keeps_legacy_schema_and_report_fields_in_both_export_modes" classname="dev.proxyaudit.core.EvidenceEnvelopeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

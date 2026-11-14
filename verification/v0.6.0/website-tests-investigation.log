@@ -1,0 +1,60 @@
+Starting a Gradle Daemon, 6 incompatible and 2 stopped Daemons could not be reused, use --status for details
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:processResources NO-SOURCE
+> Task :core:processTestResources NO-SOURCE
+> Task :core:compileKotlin
+> Task :core:compileJava NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :core:compileTestKotlin
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+
+> Task :core:test
+
+WebsiteDiagnosticsTest > full attempt deadline can recheck once within the unchanged total budget PASSED
+
+WebsiteDiagnosticsTest > plan defaults bare domain to https but rejects ambiguous or credentialed URLs PASSED
+
+WebsiteDiagnosticsTest > untrusted certificate fails TLS while preserving established connection PASSED
+
+WebsiteDiagnosticsTest > trusted but wrong hostname is rejected with no insecure fallback PASSED
+
+WebsiteDiagnosticsTest > HTTP send failure after verified TLS cannot erase the TLS success PASSED
+
+WebsiteDiagnosticsTest > absolute DNS deadline returns without starting replacement worker PASSED
+
+WebsiteDiagnosticsTest > trusted expired leaf is classified without bypassing certificate validation PASSED
+
+WebsiteDiagnosticsTest > trusted not yet valid leaf suggests clock or certificate investigation PASSED
+
+WebsiteDiagnosticsTest > body ceiling is partial evidence not website failure PASSED
+
+WebsiteDiagnosticsTest > redirect is not followed and exports only its origin when explicitly requested PASSED
+
+WebsiteDiagnosticsTest > slow response body respects absolute budget and preserves successful headers PASSED
+
+WebsiteDiagnosticsTest > HTTP forbidden is response evidence and never triggers automatic retry PASSED
+
+WebsiteDiagnosticsTest > close before execution never starts network work PASSED
+
+WebsiteDiagnosticsTest > local validated HTTPS GET records every layer without saving the body PASSED
+
+WebsiteDiagnosticsTest > system proxy selection is respected without silently connecting to target PASSED
+
+WebsiteDiagnosticsTest > same plan temporary failure is preserved when one automatic recheck responds PASSED
+
+WebsiteDiagnosticsTest > cancellation returns promptly but blocked DNS keeps the single work slot until actual exit PASSED
+
+WebsiteDiagnosticsTest > DNS failure does not blindly retry or expose exception text PASSED
+
+[Incubating] Problems report is available at: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 30s
+4 actionable tasks: 4 executed

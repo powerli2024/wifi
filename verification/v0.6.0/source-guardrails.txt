@@ -1,0 +1,6 @@
+PASS: User reports and frozen v0.5.0 delivery hashes unchanged
+PASS: Merged manifest: existing two network permissions, signature-local permission, no services/receivers/providers; only launcher exported
+PASS: Production source: no forced NO_PROXY, custom TLS trust, custom hostname verifier or underlying-network binding
+PASS: Version 0.6.0 / code 6
+PASS: Runtime dependencies include OkHttp/Okio; local TLS fixture libraries are test-only
+PASS: Debug signing certificate matches prior release

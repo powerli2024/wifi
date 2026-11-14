@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.ExportRetentionTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:11:56.292Z" hostname="DESKTOP-63D1DH2" time="0.016">
+  <properties/>
+  <testcase name="restored code is reserved before a fresh process creates a retry ticket" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.007"/>
+  <testcase name="pending redacted export cannot be replaced or upgraded to full and consumes once" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.001"/>
+  <testcase name="concurrent duplicate callbacks receive exactly one frozen payload" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.003"/>
+  <testcase name="wrong identity cannot consume or cancel a pending snapshot" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.0"/>
+  <testcase name="sixteen bit request code exhaustion refuses reuse rather than wrap" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.001"/>
+  <testcase name="export serializes immediately so mutable report members and later report changes cannot alter payload" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.002"/>
+  <testcase name="fresh process controller has no old payload and old UUID cannot consume its new payload" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.0"/>
+  <testcase name="restoration only advances valid request codes and never wraps or lowers high water mark" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.0"/>
+  <testcase name="cancel discards snapshot and retry gets new identity and nonreused code immune to stale ticket" classname="dev.proxyaudit.qa.ExportRetentionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

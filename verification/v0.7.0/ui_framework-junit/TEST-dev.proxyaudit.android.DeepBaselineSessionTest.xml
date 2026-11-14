@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeepBaselineSessionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:26:41.251Z" hostname="DESKTOP-63D1DH2" time="0.327">
+  <properties/>
+  <testcase name="baseline_is_process_local_and_plan_does_not_follow_edits_or_new_dns_configuration[29]" classname="dev.proxyaudit.android.DeepBaselineSessionTest" time="0.107"/>
+  <testcase name="baseline_is_process_local_and_plan_does_not_follow_edits_or_new_dns_configuration" classname="dev.proxyaudit.android.DeepBaselineSessionTest" time="0.071"/>
+  <testcase name="comparison_export_is_frozen_before_report_or_baseline_is_replaced[29]" classname="dev.proxyaudit.android.DeepBaselineSessionTest" time="0.033"/>
+  <testcase name="comparison_export_is_frozen_before_report_or_baseline_is_replaced" classname="dev.proxyaudit.android.DeepBaselineSessionTest" time="0.037"/>
+  <testcase name="cancelled_run_cannot_replace_good_baseline_and_comparison_stays_blocked[29]" classname="dev.proxyaudit.android.DeepBaselineSessionTest" time="0.033"/>
+  <testcase name="cancelled_run_cannot_replace_good_baseline_and_comparison_stays_blocked" classname="dev.proxyaudit.android.DeepBaselineSessionTest" time="0.046"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

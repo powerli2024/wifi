@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.ProxyCooperationSessionTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:27:38.786Z" hostname="DESKTOP-63D1DH2" time="0.283">
+  <properties/>
+  <testcase name="successful_record_has_common_identity_and_only_redacted_snapshot[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.02"/>
+  <testcase name="successful_record_has_common_identity_and_only_redacted_snapshot" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.024"/>
+  <testcase name="unavailable_backend_does_not_create_or_queue_an_operation[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.02"/>
+  <testcase name="unavailable_backend_does_not_create_or_queue_an_operation" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.018"/>
+  <testcase name="frozen_export_survives_a_new_run_and_wrong_ticket_never_consumes_it[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.022"/>
+  <testcase name="frozen_export_survives_a_new_run_and_wrong_ticket_never_consumes_it" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.023"/>
+  <testcase name="cancellation_keeps_slot_until_execution_finishes_and_prevents_export_or_second_start[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.019"/>
+  <testcase name="cancellation_keeps_slot_until_execution_finishes_and_prevents_export_or_second_start" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.02"/>
+  <testcase name="creation_and_execution_errors_are_sanitized_and_release_session[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.023"/>
+  <testcase name="creation_and_execution_errors_are_sanitized_and_release_session" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.025"/>
+  <testcase name="observing_and_export_without_report_do_not_create_operation[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.011"/>
+  <testcase name="observing_and_export_without_report_do_not_create_operation" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.015"/>
+  <testcase name="clearing_idle_session_discards_report_endpoint_and_pending_export[29]" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.021"/>
+  <testcase name="clearing_idle_session_discards_report_endpoint_and_pending_export" classname="dev.proxyaudit.android.ProxyCooperationSessionTest" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+{
+  "scope": "documentation checker self-tests only",
+  "testsRun": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": 16,
+  "ok": true
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.IndependentAdversarialTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-10-20T05:14:15.087Z" hostname="a5afc5a86877" time="0.152">
+  <properties/>
+  <testcase name="dns and ipv6 never become privacy pass or failure from incidental results" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.022"/>
+  <testcase name="request URL nonce format matches the declared UUID wire contract" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.002"/>
+  <testcase name="host and expected list length boundaries are enforced" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.003"/>
+  <testcase name="ip canonicalization covers compression boundaries and embedded ipv4" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.001"/>
+  <testcase name="canonical duplicate expected addresses collapse without false disagreement" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.001"/>
+  <testcase name="five verdicts stay distinct and narrowly scoped" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.001"/>
+  <testcase name="random numeric parser inputs terminate and canonical output is idempotent" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.032"/>
+  <testcase name="random echo parser input is rejected without unchecked crashes" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.044"/>
+  <testcase name="strict echo rejects duplicate decoded keys arrays nesting illegal JSON and excessive size" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.003"/>
+  <testcase name="endpoint does not tolerate URL authority ambiguity" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.002"/>
+  <testcase name="echo nonce is exact and replay wrong case and whitespace are refused" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.001"/>
+  <testcase name="missing network identifiers unavailable snapshots and any change prevent match" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.011"/>
+  <testcase name="untrusted missing policy and unavailable actual data fail closed" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.001"/>
+  <testcase name="exhaustive execution failure tls status matrix never produces false match" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.026"/>
+  <testcase name="minimal export redacts every network identifier location while retaining limitations" classname="dev.proxyaudit.qa.IndependentAdversarialTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

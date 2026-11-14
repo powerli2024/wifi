@@ -1,0 +1,856 @@
+
+
+------------------------------------------------------------
+Project ':app'
+------------------------------------------------------------
+
+debugRuntimeClasspath - Runtime classpath of '/debug'.
++--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20
+|    +--- org.jetbrains:annotations:13.0
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.0 -> 1.9.10 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-common:2.1.20 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.0 -> 1.9.10 (c)
++--- project :core
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20 (*)
+|    +--- org.yaml:snakeyaml:2.7
+|    \--- com.squareup.okhttp3:okhttp:4.12.0
+|         +--- com.squareup.okio:okio:3.6.0
+|         |    \--- com.squareup.okio:okio-jvm:3.6.0
+|         |         +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10
+|         |         |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> 2.1.20 (*)
+|         |         |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10
+|         |         |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.9.10 -> 2.1.20 (*)
+|         |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.9.10 -> 2.1.20
+|         |              \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.20 (*)
+|         \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21 -> 1.9.10 (*)
+\--- com.google.android.material:material:1.13.0
+     +--- org.jetbrains.kotlin:kotlin-bom:1.8.22
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (c)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22 -> 1.9.10 (c)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.8.22 -> 2.1.20 (c)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22 -> 1.9.10 (c)
+     +--- com.google.errorprone:error_prone_annotations:2.15.0
+     +--- androidx.activity:activity:1.8.0
+     |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1
+     |    |    \--- androidx.annotation:annotation-jvm:1.8.1
+     |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.7.10 -> 2.1.20 (*)
+     |    +--- androidx.collection:collection:1.0.0 -> 1.4.2
+     |    |    \--- androidx.collection:collection-jvm:1.4.2
+     |    |         +--- androidx.annotation:annotation:1.8.1 (*)
+     |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+     |    +--- androidx.core:core:1.8.0 -> 1.13.0
+     |    |    +--- androidx.annotation:annotation:1.6.0 -> 1.8.1 (*)
+     |    |    +--- androidx.annotation:annotation-experimental:1.4.0 -> 1.4.1
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.7.10 -> 2.1.20 (*)
+     |    |    +--- androidx.collection:collection:1.0.0 -> 1.4.2 (*)
+     |    |    +--- androidx.concurrent:concurrent-futures:1.0.0 -> 1.1.0
+     |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    \--- com.google.guava:listenablefuture:1.0
+     |    |    +--- androidx.interpolator:interpolator:1.0.0
+     |    |    |    \--- androidx.annotation:annotation:1.0.0 -> 1.8.1 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2
+     |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.arch.core:core-common:2.2.0
+     |    |    |    |    \--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.arch.core:core-runtime:2.2.0
+     |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    |    \--- androidx.arch.core:core-common:2.2.0 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2
+     |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4
+     |    |    |    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4
+     |    |    |    |    |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4
+     |    |    |    |    |    |         +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4
+     |    |    |    |    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4 (c)
+     |    |    |    |    |    |         |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4 (c)
+     |    |    |    |    |    |         |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4 (c)
+     |    |    |    |    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 -> 1.9.10 (*)
+     |    |    |    |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.6.21 -> 2.1.20 (*)
+     |    |    |    |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4 (*)
+     |    |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21 -> 1.9.10 (*)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-process:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (c)
+     |    |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2 (c)
+     |    |    |    +--- androidx.profileinstaller:profileinstaller:1.3.0 -> 1.3.1
+     |    |    |    |    +--- androidx.annotation:annotation:1.2.0 -> 1.8.1 (*)
+     |    |    |    |    +--- androidx.concurrent:concurrent-futures:1.1.0 (*)
+     |    |    |    |    +--- androidx.startup:startup-runtime:1.1.1
+     |    |    |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    |    |    \--- androidx.tracing:tracing:1.0.0
+     |    |    |    |    |         \--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    |    \--- com.google.guava:listenablefuture:1.0
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-process:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2 (c)
+     |    |    |    \--- androidx.lifecycle:lifecycle-livedata:2.6.2 (c)
+     |    |    +--- androidx.versionedparcelable:versionedparcelable:1.1.1
+     |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    \--- androidx.collection:collection:1.0.0 -> 1.4.2 (*)
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+     |    |    \--- androidx.core:core-ktx:1.13.0 (c)
+     |    +--- androidx.lifecycle:lifecycle-runtime:2.6.1 -> 2.6.2 (*)
+     |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.1 -> 2.6.2
+     |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-livedata:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-process:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (c)
+     |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2 (c)
+     |    +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1 -> 2.6.2
+     |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.8.1 (*)
+     |    |    +--- androidx.core:core-ktx:1.2.0 -> 1.13.0
+     |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.core:core:1.13.0 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+     |    |    |    \--- androidx.core:core:1.13.0 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2
+     |    |    |    +--- androidx.arch.core:core-common:2.1.0 -> 2.2.0 (*)
+     |    |    |    +--- androidx.arch.core:core-runtime:2.1.0 -> 2.2.0 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-process:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (c)
+     |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (*)
+     |    |    +--- androidx.savedstate:savedstate:1.2.1
+     |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.arch.core:core-common:2.1.0 -> 2.2.0 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.1 -> 2.6.2 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    +--- org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-livedata:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-process:2.6.2 (c)
+     |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (c)
+     |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (c)
+     |    +--- androidx.profileinstaller:profileinstaller:1.3.0 -> 1.3.1 (*)
+     |    +--- androidx.savedstate:savedstate:1.2.1 (*)
+     |    +--- androidx.tracing:tracing:1.0.0 (*)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+     +--- androidx.annotation:annotation:1.2.0 -> 1.8.1 (*)
+     +--- androidx.annotation:annotation-experimental:1.0.0 -> 1.4.1 (*)
+     +--- androidx.appcompat:appcompat:1.7.0
+     |    +--- androidx.activity:activity:1.7.0 -> 1.8.0 (*)
+     |    +--- androidx.annotation:annotation:1.3.0 -> 1.8.1 (*)
+     |    +--- androidx.appcompat:appcompat-resources:1.7.0
+     |    |    +--- androidx.annotation:annotation:1.2.0 -> 1.8.1 (*)
+     |    |    +--- androidx.collection:collection:1.0.0 -> 1.4.2 (*)
+     |    |    +--- androidx.core:core:1.6.0 -> 1.13.0 (*)
+     |    |    +--- androidx.vectordrawable:vectordrawable:1.1.0
+     |    |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.core:core:1.1.0 -> 1.13.0 (*)
+     |    |    |    \--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    |    +--- androidx.vectordrawable:vectordrawable-animated:1.1.0
+     |    |    |    +--- androidx.vectordrawable:vectordrawable:1.1.0 (*)
+     |    |    |    +--- androidx.interpolator:interpolator:1.0.0 (*)
+     |    |    |    \--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    |    \--- androidx.appcompat:appcompat:1.7.0 (c)
+     |    +--- androidx.collection:collection:1.0.0 -> 1.4.2 (*)
+     |    +--- androidx.core:core:1.13.0 (*)
+     |    +--- androidx.core:core-ktx:1.13.0 (*)
+     |    +--- androidx.cursoradapter:cursoradapter:1.0.0
+     |    |    \--- androidx.annotation:annotation:1.0.0 -> 1.8.1 (*)
+     |    +--- androidx.drawerlayout:drawerlayout:1.0.0 -> 1.1.1
+     |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    +--- androidx.core:core:1.2.0 -> 1.13.0 (*)
+     |    |    \--- androidx.customview:customview:1.1.0
+     |    |         +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |         +--- androidx.core:core:1.3.0 -> 1.13.0 (*)
+     |    |         \--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    +--- androidx.emoji2:emoji2:1.3.0
+     |    |    +--- androidx.annotation:annotation:1.2.0 -> 1.8.1 (*)
+     |    |    +--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    |    +--- androidx.core:core:1.3.0 -> 1.13.0 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-process:2.4.1 -> 2.6.2
+     |    |    |    +--- androidx.annotation:annotation:1.2.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (*)
+     |    |    |    +--- androidx.startup:startup-runtime:1.1.1 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (c)
+     |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (c)
+     |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2 (c)
+     |    |    +--- androidx.startup:startup-runtime:1.0.0 -> 1.1.1 (*)
+     |    |    \--- androidx.emoji2:emoji2-views-helper:1.3.0 (c)
+     |    +--- androidx.emoji2:emoji2-views-helper:1.2.0 -> 1.3.0
+     |    |    +--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    |    +--- androidx.core:core:1.3.0 -> 1.13.0 (*)
+     |    |    +--- androidx.emoji2:emoji2:1.3.0 (*)
+     |    |    \--- androidx.emoji2:emoji2:1.3.0 (c)
+     |    +--- androidx.fragment:fragment:1.5.4
+     |    |    +--- androidx.activity:activity:1.5.1 -> 1.8.0 (*)
+     |    |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    |    +--- androidx.annotation:annotation-experimental:1.0.0 -> 1.4.1 (*)
+     |    |    +--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    |    +--- androidx.core:core-ktx:1.2.0 -> 1.13.0 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.5.1 -> 2.6.2 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.5.1 -> 2.6.2 (*)
+     |    |    +--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1 -> 2.6.2 (*)
+     |    |    +--- androidx.loader:loader:1.0.0
+     |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.core:core:1.0.0 -> 1.13.0 (*)
+     |    |    |    +--- androidx.lifecycle:lifecycle-livedata:2.0.0 -> 2.6.2
+     |    |    |    |    +--- androidx.arch.core:core-common:2.1.0 -> 2.2.0 (*)
+     |    |    |    |    +--- androidx.arch.core:core-runtime:2.1.0 -> 2.2.0 (*)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (*)
+     |    |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.10 -> 2.1.20 (*)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-common:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-livedata-core:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-process:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-runtime:2.6.2 (c)
+     |    |    |    |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.2 (c)
+     |    |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2 (c)
+     |    |    |    \--- androidx.lifecycle:lifecycle-viewmodel:2.0.0 -> 2.6.2 (*)
+     |    |    +--- androidx.savedstate:savedstate:1.2.0 -> 1.2.1 (*)
+     |    |    +--- androidx.viewpager:viewpager:1.0.0
+     |    |    |    +--- androidx.annotation:annotation:1.0.0 -> 1.8.1 (*)
+     |    |    |    +--- androidx.core:core:1.0.0 -> 1.13.0 (*)
+     |    |    |    \--- androidx.customview:customview:1.0.0 -> 1.1.0 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.6.21 -> 2.1.20 (*)
+     |    +--- androidx.lifecycle:lifecycle-runtime:2.6.1 -> 2.6.2 (*)
+     |    +--- androidx.lifecycle:lifecycle-viewmodel:2.6.1 -> 2.6.2 (*)
+     |    +--- androidx.profileinstaller:profileinstaller:1.3.1 (*)
+     |    +--- androidx.resourceinspection:resourceinspection-annotation:1.0.1
+     |    |    \--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    +--- androidx.savedstate:savedstate:1.2.1 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+     |    \--- androidx.appcompat:appcompat-resources:1.7.0 (c)
+     +--- androidx.cardview:cardview:1.0.0
+     |    \--- androidx.annotation:annotation:1.0.0 -> 1.8.1 (*)
+     +--- androidx.coordinatorlayout:coordinatorlayout:1.1.0
+     |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    +--- androidx.core:core:1.1.0 -> 1.13.0 (*)
+     |    +--- androidx.customview:customview:1.0.0 -> 1.1.0 (*)
+     |    \--- androidx.collection:collection:1.0.0 -> 1.4.2 (*)
+     +--- androidx.constraintlayout:constraintlayout:2.1.0
+     |    +--- androidx.appcompat:appcompat:1.2.0 -> 1.7.0 (*)
+     |    +--- androidx.core:core:1.3.2 -> 1.13.0 (*)
+     |    \--- androidx.constraintlayout:constraintlayout-core:1.0.0
+     +--- androidx.core:core:1.6.0 -> 1.13.0 (*)
+     +--- androidx.drawerlayout:drawerlayout:1.1.1 (*)
+     +--- androidx.dynamicanimation:dynamicanimation:1.1.0
+     |    +--- androidx.collection:collection:1.4.2 (*)
+     |    +--- androidx.core:core:1.1.0 -> 1.13.0 (*)
+     |    \--- org.jspecify:jspecify:1.0.0
+     +--- androidx.fragment:fragment:1.2.5 -> 1.5.4 (*)
+     +--- androidx.lifecycle:lifecycle-runtime:2.0.0 -> 2.6.2 (*)
+     +--- androidx.recyclerview:recyclerview:1.2.1
+     |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    +--- androidx.core:core:1.3.2 -> 1.13.0 (*)
+     |    +--- androidx.customview:customview:1.0.0 -> 1.1.0 (*)
+     |    \--- androidx.collection:collection:1.0.0 -> 1.4.2 (*)
+     +--- androidx.resourceinspection:resourceinspection-annotation:1.0.1 (*)
+     +--- androidx.transition:transition:1.5.0
+     |    +--- androidx.annotation:annotation:1.2.0 -> 1.8.1 (*)
+     |    +--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     |    +--- androidx.core:core:1.13.0 (*)
+     |    \--- androidx.dynamicanimation:dynamicanimation:1.0.0 -> 1.1.0 (*)
+     +--- androidx.vectordrawable:vectordrawable:1.1.0 (*)
+     +--- androidx.viewpager2:viewpager2:1.0.0
+     |    +--- androidx.annotation:annotation:1.1.0 -> 1.8.1 (*)
+     |    +--- androidx.fragment:fragment:1.1.0 -> 1.5.4 (*)
+     |    +--- androidx.recyclerview:recyclerview:1.1.0 -> 1.2.1 (*)
+     |    +--- androidx.core:core:1.1.0 -> 1.13.0 (*)
+     |    \--- androidx.collection:collection:1.1.0 -> 1.4.2 (*)
+     \--- androidx.graphics:graphics-shapes:1.0.1
+          \--- androidx.graphics:graphics-shapes-android:1.0.1
+               +--- androidx.annotation:annotation:1.8.1 (*)
+               +--- androidx.annotation:annotation-experimental:1.4.1 (*)
+               +--- androidx.collection:collection:1.4.2 (*)
+               +--- androidx.core:core-ktx:1.10.0 -> 1.13.0 (*)
+               \--- org.jetbrains.kotlin:kotlin-stdlib:1.8.22 -> 2.1.20 (*)
+
+(c) - A dependency constraint, not a dependency. The dependency affected by the constraint occurs elsewhere in the tree.
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:generateDebugLintReportModel
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:dexBuilderDebug
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexDebug
+> Task :app:compileDebugAndroidTestKotlin
+> Task :app:compileDebugAndroidTestJavaWithJavac UP-TO-DATE
+> Task :app:dexBuilderDebugAndroidTest UP-TO-DATE
+> Task :app:mergeDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :app:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexDebugAndroidTest UP-TO-DATE
+> Task :app:packageDebugAndroidTest UP-TO-DATE
+> Task :app:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebugAndroidTest UP-TO-DATE
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+
+> Task :app:compileDebugUnitTestKotlin
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeviceSelfTestTest.kt:58:43 Java type mismatch: inferred type is 'Any?', but 'Any' was expected.
+w: file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/src/test/kotlin/dev/proxyaudit/android/DeviceSelfTestTest.kt:70:37 Java type mismatch: inferred type is 'Any?', but 'Any' was expected.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintAnalyzeDebugAndroidTest
+
+> Task :app:testDebugUnitTest
+
+DeviceSelfTestTest > close_before_execute_keeps_every_network_scenario_unstarted[29] PASSED
+
+DeviceSelfTestTest > close_before_execute_keeps_every_network_scenario_unstarted PASSED
+
+DeviceSelfTestTest > bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios[29] PASSED
+
+DeviceSelfTestTest > bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios PASSED
+
+DeviceSelfTestTest > cancellation_wakes_client_waiting_for_server_accept_even_if_server_never_signals_ready[29] PASSED
+
+DeviceSelfTestTest > cancellation_wakes_client_waiting_for_server_accept_even_if_server_never_signals_ready PASSED
+
+DeviceSelfTestTest > cancellation_closes_owned_sockets_and_stops_remaining_scenarios[29] PASSED
+
+DeviceSelfTestTest > cancellation_closes_owned_sockets_and_stops_remaining_scenarios PASSED
+
+DeviceSelfTestTest > repeated_execution_and_invalid_budgets_are_rejected_before_new_work[29] PASSED
+
+DeviceSelfTestTest > repeated_execution_and_invalid_budgets_are_rejected_before_new_work PASSED
+
+DeepBaselineSessionTest > baseline_is_process_local_and_plan_does_not_follow_edits_or_new_dns_configuration[29] PASSED
+
+DeepBaselineSessionTest > baseline_is_process_local_and_plan_does_not_follow_edits_or_new_dns_configuration PASSED
+
+DeepBaselineSessionTest > comparison_export_is_frozen_before_report_or_baseline_is_replaced[29] PASSED
+
+DeepBaselineSessionTest > comparison_export_is_frozen_before_report_or_baseline_is_replaced PASSED
+
+DeepBaselineSessionTest > cancelled_run_cannot_replace_good_baseline_and_comparison_stays_blocked[29] PASSED
+
+DeepBaselineSessionTest > cancelled_run_cannot_replace_good_baseline_and_comparison_stays_blocked PASSED
+
+DeepDiagnosticsActivityTest > expanded_details_survive_rotation_but_collapse_for_a_new_report[29] PASSED
+
+> Task :app:lintAnalyzeDebug
+
+> Task :app:testDebugUnitTest
+
+DeepDiagnosticsActivityTest > expanded_details_survive_rotation_but_collapse_for_a_new_report PASSED
+
+DeepDiagnosticsActivityTest > restored_missing_process_payload_reserves_request_code_and_never_exports_new_report_through_old_callback[29] PASSED
+
+DeepDiagnosticsActivityTest > restored_missing_process_payload_reserves_request_code_and_never_exports_new_report_through_old_callback PASSED
+
+DeepDiagnosticsActivityTest > old_picker_callback_cannot_consume_new_ticket_or_write_to_old_destination[29] PASSED
+
+DeepDiagnosticsActivityTest > old_picker_callback_cannot_consume_new_ticket_or_write_to_old_destination PASSED
+
+DeepDiagnosticsActivityTest > stopped_report_explains_why_it_cannot_replace_a_baseline[29] PASSED
+
+DeepDiagnosticsActivityTest > stopped_report_explains_why_it_cannot_replace_a_baseline PASSED
+
+DeepDiagnosticsActivityTest > opening_and_rotation_preserve_only_memory_draft_and_never_run_a_probe[29] PASSED
+
+DeepDiagnosticsActivityTest > opening_and_rotation_preserve_only_memory_draft_and_never_run_a_probe PASSED
+
+DeepDiagnosticsActivityTest > comparison_export_freezes_both_reports_before_rotation_and_clearing_baseline[29] PASSED
+
+DeepDiagnosticsActivityTest > comparison_export_freezes_both_reports_before_rotation_and_clearing_baseline PASSED
+
+DeepDiagnosticsActivityTest > all_five_stages_and_export_are_available_before_collapsed_website_evidence[29] PASSED
+
+DeepDiagnosticsActivityTest > all_five_stages_and_export_are_available_before_collapsed_website_evidence PASSED
+
+DeepDiagnosticsActivityTest > details_start_collapsed_and_expand_locally_without_opening_json_or_new_probe[29] PASSED
+
+DeepDiagnosticsActivityTest > details_start_collapsed_and_expand_locally_without_opening_json_or_new_probe PASSED
+
+DeepDiagnosticsActivityTest > local_only_ignores_invalid_url_and_raw_checkbox_and_requires_explicit_confirmation[29] PASSED
+
+DeepDiagnosticsActivityTest > local_only_ignores_invalid_url_and_raw_checkbox_and_requires_explicit_confirmation PASSED
+
+DeepDiagnosticsActivityTest > numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network[29] PASSED
+
+DeepDiagnosticsActivityTest > numeric_url_with_dns_expansion_shows_inline_correction_before_dialog_or_network PASSED
+
+DeepDiagnosticsActivityTest > baseline_and_original_plan_retest_require_confirmation_and_ignore_edited_inputs[29] PASSED
+
+DeepDiagnosticsActivityTest > baseline_and_original_plan_retest_require_confirmation_and_ignore_edited_inputs PASSED
+
+DeepDiagnosticsActivityTest > redacted_export_survives_rotation_and_clear_and_duplicate_completion_does_not_write_again[29] PASSED
+
+DeepDiagnosticsActivityTest > redacted_export_survives_rotation_and_clear_and_duplicate_completion_does_not_write_again PASSED
+
+DeepDiagnosticsSessionTest > four_usable_raw_results_preserve_website_failure_and_prioritize_its_stage[29] PASSED
+
+DeepDiagnosticsSessionTest > four_usable_raw_results_preserve_website_failure_and_prioritize_its_stage PASSED
+
+DeepDiagnosticsSessionTest > raw_requires_domain_plan_and_numeric_server_before_any_collection[29] PASSED
+
+DeepDiagnosticsSessionTest > raw_requires_domain_plan_and_numeric_server_before_any_collection PASSED
+
+DeepDiagnosticsSessionTest > construction_and_observation_do_not_collect_or_probe_and_local_plan_stays_local[29] PASSED
+
+DeepDiagnosticsSessionTest > construction_and_observation_do_not_collect_or_probe_and_local_plan_stays_local PASSED
+
+DeepDiagnosticsSessionTest > proxy_change_in_final_inventory_invalidates_complete_conclusion[29] PASSED
+
+DeepDiagnosticsSessionTest > proxy_change_in_final_inventory_invalidates_complete_conclusion PASSED
+
+DeepDiagnosticsSessionTest > cancellation_during_inventory_stops_before_creating_any_probe[29] PASSED
+
+DeepDiagnosticsSessionTest > cancellation_during_inventory_stops_before_creating_any_probe PASSED
+
+DeepDiagnosticsSessionTest > initial_snapshot_exception_is_sanitized_and_does_not_leave_slot_busy[29] PASSED
+
+DeepDiagnosticsSessionTest > initial_snapshot_exception_is_sanitized_and_does_not_leave_slot_busy PASSED
+
+DeepDiagnosticsSessionTest > four_raw_successes_with_mixed_website_attempts_prioritize_stability_instead_of_current_failure[29] PASSED
+
+DeepDiagnosticsSessionTest > four_raw_successes_with_mixed_website_attempts_prioritize_stability_instead_of_current_failure PASSED
+
+DeepDiagnosticsSessionTest > cancel_initiates_cleanup_without_releasing_slot_or_starting_next_stage[29] PASSED
+
+DeepDiagnosticsSessionTest > cancel_initiates_cleanup_without_releasing_slot_or_starting_next_stage PASSED
+
+DeepDiagnosticsSessionTest > missing_final_inventory_is_unknown_and_not_claimed_as_observed_network_change[29] PASSED
+
+DeepDiagnosticsSessionTest > missing_final_inventory_is_unknown_and_not_claimed_as_observed_network_change PASSED
+
+DeepDiagnosticsSessionTest > raw_mismatch_names_the_protocol_and_truncated_or_cancelled_never_count_as_usable[29] PASSED
+
+DeepDiagnosticsSessionTest > raw_mismatch_names_the_protocol_and_truncated_or_cancelled_never_count_as_usable PASSED
+
+DeepDiagnosticsSessionTest > changed_snapshot_after_local_stage_stops_website_and_raw[29] PASSED
+
+DeepDiagnosticsSessionTest > changed_snapshot_after_local_stage_stops_website_and_raw PASSED
+
+DeepDiagnosticsSessionTest > blocked_network_observer_does_not_block_deadline_or_cleanup[29] PASSED
+
+DeepDiagnosticsSessionTest > blocked_network_observer_does_not_block_deadline_or_cleanup PASSED
+
+DeepDiagnosticsSessionTest > late_observer_from_previous_run_cannot_cancel_a_new_run[29] PASSED
+
+DeepDiagnosticsSessionTest > late_observer_from_previous_run_cannot_cancel_a_new_run PASSED
+
+DeepDiagnosticsSessionTest > export_freezes_old_report_defaults_to_redaction_and_request_codes_are_not_reused[29] PASSED
+
+DeepDiagnosticsSessionTest > export_freezes_old_report_defaults_to_redaction_and_request_codes_are_not_reused PASSED
+
+DeepEvidenceEnvelopeTest > errors_and_cancellation_after_operation_start_remain_evidence_sources[29] PASSED
+
+DeepEvidenceEnvelopeTest > errors_and_cancellation_after_operation_start_remain_evidence_sources PASSED
+
+DeepEvidenceEnvelopeTest > planned_or_placeholder_operations_are_not_listed_as_executed_sources[29] PASSED
+
+DeepEvidenceEnvelopeTest > planned_or_placeholder_operations_are_not_listed_as_executed_sources PASSED
+
+DeepEvidenceEnvelopeTest > synthetic_origin_and_legacy_schema_are_preserved_and_false_stopped_is_not_success[29] PASSED
+
+DeepEvidenceEnvelopeTest > synthetic_origin_and_legacy_schema_are_preserved_and_false_stopped_is_not_success PASSED
+
+DeepReportAnalysisTest > fake_ip_range_includes_both_18_and_19_without_claiming_poison_or_leak[29] PASSED
+
+DeepReportAnalysisTest > fake_ip_range_includes_both_18_and_19_without_claiming_poison_or_leak PASSED
+
+DeepReportAnalysisTest > http_proxy_without_origin_dns_is_explained_but_direct_does_not_exclude_vpn[29] PASSED
+
+DeepReportAnalysisTest > http_proxy_without_origin_dns_is_explained_but_direct_does_not_exclude_vpn PASSED
+
+DeepReportAnalysisTest > successful_answer_versus_transport_error_is_explained_in_either_direction[29] PASSED
+
+DeepReportAnalysisTest > successful_answer_versus_transport_error_is_explained_in_either_direction PASSED
+
+DeepReportAnalysisTest > different_successful_udp_tcp_sets_are_not_attributed_to_pollution[29] PASSED
+
+DeepReportAnalysisTest > different_successful_udp_tcp_sets_are_not_attributed_to_pollution PASSED
+
+DeepReportAnalysisTest > empty_answer_versus_transport_failure_is_a_protocol_difference_without_leak_attribution[29] PASSED
+
+DeepReportAnalysisTest > empty_answer_versus_transport_failure_is_a_protocol_difference_without_leak_attribution PASSED
+
+DeepReportAnalysisTest > cancelled_attempt_or_cancelled_website_does_not_create_a_completed_proxy_explanation[29] PASSED
+
+DeepReportAnalysisTest > cancelled_attempt_or_cancelled_website_does_not_create_a_completed_proxy_explanation PASSED
+
+DeepReportAnalysisTest > later_success_keeps_first_failure_without_requiring_raw_dns[29] PASSED
+
+DeepReportAnalysisTest > later_success_keeps_first_failure_without_requiring_raw_dns PASSED
+
+DeepReportAnalysisTest > empty_aaaa_is_a_response_but_timeout_or_truncation_are_not_empty_success[29] PASSED
+
+DeepReportAnalysisTest > empty_aaaa_is_a_response_but_timeout_or_truncation_are_not_empty_success PASSED
+
+DeepReportComparisonTest > dns_configuration_change_is_descriptive_only_and_preserves_frozen_dns_target[29] PASSED
+
+DeepReportComparisonTest > dns_configuration_change_is_descriptive_only_and_preserves_frozen_dns_target PASSED
+
+DeepReportComparisonTest > complete_failure_can_be_baseline_but_cancelled_missing_or_synthetic_cannot[29] PASSED
+
+DeepReportComparisonTest > complete_failure_can_be_baseline_but_cancelled_missing_or_synthetic_cannot PASSED
+
+DeepReportComparisonTest > comparison_redacts_identifiers_and_full_export_still_omits_path_and_query[29] PASSED
+
+DeepReportComparisonTest > comparison_redacts_identifiers_and_full_export_still_omits_path_and_query PASSED
+
+DeepReportComparisonTest > exact_url_budgets_proxy_declaration_raw_target_and_version_are_required[29] PASSED
+
+DeepReportComparisonTest > exact_url_budgets_proxy_declaration_raw_target_and_version_are_required PASSED
+
+DeepReportComparisonTest > first_failure_is_kept_when_later_attempt_succeeds_and_durations_are_not_repair_verdicts[29] PASSED
+
+DeepReportComparisonTest > first_failure_is_kept_when_later_attempt_succeeds_and_durations_are_not_repair_verdicts PASSED
+
+DeepReportComparisonTest > network_vpn_proxy_route_binding_change_or_in_run_change_blocks_comparison[29] PASSED
+
+DeepReportComparisonTest > network_vpn_proxy_route_binding_change_or_in_run_change_blocks_comparison PASSED
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename[29] PASSED
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing[29] PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network[29] PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path[29] PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path PASSED
+
+MainActivityTest > material_labels_remain_present_after_entry_and_field_errors_stay_inline[29] PASSED
+
+MainActivityTest > material_labels_remain_present_after_entry_and_field_errors_stay_inline PASSED
+
+MainActivityTest > result_summary_separates_dns_error_response_and_unmeasured_https_before_details[29] PASSED
+
+MainActivityTest > result_summary_separates_dns_error_response_and_unmeasured_https_before_details PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation[29] PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe[29] PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe PASSED
+
+MainActivityTest > demo_advice_cannot_be_saved_as_a_real_baseline[29] PASSED
+
+MainActivityTest > demo_advice_cannot_be_saved_as_a_real_baseline PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns[29] PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns PASSED
+
+MainActivityTest > baseline_rerun_uses_frozen_plan_requires_confirmation_and_clear_removes_it[29] PASSED
+
+MainActivityTest > baseline_rerun_uses_frozen_plan_requires_confirmation_and_clear_removes_it PASSED
+
+MainActivityTest > repair_entry_opens_activity_without_extra_config_or_starting_a_probe[29] PASSED
+
+MainActivityTest > repair_entry_opens_activity_without_extra_config_or_starting_a_probe PASSED
+
+MainActivityTest > report_is_a_subpage_with_return_to_its_origin_even_after_rotation[29] PASSED
+
+MainActivityTest > report_is_a_subpage_with_return_to_its_origin_even_after_rotation PASSED
+
+MainActivityTest > demo_summary_never_describes_fabricated_success_as_a_device_measurement[29] PASSED
+
+MainActivityTest > demo_summary_never_describes_fabricated_success_as_a_device_measurement PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers[29] PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers PASSED
+
+MainActivityTest > comparison_export_uses_frozen_redacted_pair_across_rotation_and_clear[29] PASSED
+
+MainActivityTest > comparison_export_uses_frozen_redacted_pair_across_rotation_and_clear PASSED
+
+MainActivityTest > customized_scenario_requires_confirmation_and_cancel_preserves_inputs[29] PASSED
+
+MainActivityTest > customized_scenario_requires_confirmation_and_cancel_preserves_inputs PASSED
+
+MainActivityTest > cancelled_result_shows_incomparable_advice_instead_of_improvement[29] PASSED
+
+MainActivityTest > cancelled_result_shows_incomparable_advice_instead_of_improvement PASSED
+
+MainActivityTest > navigation_keeps_one_task_visible_and_preserves_fields_without_network[29] PASSED
+
+MainActivityTest > navigation_keeps_one_task_visible_and_preserves_fields_without_network PASSED
+
+MainActivityTest > quick_public_target_is_only_active_after_explicit_plaintext_opt_in_and_survives_rotation[29] PASSED
+
+MainActivityTest > quick_public_target_is_only_active_after_explicit_plaintext_opt_in_and_survives_rotation PASSED
+
+MainActivityTest > private_dns_active_warning_does_not_describe_raw_probe_as_encrypted[29] PASSED
+
+MainActivityTest > private_dns_active_warning_does_not_describe_raw_probe_as_encrypted PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation[29] PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation PASSED
+
+MainActivityTest > quick_default_confirms_system_query_without_input_or_implicit_public_target[29] PASSED
+
+MainActivityTest > quick_default_confirms_system_query_without_input_or_implicit_public_target PASSED
+
+MainActivityTest > https_scenario_never_invents_target_expected_ip_or_trust[29] PASSED
+
+MainActivityTest > https_scenario_never_invents_target_expected_ip_or_trust PASSED
+
+MainActivityTest > dns_scenario_fills_same_host_and_protocols_but_requires_separate_run_confirmation[29] PASSED
+
+MainActivityTest > dns_scenario_fills_same_host_and_protocols_but_requires_separate_run_confirmation PASSED
+
+MainActivityTest > invalid_field_is_identified_and_guide_contract_matches_parser[29] PASSED
+
+MainActivityTest > invalid_field_is_identified_and_guide_contract_matches_parser PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry[29] PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry PASSED
+
+MainActivityTest > retry_defaults_off_and_only_explicit_professional_choice_confirms_two_attempts[29] PASSED
+
+MainActivityTest > retry_defaults_off_and_only_explicit_professional_choice_confirms_two_attempts PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once[29] PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation[29] PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation PASSED
+
+MainActivityTest > repair_baseline_mismatch_blocks_retest_until_the_link_matches[29] PASSED
+
+MainActivityTest > repair_baseline_mismatch_blocks_retest_until_the_link_matches PASSED
+
+MainActivityTest > launch_shows_quick_check_without_inputs_and_collapses_professional_form_without_network[29] PASSED
+
+MainActivityTest > launch_shows_quick_check_without_inputs_and_collapses_professional_form_without_network PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network[29] PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope[29] PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope PASSED
+
+MainActivityTest > professional_form_with_all_probes_disabled_rejects_before_confirmation[29] PASSED
+
+MainActivityTest > professional_form_with_all_probes_disabled_rejects_before_confirmation PASSED
+
+NetworkInventoryTest > absent_network_and_missing_capabilities_have_explicit_reasons[29] PASSED
+
+NetworkInventoryTest > absent_network_and_missing_capabilities_have_explicit_reasons PASSED
+
+NetworkInventoryTest > missing_permission_is_reported_and_not_requested_or_converted_to_empty_success[29] PASSED
+
+NetworkInventoryTest > missing_permission_is_reported_and_not_requested_or_converted_to_empty_success PASSED
+
+NetworkInventoryTest > collects_visible_default_network_details_without_binding_or_executing_proxy_selection[29] PASSED
+
+NetworkInventoryTest > collects_visible_default_network_details_without_binding_or_executing_proxy_selection PASSED
+
+NetworkInventoryTest > pac_presence_is_read_without_fetching_the_script[29] PASSED
+
+NetworkInventoryTest > pac_presence_is_read_without_fetching_the_script PASSED
+
+NetworkInventoryTest > default_export_redacts_all_network_identifiers_but_preserves_observable_properties[29] PASSED
+
+NetworkInventoryTest > default_export_redacts_all_network_identifiers_but_preserves_observable_properties PASSED
+
+ProxyCooperationActivityTest > open_and_rotation_do_not_probe_or_persist_secret_and_keep_only_memory_endpoint[29] PASSED
+
+ProxyCooperationActivityTest > open_and_rotation_do_not_probe_or_persist_secret_and_keep_only_memory_endpoint PASSED
+
+ProxyCooperationActivityTest > export_retains_frozen_redacted_report_through_rotation_and_new_report[29] PASSED
+
+ProxyCooperationActivityTest > export_retains_frozen_redacted_report_through_rotation_and_new_report PASSED
+
+ProxyCooperationActivityTest > checking_valid_input_shows_scope_and_requires_confirmation_before_creating_operation[29] PASSED
+
+ProxyCooperationActivityTest > checking_valid_input_shows_scope_and_requires_confirmation_before_creating_operation PASSED
+
+ProxyCooperationActivityTest > busy_run_disables_new_actions_and_clear_until_cancellation_finishes[29] PASSED
+
+ProxyCooperationActivityTest > busy_run_disables_new_actions_and_clear_until_cancellation_finishes PASSED
+
+ProxyCooperationActivityTest > process_recreated_missing_payload_reserves_old_code_and_allows_safe_new_export[29] PASSED
+
+ProxyCooperationActivityTest > process_recreated_missing_payload_reserves_old_code_and_allows_safe_new_export PASSED
+
+ProxyCooperationActivityTest > cancelled_picker_old_callback_cannot_consume_new_export[29] PASSED
+
+ProxyCooperationActivityTest > cancelled_picker_old_callback_cannot_consume_new_export PASSED
+
+ProxyCooperationActivityTest > invalid_origin_cannot_open_confirmation_or_call_backend[29] PASSED
+
+ProxyCooperationActivityTest > invalid_origin_cannot_open_confirmation_or_call_backend PASSED
+
+ProxyCooperationSessionTest > successful_record_has_common_identity_and_only_redacted_snapshot[29] PASSED
+
+ProxyCooperationSessionTest > successful_record_has_common_identity_and_only_redacted_snapshot PASSED
+
+ProxyCooperationSessionTest > unavailable_backend_does_not_create_or_queue_an_operation[29] PASSED
+
+ProxyCooperationSessionTest > unavailable_backend_does_not_create_or_queue_an_operation PASSED
+
+ProxyCooperationSessionTest > frozen_export_survives_a_new_run_and_wrong_ticket_never_consumes_it[29] PASSED
+
+ProxyCooperationSessionTest > frozen_export_survives_a_new_run_and_wrong_ticket_never_consumes_it PASSED
+
+ProxyCooperationSessionTest > cancellation_keeps_slot_until_execution_finishes_and_prevents_export_or_second_start[29] PASSED
+
+ProxyCooperationSessionTest > cancellation_keeps_slot_until_execution_finishes_and_prevents_export_or_second_start PASSED
+
+ProxyCooperationSessionTest > creation_and_execution_errors_are_sanitized_and_release_session[29] PASSED
+
+ProxyCooperationSessionTest > creation_and_execution_errors_are_sanitized_and_release_session PASSED
+
+ProxyCooperationSessionTest > observing_and_export_without_report_do_not_create_operation[29] PASSED
+
+ProxyCooperationSessionTest > observing_and_export_without_report_do_not_create_operation PASSED
+
+ProxyCooperationSessionTest > clearing_idle_session_discards_report_endpoint_and_pending_export[29] PASSED
+
+ProxyCooperationSessionTest > clearing_idle_session_discards_report_endpoint_and_pending_export PASSED
+
+RepairActivityTest > settings_navigation_and_return_never_claim_apply_or_start_retest[29] PASSED
+
+RepairActivityTest > settings_navigation_and_return_never_claim_apply_or_start_retest PASSED
+
+RepairActivityTest > unverified_and_mismatched_copies_are_distinct_and_cannot_record_import[29] PASSED
+
+RepairActivityTest > unverified_and_mismatched_copies_are_distinct_and_cannot_record_import PASSED
+
+RepairActivityTest > picker_rotation_keeps_only_identity_and_cancelled_callback_cannot_write[29] PASSED
+
+RepairActivityTest > picker_rotation_keeps_only_identity_and_cancelled_callback_cannot_write PASSED
+
+RepairActivityTest > first_visit_requires_explicit_provider_and_uses_material_controls_without_network[29] PASSED
+
+RepairActivityTest > first_visit_requires_explicit_provider_and_uses_material_controls_without_network PASSED
+
+RepairActivityTest > only_verified_copy_enables_user_import_record_and_new_plan_invalidates_it[29] PASSED
+
+RepairActivityTest > only_verified_copy_enables_user_import_record_and_new_plan_invalidates_it PASSED
+
+RepairActivityTest > cancel_button_preserves_busy_slot_until_readback_returns[29] PASSED
+
+RepairActivityTest > cancel_button_preserves_busy_slot_until_readback_returns PASSED
+
+RepairActivityTest > explicit_choice_survives_rotation_without_serializing_config_and_generate_links_baseline[29] PASSED
+
+RepairActivityTest > explicit_choice_survives_rotation_without_serializing_config_and_generate_links_baseline PASSED
+
+RepairSessionTest > invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text[29] PASSED
+
+RepairSessionTest > invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text PASSED
+
+RepairSessionTest > user_import_confirmation_and_baseline_are_process_only_and_invalidated_by_plan_change[29] PASSED
+
+RepairSessionTest > user_import_confirmation_and_baseline_are_process_only_and_invalidated_by_plan_change PASSED
+
+RepairSessionTest > readback_happens_after_output_close_and_preserves_original_digest[29] PASSED
+
+RepairSessionTest > readback_happens_after_output_close_and_preserves_original_digest PASSED
+
+RepairSessionTest > write_or_close_failure_is_failed_copy_without_exposing_exception_text[29] PASSED
+
+RepairSessionTest > write_or_close_failure_is_failed_copy_without_exposing_exception_text PASSED
+
+RepairSessionTest > cancel_during_readback_freezes_unverified_result_and_allows_no_stale_completion[29] PASSED
+
+RepairSessionTest > cancel_during_readback_freezes_unverified_result_and_allows_no_stale_completion PASSED
+
+RepairSessionTest > absent_read_permission_or_provider_error_never_claims_verified_or_applied[29] PASSED
+
+RepairSessionTest > absent_read_permission_or_provider_error_never_claims_verified_or_applied PASSED
+
+RepairSessionTest > repair_activity_starts_without_reading_or_probing[29] PASSED
+
+RepairSessionTest > repair_activity_starts_without_reading_or_probing PASSED
+
+RepairSessionTest > readback_size_limit_consumes_only_one_extra_byte_and_closes_stream[29] PASSED
+
+RepairSessionTest > readback_size_limit_consumes_only_one_extra_byte_and_closes_stream PASSED
+
+RepairSessionTest > cancelled_picker_cannot_write_and_new_export_does_not_reuse_old_confirmation[29] PASSED
+
+RepairSessionTest > cancelled_picker_cannot_write_and_new_export_does_not_reuse_old_confirmation PASSED
+
+RepairSessionTest > cancel_during_provider_write_keeps_slot_until_return_and_never_claims_no_write[29] PASSED
+
+RepairSessionTest > cancel_during_provider_write_keeps_slot_until_return_and_never_claims_no_write PASSED
+
+RepairSessionTest > clear_drops_content_preview_and_pending_ticket[29] PASSED
+
+RepairSessionTest > clear_drops_content_preview_and_pending_ticket PASSED
+
+RepairSessionTest > generating_preview_explicitly_freezes_selected_baseline_identity[29] PASSED
+
+RepairSessionTest > generating_preview_explicitly_freezes_selected_baseline_identity PASSED
+
+RepairSessionTest > truncated_or_replaced_readback_fails_even_if_it_is_valid_yaml[29] PASSED
+
+RepairSessionTest > truncated_or_replaced_readback_fails_even_if_it_is_valid_yaml PASSED
+
+RepairSessionTest > import_preview_export_preserve_original_and_write_only_selected_copy[29] PASSED
+
+RepairSessionTest > import_preview_export_preserve_original_and_write_only_selected_copy PASSED
+
+RepairSessionTest > same_document_export_is_rejected_before_opening_output[29] PASSED
+
+RepairSessionTest > same_document_export_is_rejected_before_opening_output PASSED
+
+RepairSessionTest > same_provider_document_id_alias_is_rejected_and_never_opened_for_write[29] PASSED
+
+RepairSessionTest > same_provider_document_id_alias_is_rejected_and_never_opened_for_write PASSED
+
+RepairSessionTest > regeneration_new_source_and_clear_drop_old_copy_confirmation[29] PASSED
+
+RepairSessionTest > regeneration_new_source_and_clear_drop_old_copy_confirmation PASSED
+
+RepairSessionTest > provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it[29] PASSED
+
+RepairSessionTest > provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it PASSED
+
+RepairSessionTest > stale_picker_and_restarted_process_cannot_consume_new_config[29] PASSED
+
+RepairSessionTest > stale_picker_and_restarted_process_cannot_consume_new_config PASSED
+
+> Task :app:lintAnalyzeDebugUnitTest
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/build/reports/lint-results-debug.html
+
+> Task :app:lintDebug
+
+BUILD SUCCESSFUL in 1m 22s
+85 actionable tasks: 18 executed, 67 up-to-date

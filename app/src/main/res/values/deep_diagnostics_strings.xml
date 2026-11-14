@@ -1,0 +1,5 @@
+<resources>
+    <string name="deep_disclosure_label">%1$s · %2$s</string>
+    <string name="deep_expand">展开</string>
+    <string name="deep_collapse">收起</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.AttemptEvidenceTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:02:51.458Z" hostname="DESKTOP-63D1DH2" time="0.069">
+  <properties/>
+  <testcase name="retry policy difference and legacy missing retries prevent comparison" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.035"/>
+  <testcase name="additional success does not turn preserved failure into an improvement" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.009"/>
+  <testcase name="mixed later observations cannot imply regression or unchanged availability" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.0"/>
+  <testcase name="duplicate unfinished reordered or falsely aggregated attempts cannot compare" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.0"/>
+  <testcase name="mixed baseline cannot imply improvement when the later first attempt succeeds" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.016"/>
+  <testcase name="cancellation during backoff is incomparable despite completed first failure" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.003"/>
+  <testcase name="all result types in attempt records redact their identifiers" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.004"/>
+  <testcase name="consistent completed retries remain comparable while retaining all attempts" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.0"/>
+  <testcase name="retry opt in is bounded and never enlarges original run budget" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.0"/>
+  <testcase name="attempt records export full details using the same address redaction" classname="dev.proxyaudit.core.AttemptEvidenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

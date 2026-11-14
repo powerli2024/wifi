@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.RetryControllerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-22T07:04:06.055Z" hostname="DESKTOP-63D1DH2" time="13.903">
+  <properties/>
+  <testcase name="network generation change cancels in flight DNS and prevents all remaining probes" classname="dev.proxyaudit.qa.RetryControllerTest" time="0.116"/>
+  <testcase name="all retries and backoff share original twenty second budget" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.806"/>
+  <testcase name="cancellation or network change during second DNS attempt preserves first failure" classname="dev.proxyaudit.qa.RetryControllerTest" time="3.167"/>
+  <testcase name="cancellation in backoff wakes promptly and starts no second call" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.566"/>
+  <testcase name="NXDOMAIN and system parse errors never retry" classname="dev.proxyaudit.qa.RetryControllerTest" time="0.013"/>
+  <testcase name="second DNS success is separate and never replaces first timeout" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.512"/>
+  <testcase name="final callback after absolute budget is rejected even before deadline timer runs" classname="dev.proxyaudit.qa.RetryControllerTest" time="0.007"/>
+  <testcase name="default single attempt does not retry timeout" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.003"/>
+  <testcase name="loopback UDP retry sends once per attempt and preserves initial timeout" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.682"/>
+  <testcase name="cancellation during second raw UDP attempt leaves initial timeout aggregated" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.526"/>
+  <testcase name="changed DNS snapshot without callback prevents second attempt" classname="dev.proxyaudit.qa.RetryControllerTest" time="1.504"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,142 @@
+INFO         | Android emulator version 36.1.9.0 (build_id 13823996) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\powerli\AppData\Local\Android\Sdk\system-images\android-36.1\google_apis_playstore\x86_64\
+WARNING      | Please update the emulator to one that supports the feature(s): VulkanVirtualQueue
+INFO         | IPv4 server found: 202.114.0.131
+INFO         | Ignore IPv6 address: 78a8:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 78a8:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 78a8:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 48ae:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 48ae:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 48ae:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 20b4:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 20b4:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 20b4:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 38ca:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 38ca:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 38ca:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 48e6:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 48e6:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: 48e6:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: c0eb:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: c0eb:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Ignore IPv6 address: c0eb:1fd4:ff01:0:b08f:1fd4:ff01:0
+INFO         | Guest GLES Driver: Auto (ext controls)
+library_mode swiftshader_indirect gpu mode swiftshader_indirect
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `ProxyDiagnostics` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `ProxyDiagnostics` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `ProxyDiagnostics` are met
+INFO         | Storing crashdata in: C:\Users\powerli\AppData\Local\Temp\\AndroidEmulator\emu-crash-36.1.9.db, detection is enabled for process: 18956
+INFO         | Initializing hardware OpenGLES emulation support
+INFO         | HealthMonitor disabled.
+INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+INFO         | Setting ICD filenames for the loader = C:\Users\powerli\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vk_swiftshader_icd.json
+INFO         | SharedLibrary::open for [vulkan-1.dll]
+INFO         | SharedLibrary::open for [vulkan-1.dll]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [vulkan-1.dll] (win32): call LoadLibrary
+INFO         | SharedLibrary::open succeeded for [vulkan-1.dll]. File name: [C:\WINDOWS\SYSTEM32\vulkan-1.dll]
+INFO         | Added library: vulkan-1.dll
+INFO         | Selecting Vulkan device: NVIDIA GeForce RTX 4060 Laptop GPU, Version: 1.4.312
+INFO         | Disabling sparse binding feature support
+INFO         | SharedLibrary::open for [libGLESv2.dll]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libGLESv2.dll] (win32): call LoadLibrary
+INFO         | SharedLibrary::open succeeded for [libGLESv2.dll]. File name: [C:\Users\powerli\AppData\Local\Android\Sdk\emulator\lib64\gles_swiftshader\libGLESv2.dll]
+INFO         | SharedLibrary::open for [libEGL.dll]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libEGL.dll] (win32): call LoadLibrary
+INFO         | SharedLibrary::open succeeded for [libEGL.dll]. File name: [C:\Users\powerli\AppData\Local\Android\Sdk\emulator\lib64\gles_swiftshader\libEGL.dll]
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Graphics Adapter Vendor Google (Google Inc.)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Google SwiftShader)
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+INFO         | Graphics Device Extensions N/A
+INFO         | Sending adb public key [QAAAAPPAQnzFp/EQYWYn/5PIB77c57sC7y/Y6e+zDwxjrxhB/BOTnu03UYfZ2pUFcUncFDb+/P41oKyvMxLoGFqNombLH+ZtK1A8MpD2moIi3JG3+XOncda/kOs9EGhjJ1rHAri9z146scpqg12JVbzvKJ/oYRadVM0nHfu77S2RTv79KZI5hM8/jI9P1QGV8oCCjnKyIIx25rU+n2XQTQHa59oZr2KpE7fXNoeJJsIlWgLWUD2Jnky/hqzs8wOxNT4h4as7h9qL/T2OENeLkZB4Lq4VwZTSe7mow9SYFOywDY03XeUXI7dgWFl0+Bcy8nNp9gigul9qrubRBWrz03U0XmPNWsO72QNnAEAaooSbALSvuyswcXlvHiWb6n2BKrQB7ktTUP41c4SuUrgInCQP8q7fFZZUknlPUbJ95IN5bRT6SLwgDNxh7iKoRXrqgYq5rKY+GRmfr/saHtrrKqg7i7I7b8odF0euueUW7gEXcfuxSai5EkvwPyQiX2QXH8/ihFkBUDvdaWK1XaQ6Z5vtHiSG6Fm5REgjxkrQZgv4ysC0vLUNczAOfRRn80SwYTu9lXYrv9GKF/PjFAvjZ0YeXvt85zpG1OF1LQkaEHrcwDDjXPxnFVJkgEcs2LHXeCDIpgOeugycOYiqXpUMT2aZ0uSIZ+9gSfensAodY1+l57nl3BRHCwEAAQA= @unknown]
+WHPX on Windows 10.0.26100 detected.
+Windows Hypervisor Platform accelerator is operational
+INFO         | Monitoring duration of emulator setup.
+INFO         | Setting display: 0 configuration to: 1080x1920, dpi: 420x420 
+INFO         | setDisplayActiveConfig 0
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Boot completed in 19209 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+INFO         | IPv4 server found: 202.114.0.131
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | IPv4 server found: 202.114.0.131
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | IPv4 server found: 202.114.0.131
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: e8b8:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8be:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 90c4:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: a8da:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: b8f6:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Ignore IPv6 address: 30fc:aa90:ff01:0:20a0:aa90:ff01:0
+INFO         | Wait for emulator (pid 18956) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+WARNING      | Not saving state: RAM not mapped as shared
+INFO         | Saving snapshot 'default_boot' using 8 ms
+WARNING      | Emulator client has not yet been configured.. Call configure me first!

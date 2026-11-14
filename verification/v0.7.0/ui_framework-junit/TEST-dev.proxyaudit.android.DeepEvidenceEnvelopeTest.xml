@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:26:55.225Z" hostname="DESKTOP-63D1DH2" time="0.088">
+  <properties/>
+  <testcase name="errors_and_cancellation_after_operation_start_remain_evidence_sources[29]" classname="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" time="0.012"/>
+  <testcase name="errors_and_cancellation_after_operation_start_remain_evidence_sources" classname="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" time="0.027"/>
+  <testcase name="planned_or_placeholder_operations_are_not_listed_as_executed_sources[29]" classname="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" time="0.01"/>
+  <testcase name="planned_or_placeholder_operations_are_not_listed_as_executed_sources" classname="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" time="0.011"/>
+  <testcase name="synthetic_origin_and_legacy_schema_are_preserved_and_false_stopped_is_not_success[29]" classname="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" time="0.011"/>
+  <testcase name="synthetic_origin_and_legacy_schema_are_preserved_and_false_stopped_is_not_success" classname="dev.proxyaudit.android.DeepEvidenceEnvelopeTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

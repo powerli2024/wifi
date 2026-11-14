@@ -1,0 +1,97 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :processResources NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :compileKotlin
+> Task :compileJava NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :compileTestKotlin
+> Task :compileTestJava NO-SOURCE
+> Task :testClasses UP-TO-DATE
+
+> Task :test
+
+CoreTest > numeric ipv4 strict parsing rejects ambiguous input PASSED
+
+CoreTest > strict echo refuses version coercion PASSED
+
+CoreTest > disabled or not started probes remain not run PASSED
+
+CoreTest > endpoint refuses credentials secrets paths and non https PASSED
+
+CoreTest > minimal export redacts hosts and all addresses PASSED
+
+CoreTest > run timeout must be bounded PASSED
+
+CoreTest > vpn presence never overrides mismatching echo PASSED
+
+CoreTest > ip equivalence compares canonical addresses PASSED
+
+CoreTest > all error categories and cancellations remain insufficient PASSED
+
+CoreTest > missing tls and unsuccessful http cannot produce pass PASSED
+
+CoreTest > dns host validates without regex crashes or implicit network PASSED
+
+CoreTest > ipv6 canonicalizes equivalent values and mapped ipv4 PASSED
+
+CoreTest > matching echo is scoped match not a global safety score PASSED
+
+CoreTest > full export is explicit and structured without raw payload fields PASSED
+
+CoreTest > strict echo refuses missing mismatched wrong type and extra fields PASSED
+
+CoreTest > inconsistent network snapshot and missing endpoint cannot pass PASSED
+
+CoreTest > json encoding escapes control characters and quotes PASSED
+
+CoreTest > endpoint strips default port and allows explicit origin only PASSED
+
+CoreTest > vpn absence does not negate narrowly matching source address PASSED
+
+CoreTest > strict echo accepts exact contract and field ordering PASSED
+
+CoreTest > strict echo rejects duplicates escaped duplicates malformed and trailing content PASSED
+
+CoreTest > only explicit ipv6 exclusion produces not applicable PASSED
+
+CoreTest > expected ips enforce numeric bounded unambiguous list PASSED
+
+CoreTest > empty expectation or untrusted endpoint remains insufficient PASSED
+
+CoreTest > wrong nonce invalid ip network change missing snapshot cannot produce pass PASSED
+
+IndependentAdversarialTest > dns and ipv6 never become privacy pass or failure from incidental results PASSED
+
+IndependentAdversarialTest > request URL nonce format matches the declared UUID wire contract PASSED
+
+IndependentAdversarialTest > host and expected list length boundaries are enforced PASSED
+
+IndependentAdversarialTest > ip canonicalization covers compression boundaries and embedded ipv4 PASSED
+
+IndependentAdversarialTest > canonical duplicate expected addresses collapse without false disagreement PASSED
+
+IndependentAdversarialTest > five verdicts stay distinct and narrowly scoped PASSED
+
+IndependentAdversarialTest > random numeric parser inputs terminate and canonical output is idempotent PASSED
+
+IndependentAdversarialTest > random echo parser input is rejected without unchecked crashes PASSED
+
+IndependentAdversarialTest > strict echo rejects duplicate decoded keys arrays nesting illegal JSON and excessive size PASSED
+
+IndependentAdversarialTest > endpoint does not tolerate URL authority ambiguity PASSED
+
+IndependentAdversarialTest > echo nonce is exact and replay wrong case and whitespace are refused PASSED
+
+IndependentAdversarialTest > missing network identifiers unavailable snapshots and any change prevent match PASSED
+
+IndependentAdversarialTest > untrusted missing policy and unavailable actual data fail closed PASSED
+
+IndependentAdversarialTest > exhaustive execution failure tls status matrix never produces false match PASSED
+
+IndependentAdversarialTest > minimal export redacts every network identifier location while retaining limitations PASSED
+
+BUILD SUCCESSFUL in 21s
+4 actionable tasks: 4 executed

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.ProxyCooperationActivityTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:27:37.478Z" hostname="DESKTOP-63D1DH2" time="1.295">
+  <properties/>
+  <testcase name="open_and_rotation_do_not_probe_or_persist_secret_and_keep_only_memory_endpoint[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.127"/>
+  <testcase name="open_and_rotation_do_not_probe_or_persist_secret_and_keep_only_memory_endpoint" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.159"/>
+  <testcase name="export_retains_frozen_redacted_report_through_rotation_and_new_report[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.114"/>
+  <testcase name="export_retains_frozen_redacted_report_through_rotation_and_new_report" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.152"/>
+  <testcase name="checking_valid_input_shows_scope_and_requires_confirmation_before_creating_operation[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.125"/>
+  <testcase name="checking_valid_input_shows_scope_and_requires_confirmation_before_creating_operation" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.121"/>
+  <testcase name="busy_run_disables_new_actions_and_clear_until_cancellation_finishes[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.064"/>
+  <testcase name="busy_run_disables_new_actions_and_clear_until_cancellation_finishes" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.059"/>
+  <testcase name="process_recreated_missing_payload_reserves_old_code_and_allows_safe_new_export[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.053"/>
+  <testcase name="process_recreated_missing_payload_reserves_old_code_and_allows_safe_new_export" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.085"/>
+  <testcase name="cancelled_picker_old_callback_cannot_consume_new_export[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.067"/>
+  <testcase name="cancelled_picker_old_callback_cannot_consume_new_export" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.068"/>
+  <testcase name="invalid_origin_cannot_open_confirmation_or_call_backend[29]" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.04"/>
+  <testcase name="invalid_origin_cannot_open_confirmation_or_call_backend" classname="dev.proxyaudit.android.ProxyCooperationActivityTest" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[System.logW: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.$$robo$$dalvik_system_CloseGuard$open(CloseGuard.java:237)
+	at jdk.internal.reflect.GeneratedMethodAccessor87.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowCloseGuard$CloseGuardReflector$$Reflector92.open(Unknown Source)
+	at org.robolectric.shadows.ShadowCloseGuard.open(ShadowCloseGuard.java:38)
+	at dalvik.system.CloseGuard.open(CloseGuard.java)
+	at android.view.SurfaceControl.$$robo$$android_view_SurfaceControl$__constructor__(SurfaceControl.java:830)
+	at android.view.SurfaceControl.<init>(SurfaceControl.java:829)
+	at android.view.ViewRootImpl.$$robo$$android_view_ViewRootImpl$__constructor__(ViewRootImpl.java:455)
+	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:590)
+	at android.view.WindowManagerGlobal.$$robo$$android_view_WindowManagerGlobal$addView(WindowManagerGlobal.java:377)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java)
+	at android.view.WindowManagerImpl.$$robo$$android_view_WindowManagerImpl$addView(WindowManagerImpl.java:95)
+	at jdk.internal.reflect.GeneratedMethodAccessor129.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowWindowManagerImpl$ReflectorWindowManagerImpl$$Reflector90.addView(Unknown Source)
+	at org.robolectric.shadows.ShadowWindowManagerImpl.addView(ShadowWindowManagerImpl.java:49)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java)
+	at android.app.Dialog.$$robo$$android_app_Dialog$show(Dialog.java:342)
+	at jdk.internal.reflect.GeneratedMethodAccessor190.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowDialog$DialogReflector$$Reflector134.show(Unknown Source)
+	at org.robolectric.shadows.ShadowDialog.show(ShadowDialog.java:66)
+	at android.app.Dialog.show(Dialog.java)
+	at androidx.appcompat.app.AlertDialog$Builder.show(AlertDialog.java:1008)
+	at dev.proxyaudit.android.MainActivity.validationError(MainActivity.kt:460)
+	at dev.proxyaudit.android.MainActivity.begin(MainActivity.kt:445)
+	at dev.proxyaudit.android.MainActivity.onCreate$lambda$32(MainActivity.kt:226)
+	at dev.proxyaudit.android.MaterialUi.button$lambda$2$lambda$0(MaterialUi.kt:18)
+	at android.view.View.$$robo$$android_view_View$performClick(View.java:7140)
+	at jdk.internal.reflect.GeneratedMethodAccessor133.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.robolectric.shadows.ShadowView$_View_$$Reflector82.performClick(Unknown Source)
+	at org.robolectric.shadows.ShadowView.performClick(ShadowView.java:274)
+	at android.view.View.performClick(View.java)
+	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1345)
+	at dev.proxyaudit.android.MainActivityTest.professional_form_with_all_probes_disabled_rejects_before_confirmation(MainActivityTest.kt:543)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:502)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:285)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+Invalid ID 0x00000000.
+]]></system-err>
+</testsuite>

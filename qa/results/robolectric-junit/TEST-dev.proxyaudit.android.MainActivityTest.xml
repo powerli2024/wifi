@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.MainActivityTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-10-20T05:23:42.687Z" hostname="a5afc5a86877" time="13.31">
+  <properties/>
+  <testcase name="redacted_export_uses_system_document_picker_with_demo_filename[29]" classname="dev.proxyaudit.android.MainActivityTest" time="4.206"/>
+  <testcase name="redacted_export_uses_system_document_picker_with_demo_filename" classname="dev.proxyaudit.android.MainActivityTest" time="4.531"/>
+  <testcase name="restored_picker_identity_is_not_reused_when_process_payload_is_missing[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.344"/>
+  <testcase name="restored_picker_identity_is_not_reused_when_process_payload_is_missing" classname="dev.proxyaudit.android.MainActivityTest" time="0.324"/>
+  <testcase name="empty_target_validation_does_not_start_network[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.157"/>
+  <testcase name="empty_target_validation_does_not_start_network" classname="dev.proxyaudit.android.MainActivityTest" time="0.204"/>
+  <testcase name="cancelling_target_confirmation_does_not_start_probe[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.169"/>
+  <testcase name="cancelling_target_confirmation_does_not_start_probe" classname="dev.proxyaudit.android.MainActivityTest" time="0.212"/>
+  <testcase name="launch_has_no_target_no_report_and_no_running_probe[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.118"/>
+  <testcase name="launch_has_no_target_no_report_and_no_running_probe" classname="dev.proxyaudit.android.MainActivityTest" time="0.152"/>
+  <testcase name="offline_demo_is_labeled_and_survives_activity_recreation[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.248"/>
+  <testcase name="offline_demo_is_labeled_and_survives_activity_recreation" classname="dev.proxyaudit.android.MainActivityTest" time="0.351"/>
+  <testcase name="cancelled_export_after_rotation_clears_pending_and_allows_retry[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.432"/>
+  <testcase name="cancelled_export_after_rotation_clears_pending_and_allows_retry" classname="dev.proxyaudit.android.MainActivityTest" time="0.517"/>
+  <testcase name="export_survives_rotation_and_writes_frozen_redacted_payload_once[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.374"/>
+  <testcase name="export_survives_rotation_and_writes_frozen_redacted_payload_once" classname="dev.proxyaudit.android.MainActivityTest" time="0.545"/>
+  <testcase name="clear_removes_report_without_scheduling_network[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.27"/>
+  <testcase name="clear_removes_report_without_scheduling_network" classname="dev.proxyaudit.android.MainActivityTest" time="0.151"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

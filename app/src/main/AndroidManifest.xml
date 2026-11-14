@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:name=".DiagnosticsApplication" android:allowBackup="false" android:fullBackupContent="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:label="代理证据诊断" android:icon="@drawable/ic_launcher" android:supportsRtl="true"
+        android:usesCleartextTraffic="false" android:theme="@style/AppTheme">
+        <!-- Removal directives, not component declarations. These runtime-only dependency classes
+             need not be on lint's compile classpath. Effective manifest is checked by QA. -->
+        <provider android:name="androidx.startup.InitializationProvider" android:authorities="${applicationId}.androidx-startup" tools:node="remove" tools:ignore="MissingClass" />
+        <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver" tools:node="remove" tools:ignore="MissingClass" />
+        <activity android:name=".RepairActivity" android:exported="false" />
+        <activity android:name=".DeepDiagnosticsActivity" android:exported="false" />
+        <activity android:name=".ProxyCooperationActivity" android:exported="false" />
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

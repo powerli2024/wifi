@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.RawDnsControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-22T16:11:31.044Z" hostname="DESKTOP-63D1DH2" time="0.281">
+  <properties/>
+  <testcase name="blocked snapshot cannot delay UDP close or replace cancelled phase with completed worker state" classname="dev.proxyaudit.qa.RawDnsControllerTest" time="0.228"/>
+  <testcase name="raw only starts and reports UDP response without HTTPS or system DNS" classname="dev.proxyaudit.qa.RawDnsControllerTest" time="0.009"/>
+  <testcase name="cancel raw UDP preserves cancelled evidence and never begins configured TCP" classname="dev.proxyaudit.qa.RawDnsControllerTest" time="0.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

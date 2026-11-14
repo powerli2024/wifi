@@ -1,0 +1,5 @@
+PASS: User reports and frozen v0.5/v0.6 APK/source archive hashes unchanged
+PASS: Merged manifest: ordinary network permissions only; signature-local permission; no new service/provider/receiver; only launcher exported
+PASS: No forced proxy bypass, custom TLS trust or hostname verifier, or underlying-network binding
+PASS: Version 0.7.0 / code 7; report identity follows BuildConfig
+PASS: APK version and debug signing certificate match; test fixture libraries absent from runtime graph

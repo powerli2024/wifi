@@ -1,0 +1,2 @@
+PASS: static manifest, default-network, TLS/no-bypass, bounded-body, observer and explicit-export guardrails
+LIMIT: source inspection only; Android lifecycle and networking are not executed

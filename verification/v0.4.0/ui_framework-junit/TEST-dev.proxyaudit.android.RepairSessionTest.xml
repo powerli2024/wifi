@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.RepairSessionTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-10-22T06:14:39.863Z" hostname="DESKTOP-63D1DH2" time="0.749">
+  <properties/>
+  <testcase name="invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.12"/>
+  <testcase name="invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text" classname="dev.proxyaudit.android.RepairSessionTest" time="0.094"/>
+  <testcase name="repair_activity_starts_without_reading_or_probing[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.045"/>
+  <testcase name="repair_activity_starts_without_reading_or_probing" classname="dev.proxyaudit.android.RepairSessionTest" time="0.065"/>
+  <testcase name="clear_drops_content_preview_and_pending_ticket[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.046"/>
+  <testcase name="clear_drops_content_preview_and_pending_ticket" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="import_preview_export_preserve_original_and_write_only_selected_copy[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.061"/>
+  <testcase name="import_preview_export_preserve_original_and_write_only_selected_copy" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="same_document_export_is_rejected_before_opening_output[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="same_document_export_is_rejected_before_opening_output" classname="dev.proxyaudit.android.RepairSessionTest" time="0.048"/>
+  <testcase name="provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.046"/>
+  <testcase name="provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it" classname="dev.proxyaudit.android.RepairSessionTest" time="0.045"/>
+  <testcase name="stale_picker_and_restarted_process_cannot_consume_new_config[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.01"/>
+  <testcase name="stale_picker_and_restarted_process_cannot_consume_new_config" classname="dev.proxyaudit.android.RepairSessionTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

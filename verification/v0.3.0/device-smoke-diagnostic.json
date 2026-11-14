@@ -1,0 +1,295 @@
+{
+  "testMarker": "DEVICE_LOOPBACK_SMOKE",
+  "testData": "LOCAL_SYNTHETIC_DNS_FIXTURES_ONLY",
+  "probeDestinations": [
+    "127.0.0.1",
+    "::1"
+  ],
+  "offlineCoreAndUiChecksIncluded": true,
+  "uiNetworkObservationScope": "CONTROLLER_START_AND_RESULT_ONLY_NOT_PACKET_CAPTURE",
+  "outerNetworkPathVerified": false,
+  "userVpnEvidence": false,
+  "limitations": "Offline core\/UI checks and device loopback sockets only; no external resolver, system DNS, HTTPS, VPN routing, leak prevention, or other-app traffic tested. Startup checks observe controller activity, not all network packets. Configuration repair is not client import or runtime validation.",
+  "failed": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "launcher_and_offline_demo",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "launcherCreated": true,
+        "startupObservation": {
+          "activityCreated": true,
+          "contentVisible": true,
+          "automaticControllerProbeObserved": false,
+          "observationWindowMillis": 300,
+          "observationScope": "CONTROLLER_START_AND_RESULT_ONLY_NOT_PACKET_CAPTURE"
+        },
+        "demoOrigin": "SYNTHETIC_FIXTURE"
+      }
+    },
+    {
+      "name": "repair_activity_offline_launch",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "activityCreated": true,
+        "contentVisible": true,
+        "automaticControllerProbeObserved": false,
+        "observationWindowMillis": 300,
+        "observationScope": "CONTROLLER_START_AND_RESULT_ONLY_NOT_PACKET_CAPTURE",
+        "returnedWithoutProbeReport": true
+      }
+    },
+    {
+      "name": "offline_quick_advisor_comparison_android_api",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "inputOrigin": "SYNTHETIC_RULE_INPUTS_NOT_NETWORK_OBSERVATIONS",
+        "quickPlanConstructedOnly": true,
+        "advisorBoundariesVerified": true,
+        "comparisonJsonParsedOnAndroid": true,
+        "comparisonRedactionVerified": true,
+        "networkRequestsIssuedByTest": 0
+      }
+    },
+    {
+      "name": "offline_mihomo_repair_android_api",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "inputOrigin": "SYNTHETIC_CONFIG_FIXTURE_ONLY",
+        "inspectionExecutedOnAndroid": true,
+        "repairExecutedOnAndroid": true,
+        "nonDnsSourcePreservedExactly": true,
+        "nameserverDohWritten": true,
+        "sourceSha256Verified": true,
+        "repairIdempotent": true,
+        "diagnosticsOmitNonDnsCredentials": true,
+        "networkRequestsIssuedByTest": 0,
+        "clientImportOrRuntimeConfigVerified": false
+      }
+    },
+    {
+      "name": "offline_mihomo_rejects_unsafe_yaml",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "duplicateKeysRejected": true,
+        "customTagRejected": true,
+        "multipleDocumentsRejected": true,
+        "networkRequestsIssuedByTest": 0
+      }
+    },
+    {
+      "name": "ipv4_udp_tcp_raw_only",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "kind": "REDACTED_EXPORT_EXCERPT",
+        "schemaVersion": 2,
+        "networkIdentifiersIncluded": false,
+        "rawDnsConfig": {
+          "serverIp": "[REDACTED]",
+          "port": 34109,
+          "host": "[REDACTED]",
+          "recordType": "A",
+          "udp": true,
+          "tcp": true,
+          "requestedSocketTargetFamily": "IPv4"
+        },
+        "rawDns": [
+          {
+            "transport": "UDP",
+            "execution": "COMPLETED",
+            "transactionId": 31959,
+            "durationMillis": 2,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          },
+          {
+            "transport": "TCP",
+            "execution": "COMPLETED",
+            "transactionId": 19494,
+            "durationMillis": 2,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          }
+        ],
+        "egressVerdict": "NOT_RUN",
+        "systemDnsPrivacyVerdict": "NOT_RUN",
+        "networkSnapshotRedactionVerified": true,
+        "udpRequestsReceived": 1,
+        "tcpConnectionsAccepted": 1
+      }
+    },
+    {
+      "name": "ipv6_udp_tcp_raw_only",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "kind": "REDACTED_EXPORT_EXCERPT",
+        "schemaVersion": 2,
+        "networkIdentifiersIncluded": false,
+        "rawDnsConfig": {
+          "serverIp": "[REDACTED]",
+          "port": 33327,
+          "host": "[REDACTED]",
+          "recordType": "AAAA",
+          "udp": true,
+          "tcp": true,
+          "requestedSocketTargetFamily": "IPv6"
+        },
+        "rawDns": [
+          {
+            "transport": "UDP",
+            "execution": "COMPLETED",
+            "transactionId": 49798,
+            "durationMillis": 10,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          },
+          {
+            "transport": "TCP",
+            "execution": "COMPLETED",
+            "transactionId": 47447,
+            "durationMillis": 3,
+            "responseCode": 0,
+            "truncated": false,
+            "addresses": [
+              "[REDACTED]"
+            ],
+            "errorCode": null,
+            "wireResolverAndPath": "UNKNOWN",
+            "privacyVerdict": "INSUFFICIENT"
+          }
+        ],
+        "egressVerdict": "NOT_RUN",
+        "systemDnsPrivacyVerdict": "NOT_RUN",
+        "networkSnapshotRedactionVerified": true,
+        "udpRequestsReceived": 1,
+        "tcpConnectionsAccepted": 1
+      }
+    },
+    {
+      "name": "cancel_udp_then_release_slot",
+      "status": "PASS",
+      "summary": "LOOPBACK_CHECKS_PASSED",
+      "details": {
+        "cancelledRun": {
+          "kind": "REDACTED_EXPORT_EXCERPT",
+          "schemaVersion": 2,
+          "networkIdentifiersIncluded": false,
+          "rawDnsConfig": {
+            "serverIp": "[REDACTED]",
+            "port": 39149,
+            "host": "[REDACTED]",
+            "recordType": "A",
+            "udp": true,
+            "tcp": true,
+            "requestedSocketTargetFamily": "IPv4"
+          },
+          "rawDns": [
+            {
+              "transport": "UDP",
+              "execution": "CANCELLED",
+              "transactionId": null,
+              "durationMillis": null,
+              "responseCode": null,
+              "truncated": false,
+              "addresses": [],
+              "errorCode": "CANCELLED",
+              "wireResolverAndPath": "UNKNOWN",
+              "privacyVerdict": "INSUFFICIENT"
+            },
+            {
+              "transport": "TCP",
+              "execution": "NOT_STARTED",
+              "transactionId": null,
+              "durationMillis": null,
+              "responseCode": null,
+              "truncated": false,
+              "addresses": [],
+              "errorCode": null,
+              "wireResolverAndPath": "UNKNOWN",
+              "privacyVerdict": "NOT_RUN"
+            }
+          ],
+          "egressVerdict": "NOT_RUN",
+          "systemDnsPrivacyVerdict": "NOT_RUN",
+          "networkSnapshotRedactionVerified": true,
+          "tcpConnectionsAccepted": 0
+        },
+        "recoveryRun": {
+          "kind": "REDACTED_EXPORT_EXCERPT",
+          "schemaVersion": 2,
+          "networkIdentifiersIncluded": false,
+          "rawDnsConfig": {
+            "serverIp": "[REDACTED]",
+            "port": 33081,
+            "host": "[REDACTED]",
+            "recordType": "A",
+            "udp": true,
+            "tcp": true,
+            "requestedSocketTargetFamily": "IPv4"
+          },
+          "rawDns": [
+            {
+              "transport": "UDP",
+              "execution": "COMPLETED",
+              "transactionId": 16176,
+              "durationMillis": 2,
+              "responseCode": 0,
+              "truncated": false,
+              "addresses": [
+                "[REDACTED]"
+              ],
+              "errorCode": null,
+              "wireResolverAndPath": "UNKNOWN",
+              "privacyVerdict": "INSUFFICIENT"
+            },
+            {
+              "transport": "TCP",
+              "execution": "COMPLETED",
+              "transactionId": 48053,
+              "durationMillis": 3,
+              "responseCode": 0,
+              "truncated": false,
+              "addresses": [
+                "[REDACTED]"
+              ],
+              "errorCode": null,
+              "wireResolverAndPath": "UNKNOWN",
+              "privacyVerdict": "INSUFFICIENT"
+            }
+          ],
+          "egressVerdict": "NOT_RUN",
+          "systemDnsPrivacyVerdict": "NOT_RUN",
+          "networkSnapshotRedactionVerified": true,
+          "udpRequestsReceived": 1,
+          "tcpConnectionsAccepted": 1
+        }
+      }
+    }
+  ]
+}

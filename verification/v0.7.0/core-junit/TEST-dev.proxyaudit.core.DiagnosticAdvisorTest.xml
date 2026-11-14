@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.DiagnosticAdvisorTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:04:34.225Z" hostname="DESKTOP-63D1DH2" time="0.013">
+  <properties/>
+  <testcase name="mixed raw attempts do not report first protocol failure as a whole-run difference" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="consistent finished attempts retain bounded per-probe observations" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="different queried hosts never suggest a system resolver problem from raw success" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="protocol difference is actionable but never attributes blocking or privacy" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="cancelled or unstarted protocol is not treated as a transport discrepancy" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="synthetic evidence only gets an explicit demonstration finding" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.0"/>
+  <testcase name="mixed DNS attempts suppress first-only operational advice and retain neutral context" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.003"/>
+  <testcase name="system success failure not started and cancellation remain distinct" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.0"/>
+  <testcase name="system error action hints distinguish API failures negative answers and legacy detail gaps" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="Private DNS false is not leakage and true does not encrypt the raw probe" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="run stop and incomplete retry suppress apparently complete first observations" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.0"/>
+  <testcase name="NXDOMAIN TC empty NOERROR and error response codes never become usable addresses" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <testcase name="unstable or unavailable network suppresses operational diagnosis" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.0"/>
+  <testcase name="VPN virtual resolver context is retained without calling it a broken public resolver" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.0"/>
+  <testcase name="system and raw discrepancy includes configuration checks without automatic repair" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.0"/>
+  <testcase name="different successful answer addresses never create poisoning or a protocol failure" classname="dev.proxyaudit.core.DiagnosticAdvisorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

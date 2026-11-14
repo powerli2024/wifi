@@ -1,0 +1,21 @@
+test_cli_json_and_failure_exit (test_check_docs.DocsCheckerTests.test_cli_json_and_failure_exit) ... ok
+test_code_mask_preserves_link_line_numbers (test_check_docs.DocsCheckerTests.test_code_mask_preserves_link_line_numbers) ... ok
+test_drive_and_file_links_are_not_mistaken_for_external_urls (test_check_docs.DocsCheckerTests.test_drive_and_file_links_are_not_mistaken_for_external_urls) ... ok
+test_duplicate_headings_and_explicit_anchor (test_check_docs.DocsCheckerTests.test_duplicate_headings_and_explicit_anchor) ... ok
+test_exact_case_is_checked_on_windows_and_linux (test_check_docs.DocsCheckerTests.test_exact_case_is_checked_on_windows_and_linux) ... ok
+test_external_urls_are_counted_without_network (test_check_docs.DocsCheckerTests.test_external_urls_are_counted_without_network) ... ok
+test_fenced_and_inline_code_do_not_generate_links (test_check_docs.DocsCheckerTests.test_fenced_and_inline_code_do_not_generate_links) ... ok
+test_generated_evidence_and_third_party_trees_are_not_scanned (test_check_docs.DocsCheckerTests.test_generated_evidence_and_third_party_trees_are_not_scanned) ... ok
+test_html_comment_fake_links_are_ignored (test_check_docs.DocsCheckerTests.test_html_comment_fake_links_are_ignored) ... ok
+test_linked_image_checks_image_and_link (test_check_docs.DocsCheckerTests.test_linked_image_checks_image_and_link) ... ok
+test_migration_retained_original_allowed_target_and_hash_checked (test_check_docs.DocsCheckerTests.test_migration_retained_original_allowed_target_and_hash_checked) ... ok
+test_missing_files_and_anchors_are_distinct (test_check_docs.DocsCheckerTests.test_missing_files_and_anchors_are_distinct) ... ok
+test_orphan_docs_fail_but_navigation_cycles_pass (test_check_docs.DocsCheckerTests.test_orphan_docs_fail_but_navigation_cycles_pass) ... ok
+test_references_full_collapsed_shortcut_and_images (test_check_docs.DocsCheckerTests.test_references_full_collapsed_shortcut_and_images) ... ok
+test_relative_redirects_and_bidirectional_navigation_are_valid (test_check_docs.DocsCheckerTests.test_relative_redirects_and_bidirectional_navigation_are_valid) ... ok
+test_url_encoded_paths_images_titles_and_parentheses (test_check_docs.DocsCheckerTests.test_url_encoded_paths_images_titles_and_parentheses) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.239s
+
+OK

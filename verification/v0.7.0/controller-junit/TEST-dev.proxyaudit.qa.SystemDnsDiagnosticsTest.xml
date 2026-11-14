@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-23T07:59:26.430Z" hostname="DESKTOP-63D1DH2" time="0.135">
+  <properties/>
+  <testcase name="late platform error cannot attach diagnostics to frozen cancelled evidence" classname="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" time="0.002"/>
+  <testcase name="NXDOMAIN refusal failure and empty NOERROR retain response code but no usable address" classname="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" time="0.053"/>
+  <testcase name="system callback keeps safe errno only and no exception original text in any export" classname="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" time="0.015"/>
+  <testcase name="synchronous API exceptions are classified without serializing messages" classname="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" time="0.022"/>
+  <testcase name="successful callback retains response code and default resolver API semantics" classname="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" time="0.013"/>
+  <testcase name="parse and unknown callback codes retain codes without inventing errno or DNS rcode" classname="dev.proxyaudit.qa.SystemDnsDiagnosticsTest" time="0.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

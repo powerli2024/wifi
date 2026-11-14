@@ -1,0 +1,63 @@
+I1021 01:00:27.018922   37224 opengles.cpp:291] android_startOpenglesRenderer: gpu info
+I1021 01:00:27.021108   37224 opengles.cpp:292] GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce RTX 4060 Laptop GPU
+  Device ID: 28a0
+
+I1021 01:00:27.380317   37224 userspace-boot-properties.cpp:766] Userspace boot properties:
+I1021 01:00:27.383098   37224 userspace-boot-properties.cpp:770]   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+I1021 01:00:27.385183   37224 userspace-boot-properties.cpp:770]   androidboot.dalvik.vm.heapsize=512m
+I1021 01:00:27.387108   37224 userspace-boot-properties.cpp:770]   androidboot.debug.hwui.renderer=skiagl
+I1021 01:00:27.389197   37224 userspace-boot-properties.cpp:770]   androidboot.debug.sf.nobootanimation=1
+I1021 01:00:27.389482   37224 userspace-boot-properties.cpp:770]   androidboot.hardware=ranchu
+I1021 01:00:27.389661   37224 userspace-boot-properties.cpp:770]   androidboot.hardware.gltransport=pipe
+I1021 01:00:27.389775   37224 userspace-boot-properties.cpp:770]   androidboot.hardware.vulkan=ranchu
+I1021 01:00:27.389857   37224 userspace-boot-properties.cpp:770]   androidboot.logcat=*:V
+I1021 01:00:27.389931   37224 userspace-boot-properties.cpp:770]   androidboot.opengles.version=196608
+I1021 01:00:27.390007   37224 userspace-boot-properties.cpp:770]   androidboot.qemu=1
+I1021 01:00:27.390082   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.adb.pubkey=QAAAAPPAQnzFp/EQYWYn/5PIB77c57sC7y/Y6e+zDwxjrxhB/BOTnu03UYfZ2pUFcUncFDb+/P41oKyvMxLoGFqNombLH+ZtK1A8MpD2moIi3JG3+XOncda/kOs9EGhjJ1rHAri9z146scpqg12JVbzvKJ/oYRadVM0nHfu77S2RTv79KZI5hM8/jI9P1QGV8oCCjnKyIIx25rU+n2XQTQHa59oZr2KpE7fXNoeJJsIlWgLWUD2Jnky/hqzs8wOxNT4h4as7h9qL/T2OENeLkZB4Lq4VwZTSe7mow9SYFOywDY03XeUXI7dgWFl0+Bcy8nNp9gigul9qrubRBWrz03U0XmPNWsO72QNnAEAaooSbALSvuyswcXlvHiWb6n2BKrQB7ktTUP41c4SuUrgInCQP8q7fFZZUknlPUbJ95IN5bRT6SLwgDNxh7iKoRXrqgYq5rKY+GRmfr/saHtrrKqg7i7I7b8odF0euueUW7gEXcfuxSai5EkvwPyQiX2QXH8/ihFkBUDvdaWK1XaQ6Z5vtHiSG6Fm5REgjxkrQZgv4ysC0vLUNczAOfRRn80SwYTu9lXYrv9GKF/PjFAvjZ0YeXvt85zpG1OF1LQkaEHrcwDDjXPxnFVJkgEcs2LHXeCDIpgOeugycOYiqXpUMT2aZ0uSIZ+9gSfensAodY1+l57nl3BRHCwEAAQA= @unknown
+I1021 01:00:27.390156   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.avd_name=ProxyDiagnostics
+I1021 01:00:27.390231   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.camera_hq_edge_processing=0
+I1021 01:00:27.390305   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.camera_protocol_ver=1
+I1021 01:00:27.390387   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.cpuvulkan.version=4202496
+I1021 01:00:27.390475   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.gltransport.drawFlushInterval=800
+I1021 01:00:27.390550   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.gltransport.name=pipe
+I1021 01:00:27.390622   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.hwcodec.avcdec=2
+I1021 01:00:27.390704   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.hwcodec.hevcdec=2
+I1021 01:00:27.390782   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.hwcodec.vpxdec=2
+I1021 01:00:27.390861   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+I1021 01:00:27.390934   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.virtiowifi=1
+I1021 01:00:27.391049   37224 userspace-boot-properties.cpp:770]   androidboot.qemu.vsync=60
+I1021 01:00:27.391137   37224 userspace-boot-properties.cpp:770]   androidboot.serialno=EMULATOR36X1X9X0
+I1021 01:00:27.391216   37224 userspace-boot-properties.cpp:770]   androidboot.vbmeta.digest=c269f1b730da0784ae58eeb393b3d69e4318e0ca5038a2de06a290b59bf97845
+I1021 01:00:27.391294   37224 userspace-boot-properties.cpp:770]   androidboot.vbmeta.hash_alg=sha256
+I1021 01:00:27.391364   37224 userspace-boot-properties.cpp:770]   androidboot.vbmeta.size=6720
+I1021 01:00:27.391447   37224 userspace-boot-properties.cpp:770]   androidboot.veritymode=enforcing
+netsimd I 10-20 17:00:27.534 daemon\src\rust_main.rs:100 - netsim artifacts path: "C:\\Users\\powerli\\AppData\\Local\\Temp\\netsimd"
+netsimd I 10-20 17:00:27.534 daemon\src\rust_main.rs:103 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "202.114.0.131,dc00:101:101::1,240e:45c:e10:b44::8e",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    wifi: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+    rssi: None,
+}

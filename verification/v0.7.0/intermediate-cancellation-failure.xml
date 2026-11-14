@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeviceSelfTestTest" tests="8" skipped="0" failures="1" errors="0" timestamp="2026-10-23T08:05:18.707Z" hostname="DESKTOP-63D1DH2" time="2.475">
+  <properties/>
+  <testcase name="close_before_execute_keeps_every_network_scenario_unstarted[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.012"/>
+  <testcase name="close_before_execute_keeps_every_network_scenario_unstarted" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.016"/>
+  <testcase name="bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.185"/>
+  <testcase name="bounded_loopback_http_timeout_and_refusal_are_distinct_expected_scenarios" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.185"/>
+  <testcase name="cancellation_closes_owned_sockets_and_stops_remaining_scenarios[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="2.024">
+    <failure message="java.util.concurrent.TimeoutException" type="java.util.concurrent.TimeoutException">java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
+	at dev.proxyaudit.android.DeviceSelfTestTest.cancellation_closes_owned_sockets_and_stops_remaining_scenarios(DeviceSelfTestTest.kt:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:502)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:285)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</failure>
+  </testcase>
+  <testcase name="cancellation_closes_owned_sockets_and_stops_remaining_scenarios" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.022"/>
+  <testcase name="repeated_execution_and_invalid_budgets_are_rejected_before_new_work[29]" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.013"/>
+  <testcase name="repeated_execution_and_invalid_budgets_are_rejected_before_new_work" classname="dev.proxyaudit.android.DeviceSelfTestTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

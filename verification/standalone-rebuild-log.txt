@@ -1,0 +1,140 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+Unable to initialize metrics, ensure /home/agent/.android is writable, details: /home/agent/.android/analytics.settings (No such file or directory)
+Warning: SDK processing. This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:processResources NO-SOURCE
+> Task :core:processTestResources NO-SOURCE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:compressDebugAssets
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugJniLibFolders
+> Task :app:processDebugResources
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues
+> Task :app:extractProguardFiles
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:mergeExtDexDebug
+> Task :core:compileKotlin
+> Task :core:compileJava NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :core:compileTestKotlin
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+
+> Task :core:test
+
+CoreTest > numeric ipv4 strict parsing rejects ambiguous input PASSED
+
+CoreTest > strict echo refuses version coercion PASSED
+
+CoreTest > disabled or not started probes remain not run PASSED
+
+CoreTest > endpoint refuses credentials secrets paths and non https PASSED
+
+CoreTest > minimal export redacts hosts and all addresses PASSED
+
+CoreTest > run timeout must be bounded PASSED
+
+CoreTest > vpn presence never overrides mismatching echo PASSED
+
+CoreTest > ip equivalence compares canonical addresses PASSED
+
+CoreTest > all error categories and cancellations remain insufficient PASSED
+
+CoreTest > missing tls and unsuccessful http cannot produce pass PASSED
+
+CoreTest > dns host validates without regex crashes or implicit network PASSED
+
+CoreTest > ipv6 canonicalizes equivalent values and mapped ipv4 PASSED
+
+CoreTest > matching echo is scoped match not a global safety score PASSED
+
+CoreTest > full export is explicit and structured without raw payload fields PASSED
+
+CoreTest > strict echo refuses missing mismatched wrong type and extra fields PASSED
+
+CoreTest > inconsistent network snapshot and missing endpoint cannot pass PASSED
+
+CoreTest > json encoding escapes control characters and quotes PASSED
+
+CoreTest > endpoint strips default port and allows explicit origin only PASSED
+
+CoreTest > vpn absence does not negate narrowly matching source address PASSED
+
+CoreTest > strict echo accepts exact contract and field ordering PASSED
+
+CoreTest > strict echo rejects duplicates escaped duplicates malformed and trailing content PASSED
+
+CoreTest > only explicit ipv6 exclusion produces not applicable PASSED
+
+CoreTest > expected ips enforce numeric bounded unambiguous list PASSED
+
+CoreTest > empty expectation or untrusted endpoint remains insufficient PASSED
+
+CoreTest > wrong nonce invalid ip network change missing snapshot cannot produce pass PASSED
+
+> Task :app:mergeLibDexDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics
+> Task :app:processDebugJavaRes
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:generateDebugLintReportModel
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+> Task :app:lintAnalyzeDebugAndroidTest
+Warning: Unable to initialize metrics, ensure /home/agent/.android is writable, details: /home/agent/.android/analytics.settings (No such file or directory)
+
+> Task :app:lintAnalyzeDebugUnitTest
+> Task :app:lintAnalyzeDebug
+> Task :app:lintReportDebug
+> Task :app:lintDebug
+
+[Incubating] Problems report is available at: file:///tmp/android-build/standalone-check/android-proxy-diagnostics/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 29s
+48 actionable tasks: 48 executed

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.NetworkInventoryTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:27:37.345Z" hostname="DESKTOP-63D1DH2" time="0.12">
+  <properties/>
+  <testcase name="absent_network_and_missing_capabilities_have_explicit_reasons[29]" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.015"/>
+  <testcase name="absent_network_and_missing_capabilities_have_explicit_reasons" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.012"/>
+  <testcase name="missing_permission_is_reported_and_not_requested_or_converted_to_empty_success[29]" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.01"/>
+  <testcase name="missing_permission_is_reported_and_not_requested_or_converted_to_empty_success" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.01"/>
+  <testcase name="collects_visible_default_network_details_without_binding_or_executing_proxy_selection[29]" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.019"/>
+  <testcase name="collects_visible_default_network_details_without_binding_or_executing_proxy_selection" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.016"/>
+  <testcase name="pac_presence_is_read_without_fetching_the_script[29]" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.01"/>
+  <testcase name="pac_presence_is_read_without_fetching_the_script" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.01"/>
+  <testcase name="default_export_redacts_all_network_identifiers_but_preserves_observable_properties[29]" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.009"/>
+  <testcase name="default_export_redacts_all_network_identifiers_but_preserves_observable_properties" classname="dev.proxyaudit.android.NetworkInventoryTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

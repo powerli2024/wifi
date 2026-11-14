@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.CoreTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-10-22T07:06:36.426Z" hostname="DESKTOP-63D1DH2" time="0.031">
+  <properties/>
+  <testcase name="numeric ipv4 strict parsing rejects ambiguous input" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="strict echo refuses version coercion" classname="dev.proxyaudit.core.CoreTest" time="0.007"/>
+  <testcase name="disabled or not started probes remain not run" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="endpoint refuses credentials secrets paths and non https" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="minimal export redacts hosts and all addresses" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="run timeout must be bounded" classname="dev.proxyaudit.core.CoreTest" time="0.002"/>
+  <testcase name="vpn presence never overrides mismatching echo" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="ip equivalence compares canonical addresses" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="all error categories and cancellations remain insufficient" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="missing tls and unsuccessful http cannot produce pass" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="dns host validates without regex crashes or implicit network" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="ipv6 canonicalizes equivalent values and mapped ipv4" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="matching echo is scoped match not a global safety score" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="full export is explicit and structured without raw payload fields" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="strict echo refuses missing mismatched wrong type and extra fields" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="inconsistent network snapshot and missing endpoint cannot pass" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="json encoding escapes control characters and quotes" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="same network id with changed DNS capabilities or links cannot produce a verdict" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="endpoint strips default port and allows explicit origin only" classname="dev.proxyaudit.core.CoreTest" time="0.003"/>
+  <testcase name="vpn absence does not negate narrowly matching source address" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="strict echo accepts exact contract and field ordering" classname="dev.proxyaudit.core.CoreTest" time="0.002"/>
+  <testcase name="strict echo rejects duplicates escaped duplicates malformed and trailing content" classname="dev.proxyaudit.core.CoreTest" time="0.001"/>
+  <testcase name="only explicit ipv6 exclusion produces not applicable" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="expected ips enforce numeric bounded unambiguous list" classname="dev.proxyaudit.core.CoreTest" time="0.002"/>
+  <testcase name="empty expectation or untrusted endpoint remains insufficient" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <testcase name="wrong nonce invalid ip network change missing snapshot cannot produce pass" classname="dev.proxyaudit.core.CoreTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

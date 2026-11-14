@@ -1,0 +1,36 @@
+{
+  "version": "0.3.0",
+  "date": "2026-10-21",
+  "core": {
+    "tests": 118,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "ui_framework": {
+    "tests": 62,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "controller": {
+    "tests": 27,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android_loopback_and_offline": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0
+  },
+  "scope": "JVM, simulated Android framework, Android emulator loopback/offline only; user VPN and leak prevention unverified.",
+  "tls_fixture": {
+    "passed": 10
+  },
+  "apk": {
+    "file": "android-proxy-diagnostics-0.3.0-debug.apk",
+    "bytes": 3499096,
+    "sha256": "76488987e0d494f1edeb8477f53c981deebebd33a2cd5c20153c67037487eed5"
+  }
+}

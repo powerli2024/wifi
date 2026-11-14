@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.RepairSessionTest" tests="38" skipped="0" failures="0" errors="0" timestamp="2026-10-22T07:07:25.441Z" hostname="DESKTOP-63D1DH2" time="2.769">
+  <properties/>
+  <testcase name="invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.053"/>
+  <testcase name="invalid_utf8_oversize_and_duplicate_keys_are_rejected_without_raw_error_text" classname="dev.proxyaudit.android.RepairSessionTest" time="0.063"/>
+  <testcase name="user_import_confirmation_and_baseline_are_process_only_and_invalidated_by_plan_change[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.063"/>
+  <testcase name="user_import_confirmation_and_baseline_are_process_only_and_invalidated_by_plan_change" classname="dev.proxyaudit.android.RepairSessionTest" time="0.063"/>
+  <testcase name="readback_happens_after_output_close_and_preserves_original_digest[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="readback_happens_after_output_close_and_preserves_original_digest" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="write_or_close_failure_is_failed_copy_without_exposing_exception_text[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.108"/>
+  <testcase name="write_or_close_failure_is_failed_copy_without_exposing_exception_text" classname="dev.proxyaudit.android.RepairSessionTest" time="0.11"/>
+  <testcase name="cancel_during_readback_freezes_unverified_result_and_allows_no_stale_completion[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="cancel_during_readback_freezes_unverified_result_and_allows_no_stale_completion" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="absent_read_permission_or_provider_error_never_claims_verified_or_applied[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.111"/>
+  <testcase name="absent_read_permission_or_provider_error_never_claims_verified_or_applied" classname="dev.proxyaudit.android.RepairSessionTest" time="0.11"/>
+  <testcase name="repair_activity_starts_without_reading_or_probing[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.063"/>
+  <testcase name="repair_activity_starts_without_reading_or_probing" classname="dev.proxyaudit.android.RepairSessionTest" time="0.097"/>
+  <testcase name="readback_size_limit_consumes_only_one_extra_byte_and_closes_stream[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.059"/>
+  <testcase name="readback_size_limit_consumes_only_one_extra_byte_and_closes_stream" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="cancelled_picker_cannot_write_and_new_export_does_not_reuse_old_confirmation[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="cancelled_picker_cannot_write_and_new_export_does_not_reuse_old_confirmation" classname="dev.proxyaudit.android.RepairSessionTest" time="0.062"/>
+  <testcase name="cancel_during_provider_write_keeps_slot_until_return_and_never_claims_no_write[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.064"/>
+  <testcase name="cancel_during_provider_write_keeps_slot_until_return_and_never_claims_no_write" classname="dev.proxyaudit.android.RepairSessionTest" time="0.063"/>
+  <testcase name="clear_drops_content_preview_and_pending_ticket[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.048"/>
+  <testcase name="clear_drops_content_preview_and_pending_ticket" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="generating_preview_explicitly_freezes_selected_baseline_identity[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.048"/>
+  <testcase name="generating_preview_explicitly_freezes_selected_baseline_identity" classname="dev.proxyaudit.android.RepairSessionTest" time="0.048"/>
+  <testcase name="truncated_or_replaced_readback_fails_even_if_it_is_valid_yaml[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.158"/>
+  <testcase name="truncated_or_replaced_readback_fails_even_if_it_is_valid_yaml" classname="dev.proxyaudit.android.RepairSessionTest" time="0.159"/>
+  <testcase name="import_preview_export_preserve_original_and_write_only_selected_copy[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.06"/>
+  <testcase name="import_preview_export_preserve_original_and_write_only_selected_copy" classname="dev.proxyaudit.android.RepairSessionTest" time="0.063"/>
+  <testcase name="same_document_export_is_rejected_before_opening_output[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="same_document_export_is_rejected_before_opening_output" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="same_provider_document_id_alias_is_rejected_and_never_opened_for_write[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.046"/>
+  <testcase name="same_provider_document_id_alias_is_rejected_and_never_opened_for_write" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="regeneration_new_source_and_clear_drop_old_copy_confirmation[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.188"/>
+  <testcase name="regeneration_new_source_and_clear_drop_old_copy_confirmation" classname="dev.proxyaudit.android.RepairSessionTest" time="0.188"/>
+  <testcase name="provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.046"/>
+  <testcase name="provider_selection_invalidates_previous_preview_and_pending_picker_freezes_it" classname="dev.proxyaudit.android.RepairSessionTest" time="0.047"/>
+  <testcase name="stale_picker_and_restarted_process_cannot_consume_new_config[29]" classname="dev.proxyaudit.android.RepairSessionTest" time="0.009"/>
+  <testcase name="stale_picker_and_restarted_process_cannot_consume_new_config" classname="dev.proxyaudit.android.RepairSessionTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

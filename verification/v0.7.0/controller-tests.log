@@ -1,0 +1,120 @@
+Starting a Gradle Daemon, 6 incompatible and 2 stopped Daemons could not be reused, use --status for details
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :copyControllerUnderTest
+> Task :generateBuildIdentity
+> Task :processResources NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :compileKotlin
+> Task :compileJava NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :compileTestKotlin
+> Task :compileTestJava NO-SOURCE
+> Task :testClasses UP-TO-DATE
+
+> Task :test
+
+BaselineRetentionTest > empty_and_demo_cannot_be_saved_as_runtime_baseline PASSED
+
+BaselineRetentionTest > baseline_survives_new_report_and_comparison_export_is_frozen_and_redacted PASSED
+
+ControllerConcurrencyTest > attempt timeout retries the same endpoint with fresh nonce and cannot close the retry PASSED
+
+ControllerConcurrencyTest > late headers or EOF cannot be accepted when the scheduler has not fired PASSED
+
+ControllerConcurrencyTest > absolute deadline disconnects and closes a pending body stream PASSED
+
+ControllerConcurrencyTest > wrong nonce redirect oversized malformed utf8 and non JSON cannot match PASSED
+
+ControllerConcurrencyTest > cancel publishes promptly and rejects overlap until blocked cleanup releases PASSED
+
+ControllerConcurrencyTest > cancel closes the active HTTPS body and leaves a frozen cancelled report PASSED
+
+ControllerConcurrencyTest > late cancel during frozen normal publication preserves completed result and status PASSED
+
+ControllerConcurrencyTest > controlled happy path uses exact fresh nonce and network default semantics PASSED
+
+ControllerConcurrencyTest > DNS timeout is bounded cancelled and not converted into privacy success PASSED
+
+ControllerConcurrencyTest > cancel wakes system DNS while terminal metadata is blocked and never starts HTTPS PASSED
+
+ControllerConcurrencyTest > visible link changes prevent match even before callback generation updates PASSED
+
+ControllerConcurrencyTest > explicit HTTPS retry preserves failure and uses a distinct second nonce PASSED
+
+ControllerConcurrencyTest > TLS generic IO HTTP and parser failures are not retried even when enabled PASSED
+
+ControllerConcurrencyTest > caller mutation cannot change the frozen expected address policy mid run PASSED
+
+ControllerConcurrencyTest > concurrent repeated starts reserve exactly one slot and late cancel preserves result PASSED
+
+ControllerConcurrencyTest > construction demo and clear never open network PASSED
+
+ControllerConcurrencyTest > global deadline publishes no match even if platform response ignores timeout PASSED
+
+ControllerConcurrencyTest > cancel starts cleanup despite blocked snapshot and keeps slot until worker releases PASSED
+
+ControllerConcurrencyTest > small successful reads cannot restart the absolute HTTPS attempt deadline PASSED
+
+ControllerConcurrencyTest > late DNS callback after cancellation cannot alter immutable report or start HTTPS PASSED
+
+ExportRetentionTest > restored code is reserved before a fresh process creates a retry ticket PASSED
+
+ExportRetentionTest > pending redacted export cannot be replaced or upgraded to full and consumes once PASSED
+
+ExportRetentionTest > concurrent duplicate callbacks receive exactly one frozen payload PASSED
+
+ExportRetentionTest > wrong identity cannot consume or cancel a pending snapshot PASSED
+
+ExportRetentionTest > sixteen bit request code exhaustion refuses reuse rather than wrap PASSED
+
+ExportRetentionTest > export serializes immediately so mutable report members and later report changes cannot alter payload PASSED
+
+ExportRetentionTest > fresh process controller has no old payload and old UUID cannot consume its new payload PASSED
+
+ExportRetentionTest > restoration only advances valid request codes and never wraps or lowers high water mark PASSED
+
+ExportRetentionTest > cancel discards snapshot and retry gets new identity and nonreused code immune to stale ticket PASSED
+
+RawDnsControllerTest > blocked snapshot cannot delay UDP close or replace cancelled phase with completed worker state PASSED
+
+RawDnsControllerTest > raw only starts and reports UDP response without HTTPS or system DNS PASSED
+
+RawDnsControllerTest > cancel raw UDP preserves cancelled evidence and never begins configured TCP PASSED
+
+RetryControllerTest > network generation change cancels in flight DNS and prevents all remaining probes PASSED
+
+RetryControllerTest > all retries and backoff share original twenty second budget PASSED
+
+RetryControllerTest > cancellation or network change during second DNS attempt preserves first failure PASSED
+
+RetryControllerTest > cancellation in backoff wakes promptly and starts no second call PASSED
+
+RetryControllerTest > NXDOMAIN and system parse errors never retry PASSED
+
+RetryControllerTest > second DNS success is separate and never replaces first timeout PASSED
+
+RetryControllerTest > final callback after absolute budget is rejected even before deadline timer runs PASSED
+
+RetryControllerTest > default single attempt does not retry timeout PASSED
+
+RetryControllerTest > loopback UDP retry sends once per attempt and preserves initial timeout PASSED
+
+RetryControllerTest > cancellation during second raw UDP attempt leaves initial timeout aggregated PASSED
+
+RetryControllerTest > changed DNS snapshot without callback prevents second attempt PASSED
+
+SystemDnsDiagnosticsTest > late platform error cannot attach diagnostics to frozen cancelled evidence PASSED
+
+SystemDnsDiagnosticsTest > NXDOMAIN refusal failure and empty NOERROR retain response code but no usable address PASSED
+
+SystemDnsDiagnosticsTest > system callback keeps safe errno only and no exception original text in any export PASSED
+
+SystemDnsDiagnosticsTest > synchronous API exceptions are classified without serializing messages PASSED
+
+SystemDnsDiagnosticsTest > successful callback retains response code and default resolver API semantics PASSED
+
+SystemDnsDiagnosticsTest > parse and unknown callback codes retain codes without inventing errno or DNS rcode PASSED
+
+BUILD SUCCESSFUL in 1m 9s
+6 actionable tasks: 6 executed

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.DnsRepairAdvisorTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-10-22T07:06:36.468Z" hostname="DESKTOP-63D1DH2" time="0.018">
+  <properties/>
+  <testcase name="unstarted cancelled missing and duplicate DNS observations are incomplete rather than failures" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.004"/>
+  <testcase name="legacy DNS_FAILURE and short duration cannot identify root cause" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.001"/>
+  <testcase name="network instability missing snapshots and global stops suppress operational settings advice" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="system timeout with conflicting raw protocol results does not advance to settings review" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.001"/>
+  <testcase name="ERROR_SYSTEM with known unknown or missing errno is not a resolver replacement diagnosis" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.001"/>
+  <testcase name="advice is deterministic preserves evidence and omits query and network identifiers" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.007"/>
+  <testcase name="permission and invalid argument require API investigation even when raw DNS succeeds" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="raw truncation negative and protocol difference retain independent observations" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.001"/>
+  <testcase name="parse and unknown resolver errors retain platform code without claiming poisoning" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="stable same host timeout offers conditional reversible reviews without choosing a provider" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.001"/>
+  <testcase name="unfinished and cancelled attempt records cannot be hidden by complete aggregate fields" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="Private DNS active does not block explicit plain protocol diagnostics or recommend disabling it" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="no evidence and demonstration do not diagnose the current phone" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="HTTPS failure with successful DNS is not a DNS provider recommendation" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="NXDOMAIN checks name and policy without suggesting DNS replacement" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="successful addresses do not require settings changes or claim HTTPS coverage" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="different missing invalid and redacted system hosts cannot justify settings advice" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="same host difference is bounded and normalized but does not prove same lookup type" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.001"/>
+  <testcase name="empty NOERROR and other response codes ask for bounded evidence" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="mixed retries retain first failure and require more evidence instead of settings changes" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <testcase name="source record and baseline provenance do not claim live settings or repair success" classname="dev.proxyaudit.core.DnsRepairAdvisorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

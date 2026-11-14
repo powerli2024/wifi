@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeepReportAnalysisTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:26:55.328Z" hostname="DESKTOP-63D1DH2" time="0.222">
+  <properties/>
+  <testcase name="fake_ip_range_includes_both_18_and_19_without_claiming_poison_or_leak[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.016"/>
+  <testcase name="fake_ip_range_includes_both_18_and_19_without_claiming_poison_or_leak" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.02"/>
+  <testcase name="http_proxy_without_origin_dns_is_explained_but_direct_does_not_exclude_vpn[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.017"/>
+  <testcase name="http_proxy_without_origin_dns_is_explained_but_direct_does_not_exclude_vpn" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.017"/>
+  <testcase name="successful_answer_versus_transport_error_is_explained_in_either_direction[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.016"/>
+  <testcase name="successful_answer_versus_transport_error_is_explained_in_either_direction" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.017"/>
+  <testcase name="different_successful_udp_tcp_sets_are_not_attributed_to_pollution[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.009"/>
+  <testcase name="different_successful_udp_tcp_sets_are_not_attributed_to_pollution" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.012"/>
+  <testcase name="empty_answer_versus_transport_failure_is_a_protocol_difference_without_leak_attribution[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.01"/>
+  <testcase name="empty_answer_versus_transport_failure_is_a_protocol_difference_without_leak_attribution" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.012"/>
+  <testcase name="cancelled_attempt_or_cancelled_website_does_not_create_a_completed_proxy_explanation[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.009"/>
+  <testcase name="cancelled_attempt_or_cancelled_website_does_not_create_a_completed_proxy_explanation" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.013"/>
+  <testcase name="later_success_keeps_first_failure_without_requiring_raw_dns[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.013"/>
+  <testcase name="later_success_keeps_first_failure_without_requiring_raw_dns" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.01"/>
+  <testcase name="empty_aaaa_is_a_response_but_timeout_or_truncation_are_not_empty_success[29]" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.013"/>
+  <testcase name="empty_aaaa_is_a_response_but_timeout_or_truncation_are_not_empty_success" classname="dev.proxyaudit.android.DeepReportAnalysisTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

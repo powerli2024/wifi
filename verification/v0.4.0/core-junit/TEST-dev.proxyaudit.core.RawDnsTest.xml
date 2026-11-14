@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.RawDnsTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2026-10-22T06:02:48.223Z" hostname="DESKTOP-63D1DH2" time="2.81">
+  <properties/>
+  <testcase name="transaction question type class QR opcode and reserved flag must match" classname="dev.proxyaudit.core.RawDnsTest" time="0.009"/>
+  <testcase name="query is one standard recursive question without EDNS or hidden followup" classname="dev.proxyaudit.core.RawDnsTest" time="0.005"/>
+  <testcase name="NXDOMAIN and truncated answers remain explicit observations without address success" classname="dev.proxyaudit.core.RawDnsTest" time="0.004"/>
+  <testcase name="authority and additional records cannot masquerade as answer addresses" classname="dev.proxyaudit.core.RawDnsTest" time="0.0"/>
+  <testcase name="close before execute sends no packet and one instance cannot run twice" classname="dev.proxyaudit.core.RawDnsTest" time="0.125"/>
+  <testcase name="schema two redacts raw DNS identifiers and keeps error and coverage evidence" classname="dev.proxyaudit.core.RawDnsTest" time="0.001"/>
+  <testcase name="bounded random malformed packet inputs terminate without unchecked parser crashes" classname="dev.proxyaudit.core.RawDnsTest" time="0.016"/>
+  <testcase name="UDP timeout returns no claim and no retry" classname="dev.proxyaudit.core.RawDnsTest" time="0.231"/>
+  <testcase name="UDP delayed response survives multiple receive polls without resending" classname="dev.proxyaudit.core.RawDnsTest" time="0.81"/>
+  <testcase name="matching A AAAA and case insensitive question responses are observed" classname="dev.proxyaudit.core.RawDnsTest" time="0.001"/>
+  <testcase name="answer extraction follows CNAME and excludes unrelated and wrong class records" classname="dev.proxyaudit.core.RawDnsTest" time="0.0"/>
+  <testcase name="TCP loopback handles split length prefix and fragmented response" classname="dev.proxyaudit.core.RawDnsTest" time="0.029"/>
+  <testcase name="TCP slow drip is limited by total deadline rather than per read timeout" classname="dev.proxyaudit.core.RawDnsTest" time="0.234"/>
+  <testcase name="UDP polling keeps the original total timeout budget" classname="dev.proxyaudit.core.RawDnsTest" time="0.745"/>
+  <testcase name="UDP truncation preserves TC and does not open a TCP fallback" classname="dev.proxyaudit.core.RawDnsTest" time="0.108"/>
+  <testcase name="configuration rejects ambiguous targets bad hosts ports and disabled protocols" classname="dev.proxyaudit.core.RawDnsTest" time="0.003"/>
+  <testcase name="oversized UDP payload and TCP length are bounded before parsing" classname="dev.proxyaudit.core.RawDnsTest" time="0.003"/>
+  <testcase name="UDP loopback sends one query and validates the actual response" classname="dev.proxyaudit.core.RawDnsTest" time="0.001"/>
+  <testcase name="message and resource length bounds reject truncation trailing garbage and invalid addresses" classname="dev.proxyaudit.core.RawDnsTest" time="0.0"/>
+  <testcase name="numeric sockets use address bytes with explicit IPv6 literal family" classname="dev.proxyaudit.core.RawDnsTest" time="0.001"/>
+  <testcase name="invalid UDP reply and premature TCP EOF cannot complete" classname="dev.proxyaudit.core.RawDnsTest" time="0.002"/>
+  <testcase name="close before TCP execute does not connect" classname="dev.proxyaudit.core.RawDnsTest" time="0.112"/>
+  <testcase name="OPT extended response code is not misreported as NOERROR" classname="dev.proxyaudit.core.RawDnsTest" time="0.0"/>
+  <testcase name="close cancels a ten second UDP receive within one second" classname="dev.proxyaudit.core.RawDnsTest" time="0.361"/>
+  <testcase name="close cancels an active TCP read" classname="dev.proxyaudit.core.RawDnsTest" time="0.004"/>
+  <testcase name="compressed names reject out of range forward interior and cyclic pointers" classname="dev.proxyaudit.core.RawDnsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

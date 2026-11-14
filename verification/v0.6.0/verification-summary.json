@@ -1,0 +1,46 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-23",
+  "deliveryStatus": "TRIAL_LOCAL_CHECKS_PASSED",
+  "scope": "JVM, loopback and simulated Android framework only. No emulator/device tests executed for v0.6.0. User physical-device acceptance pending.",
+  "emulatorCheck": "SKIPPED_AT_USER_REQUEST",
+  "physicalDeviceCheck": "PENDING_USER",
+  "applicationChanges": "NETWORK_INVENTORY_LOCAL_EXPERIMENTS_LAYERED_WEBSITE_DIAGNOSTICS",
+  "core": {
+    "tests": 207,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 207
+  },
+  "ui_framework": {
+    "tests": 182,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 182
+  },
+  "controller": {
+    "tests": 51,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 51
+  },
+  "tls_fixture": {
+    "tests": 10,
+    "passed": 10,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 1,
+    "warning": "OldTargetApi: targetSdk 35 retained pending device compatibility validation."
+  },
+  "apk": {
+    "file": "android-proxy-diagnostics-0.6.0-debug.apk",
+    "bytes": 16801359,
+    "sha256": "6dfc7377f31daf50918920d5d7cb633e16585476f88c5fb250ec114e1ba084b4"
+  },
+  "totalTests": 450
+}

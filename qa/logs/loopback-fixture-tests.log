@@ -1,0 +1,8 @@
+test_forwarded_headers_do_not_override_socket_peer (test_echo_fixture.EchoFixtureTest.test_forwarded_headers_do_not_override_socket_peer) ... ok
+test_missing_wrong_path_and_duplicate_id_fail (test_echo_fixture.EchoFixtureTest.test_missing_wrong_path_and_duplicate_id_fail) ... ok
+test_valid_nonce_and_source (test_echo_fixture.EchoFixtureTest.test_valid_nonce_and_source) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.507s
+
+OK

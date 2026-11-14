@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.DeepReportComparisonTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:26:55.555Z" hostname="DESKTOP-63D1DH2" time="0.162">
+  <properties/>
+  <testcase name="dns_configuration_change_is_descriptive_only_and_preserves_frozen_dns_target[29]" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.011"/>
+  <testcase name="dns_configuration_change_is_descriptive_only_and_preserves_frozen_dns_target" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.013"/>
+  <testcase name="complete_failure_can_be_baseline_but_cancelled_missing_or_synthetic_cannot[29]" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.012"/>
+  <testcase name="complete_failure_can_be_baseline_but_cancelled_missing_or_synthetic_cannot" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.014"/>
+  <testcase name="comparison_redacts_identifiers_and_full_export_still_omits_path_and_query[29]" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.011"/>
+  <testcase name="comparison_redacts_identifiers_and_full_export_still_omits_path_and_query" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.015"/>
+  <testcase name="exact_url_budgets_proxy_declaration_raw_target_and_version_are_required[29]" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.01"/>
+  <testcase name="exact_url_budgets_proxy_declaration_raw_target_and_version_are_required" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.016"/>
+  <testcase name="first_failure_is_kept_when_later_attempt_succeeds_and_durations_are_not_repair_verdicts[29]" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.013"/>
+  <testcase name="first_failure_is_kept_when_later_attempt_succeeds_and_durations_are_not_repair_verdicts" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.014"/>
+  <testcase name="network_vpn_proxy_route_binding_change_or_in_run_change_blocks_comparison[29]" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.013"/>
+  <testcase name="network_vpn_proxy_route_binding_change_or_in_run_change_blocks_comparison" classname="dev.proxyaudit.android.DeepReportComparisonTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

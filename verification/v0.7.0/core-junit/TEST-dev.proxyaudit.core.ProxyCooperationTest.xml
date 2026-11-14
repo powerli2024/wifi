@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.ProxyCooperationTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:04:34.482Z" hostname="DESKTOP-63D1DH2" time="4.323">
+  <properties/>
+  <testcase name="missing connections and invalid entries retain version but do not invent a count" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.528"/>
+  <testcase name="credentials validation and plan tostring do not expose inputs" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.013"/>
+  <testcase name="non-json media type and malformed json are distinguished without raw body" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.075"/>
+  <testcase name="close before execution starts no request and plan can execute only once" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.011"/>
+  <testcase name="per request timeout is three seconds even when system DNS ignores interruption" classname="dev.proxyaudit.core.ProxyCooperationTest" time="3.039"/>
+  <testcase name="only two permitted GET endpoints send authorization and preserve field compatibility" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.078"/>
+  <testcase name="trusted certificate with wrong host fails hostname verification" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.03"/>
+  <testcase name="origin input requires explicit https and rejects credentials path query fragment and invalid ports" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.011"/>
+  <testcase name="cancel active call returns promptly retains completed version and omits later results" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.025"/>
+  <testcase name="absent secret never sends authorization header" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.023"/>
+  <testcase name="response byte ceiling rejects declared and chunked oversized payloads" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.103"/>
+  <testcase name="snapshot count is complete but exported metadata sample is capped at 100" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.045"/>
+  <testcase name="deep json and long strings fail bounded parser instead of escaping budget" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.031"/>
+  <testcase name="version failure stops before connections and 401 403 404 have separate classifications" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.057"/>
+  <testcase name="redirect cannot contact another endpoint or disclose credential there" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.016"/>
+  <testcase name="duplicate IDs invalidate snapshot including duplicates outside retained sample" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.022"/>
+  <testcase name="alternative IP casing and typed ports are accepted and malformed optional ports omitted" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.029"/>
+  <testcase name="503 retry-after zero does not trigger library protocol retry" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.029"/>
+  <testcase name="untrusted certificate fails without retry or certificate data export" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.059"/>
+  <testcase name="response echo of secret is scrubbed in version id host chain rule and every report format" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.023"/>
+  <testcase name="uninterruptible DNS does not spawn workers and retains global admission until release" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.04"/>
+  <testcase name="empty and null connections are compatible successful zero snapshots" classname="dev.proxyaudit.core.ProxyCooperationTest" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[10月 23, 2026 4:04:38 下午 okhttp3.internal.platform.Platform log
+信息: Http2Connection.Listener failure for MockWebServer kubernetes.docker.internal
+java.net.SocketException: 你的主机中的软件中止了一个已建立的连接。
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:340)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1298)
+	at okio.OutputStreamSink.write(JvmOkio.kt:56)
+	at okio.AsyncTimeout$sink$1.write(AsyncTimeout.kt:102)
+	at okio.RealBufferedSink.emitCompleteSegments(RealBufferedSink.kt:256)
+	at okio.RealBufferedSink.write(RealBufferedSink.kt:147)
+	at okhttp3.internal.http2.Http2Writer.dataFrame(Http2Writer.kt:165)
+	at okhttp3.internal.http2.Http2Writer.data(Http2Writer.kt:153)
+	at okhttp3.internal.http2.Http2Connection.writeData(Http2Connection.kt:332)
+	at okhttp3.internal.http2.Http2Stream$FramingSink.emitFrame(Http2Stream.kt:565)
+	at okhttp3.internal.http2.Http2Stream$FramingSink.write(Http2Stream.kt:532)
+	at okio.RealBufferedSink.emitCompleteSegments(RealBufferedSink.kt:256)
+	at okio.RealBufferedSink.write(RealBufferedSink.kt:147)
+	at okhttp3.mockwebserver.MockWebServer.throttledTransfer(MockWebServer.kt:887)
+	at okhttp3.mockwebserver.MockWebServer.access$throttledTransfer(MockWebServer.kt:101)
+	at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.writeResponse(MockWebServer.kt:1098)
+	at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.onStream(MockWebServer.kt:977)
+	at okhttp3.internal.http2.Http2Connection$ReaderRunnable$headers$lambda$2$$inlined$execute$default$1.runOnce(TaskQueue.kt:220)
+	at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+	at okhttp3.internal.concurrent.TaskRunner.access$runTask(TaskRunner.kt:42)
+	at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	Suppressed: okhttp3.internal.http2.StreamResetException: stream was reset: CANCEL
+		at okhttp3.internal.http2.Http2Stream.checkOutNotClosed$okhttp(Http2Stream.kt:646)
+		at okhttp3.internal.http2.Http2Stream$FramingSink.emitFrame(Http2Stream.kt:557)
+		at okhttp3.internal.http2.Http2Stream$FramingSink.close(Http2Stream.kt:612)
+		at okio.RealBufferedSink.close(RealBufferedSink.kt:287)
+		at kotlin.io.CloseableKt.closeFinally(Closeable.kt:49)
+		at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.writeResponse(MockWebServer.kt:1096)
+		... 8 more
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+E
+======================================================================
+ERROR: test_echo_fixture (unittest.loader._FailedTest.test_echo_fixture)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_echo_fixture
+Traceback (most recent call last):
+  File "D:\Download\python\Lib\unittest\loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Download\python\Lib\unittest\loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "D:\gpt\clashandroid\android-proxy-diagnostics-0.1.0-source\tools\test_echo_fixture.py", line 16, in <module>
+    from cryptography import x509
+ModuleNotFoundError: No module named 'cryptography'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

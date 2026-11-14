@@ -1,0 +1,16 @@
+# Synthetic local repair exercise. No subscription, proxy node or credential.
+# MATCH,DIRECT intentionally means direct routing: this is not a privacy preset.
+# Do not replace your working proxy configuration with this exercise.
+mixed-port: 7890
+allow-lan: false
+mode: rule
+dns:
+  enable: true
+  nameserver:
+    ['https://cloudflare-dns.com/dns-query']
+  ipv6: false
+  default-nameserver: ['1.1.1.1']
+  proxy-server-nameserver: ['https://cloudflare-dns.com/dns-query']
+  respect-rules: true
+rules:
+  - MATCH,DIRECT

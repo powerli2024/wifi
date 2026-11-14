@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.core.WebsiteDiagnosticsTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-10-23T08:04:41.638Z" hostname="DESKTOP-63D1DH2" time="5.29">
+  <properties/>
+  <testcase name="full attempt deadline can recheck once within the unchanged total budget" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="2.049"/>
+  <testcase name="plan defaults bare domain to https but rejects ambiguous or credentialed URLs" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.009"/>
+  <testcase name="untrusted certificate fails TLS while preserving established connection" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.019"/>
+  <testcase name="trusted but wrong hostname is rejected with no insecure fallback" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.015"/>
+  <testcase name="HTTP send failure after verified TLS cannot erase the TLS success" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.018"/>
+  <testcase name="absolute DNS deadline returns without starting replacement worker" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.326"/>
+  <testcase name="trusted expired leaf is classified without bypassing certificate validation" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.027"/>
+  <testcase name="trusted not yet valid leaf suggests clock or certificate investigation" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.02"/>
+  <testcase name="advertised idle permits consecutive admissions without spurious busy rejection" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.128"/>
+  <testcase name="body ceiling is partial evidence not website failure" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.017"/>
+  <testcase name="redirect is not followed and exports only its origin when explicitly requested" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.02"/>
+  <testcase name="slow response body respects absolute budget and preserves successful headers" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="2.027"/>
+  <testcase name="HTTP forbidden is response evidence and never triggers automatic retry" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.019"/>
+  <testcase name="close before execution never starts network work" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.007"/>
+  <testcase name="local validated HTTPS GET records every layer without saving the body" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.018"/>
+  <testcase name="system proxy selection is respected without silently connecting to target" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.009"/>
+  <testcase name="same plan temporary failure is preserved when one automatic recheck responds" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.53"/>
+  <testcase name="cancellation returns promptly but blocked DNS keeps the single work slot until actual exit" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.025"/>
+  <testcase name="DNS failure does not blindly retry or expose exception text" classname="dev.proxyaudit.core.WebsiteDiagnosticsTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[10月 23, 2026 4:04:43 下午 okhttp3.internal.platform.Platform log
+信息: Http2Connection.Listener failure for MockWebServer kubernetes.docker.internal
+java.io.IOException: closed
+	at okhttp3.internal.http2.Http2Writer.flush(Http2Writer.kt:119)
+	at okhttp3.internal.http2.Http2Connection.flush(Http2Connection.kt:408)
+	at okhttp3.internal.http2.Http2Stream$FramingSink.close(Http2Stream.kt:624)
+	at okio.RealBufferedSink.close(RealBufferedSink.kt:287)
+	at kotlin.io.CloseableKt.closeFinally(Closeable.kt:46)
+	at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.writeResponse(MockWebServer.kt:1096)
+	at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.onStream(MockWebServer.kt:977)
+	at okhttp3.internal.http2.Http2Connection$ReaderRunnable$headers$lambda$2$$inlined$execute$default$1.runOnce(TaskQueue.kt:220)
+	at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+	at okhttp3.internal.concurrent.TaskRunner.access$runTask(TaskRunner.kt:42)
+	at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+10月 23, 2026 4:04:46 下午 okhttp3.internal.platform.Platform log
+信息: Http2Connection.Listener failure for MockWebServer kubernetes.docker.internal
+java.io.IOException: closed
+	at okhttp3.internal.http2.Http2Writer.flush(Http2Writer.kt:119)
+	at okhttp3.internal.http2.Http2Connection.flush(Http2Connection.kt:408)
+	at okhttp3.internal.http2.Http2Stream$FramingSink.close(Http2Stream.kt:624)
+	at okio.RealBufferedSink.close(RealBufferedSink.kt:287)
+	at kotlin.io.CloseableKt.closeFinally(Closeable.kt:46)
+	at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.writeResponse(MockWebServer.kt:1096)
+	at okhttp3.mockwebserver.MockWebServer$Http2SocketHandler.onStream(MockWebServer.kt:977)
+	at okhttp3.internal.http2.Http2Connection$ReaderRunnable$headers$lambda$2$$inlined$execute$default$1.runOnce(TaskQueue.kt:220)
+	at okhttp3.internal.concurrent.TaskRunner.runTask(TaskRunner.kt:116)
+	at okhttp3.internal.concurrent.TaskRunner.access$runTask(TaskRunner.kt:42)
+	at okhttp3.internal.concurrent.TaskRunner$runnable$1.run(TaskRunner.kt:65)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+]]></system-err>
+</testsuite>

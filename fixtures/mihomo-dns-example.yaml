@@ -1,0 +1,13 @@
+# Synthetic local repair exercise. No subscription, proxy node or credential.
+# MATCH,DIRECT intentionally means direct routing: this is not a privacy preset.
+# Do not replace your working proxy configuration with this exercise.
+mixed-port: 7890
+allow-lan: false
+mode: rule
+dns:
+  enable: true
+  nameserver:
+    - 8.8.8.8
+  ipv6: false
+rules:
+  - MATCH,DIRECT

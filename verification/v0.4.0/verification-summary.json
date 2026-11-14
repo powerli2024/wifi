@@ -1,0 +1,51 @@
+{
+  "version": "0.4.0",
+  "date": "2026-10-22",
+  "deliveryStatus": "TRIAL_WITH_KNOWN_UI_TEST_FAILURE",
+  "scope": "JVM and simulated Android framework only. No emulator/device tests executed for v0.4.0. User physical-device acceptance pending.",
+  "emulatorCheck": "SKIPPED_AT_USER_REQUEST",
+  "physicalDeviceCheck": "PENDING_USER",
+  "applicationChanges": "FROZEN_PENDING_PRODUCT_SPEC_CONFIRMATION",
+  "core": {
+    "tests": 146,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 146
+  },
+  "ui_framework": {
+    "tests": 72,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 70
+  },
+  "knownUiFailure": {
+    "cases": [
+      "demo_advice_cannot_be_saved_as_a_real_baseline[29]",
+      "demo_advice_cannot_be_saved_as_a_real_baseline"
+    ],
+    "reason": "New system DNS detail text in a synthetic demo contains unqualified returned-address wording. Global demo labels and disabled real-baseline controls remain; correction deferred per user code freeze."
+  },
+  "controller": {
+    "tests": 33,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 33
+  },
+  "tls_fixture": {
+    "tests": 10,
+    "passed": 10,
+    "failures": 0
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 7
+  },
+  "apk": {
+    "file": "android-proxy-diagnostics-0.4.0-debug.apk",
+    "bytes": 3229708,
+    "sha256": "e65c9ed873ceee11add1901826a0212c46e6cd0de7cf10210ce46cf0828626e1"
+  }
+}

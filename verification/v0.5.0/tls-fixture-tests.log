@@ -1,0 +1,15 @@
+test_certificate_is_rejected_without_test_scoped_trust (test_echo_fixture.EchoFixtureTest.test_certificate_is_rejected_without_test_scoped_trust) ... ok
+test_cli_launch_uses_nonblocking_tls_accept_path (test_echo_fixture.EchoFixtureTest.test_cli_launch_uses_nonblocking_tls_accept_path) ... ok
+test_completed_tls_with_incomplete_http_headers_expires (test_echo_fixture.EchoFixtureTest.test_completed_tls_with_incomplete_http_headers_expires) ... ok
+test_forwarded_headers_do_not_override_socket_peer (test_echo_fixture.EchoFixtureTest.test_forwarded_headers_do_not_override_socket_peer) ... ok
+test_missing_wrong_path_and_duplicate_id_fail (test_echo_fixture.EchoFixtureTest.test_missing_wrong_path_and_duplicate_id_fail) ... ok
+test_server_is_loopback_only_and_tls_12_or_newer (test_echo_fixture.EchoFixtureTest.test_server_is_loopback_only_and_tls_12_or_newer) ... ok
+test_silent_clienthello_does_not_block_another_tls_client (test_echo_fixture.EchoFixtureTest.test_silent_clienthello_does_not_block_another_tls_client) ... ok
+test_trickled_http_headers_cannot_extend_absolute_deadline (test_echo_fixture.EchoFixtureTest.test_trickled_http_headers_cannot_extend_absolute_deadline) ... ok
+test_valid_nonce_and_source (test_echo_fixture.EchoFixtureTest.test_valid_nonce_and_source) ... ok
+test_worker_limit_rejects_excess_and_recovers_after_handshake_timeout (test_echo_fixture.EchoFixtureTest.test_worker_limit_rejects_excess_and_recovers_after_handshake_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.639s
+
+OK

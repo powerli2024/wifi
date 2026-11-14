@@ -1,0 +1,309 @@
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:processResources NO-SOURCE
+> Task :core:processTestResources NO-SOURCE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :app:checkDebugAndroidTestAarMetadata
+> Task :app:mapDebugAndroidTestSourceSetPaths
+> Task :app:generateDebugAndroidTestResources
+> Task :app:mergeDebugAndroidTestResources
+> Task :app:processDebugAndroidTestManifest
+> Task :app:javaPreCompileDebugAndroidTest
+> Task :app:mergeDebugAndroidTestShaders
+> Task :app:compileDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets
+> Task :app:compressDebugAndroidTestAssets
+> Task :app:desugarDebugAndroidTestFileDependencies
+> Task :app:checkDebugAndroidTestDuplicateClasses
+> Task :app:mergeDebugAndroidTestJniLibFolders
+> Task :app:mergeExtDexDebugAndroidTest
+> Task :app:validateSigningDebugAndroidTest
+> Task :app:writeDebugAndroidTestSigningConfigVersions
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:packageDebugUnitTestForUnitTest UP-TO-DATE
+> Task :app:generateDebugUnitTestConfig UP-TO-DATE
+> Task :app:processDebugAndroidTestResources
+> Task :core:compileKotlin
+> Task :core:compileJava NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:mergeLibDexDebugAndroidTest
+> Task :app:mergeLibDexDebug
+> Task :app:compileDebugKotlin
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:mergeDebugJavaResource
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:generateDebugLintReportModel
+> Task :core:compileTestKotlin
+> Task :app:generateDebugUnitTestLintModel
+> Task :core:compileTestJava NO-SOURCE
+> Task :core:testClasses UP-TO-DATE
+> Task :app:compileDebugAndroidTestKotlin
+
+> Task :core:test
+
+CoreTest > numeric ipv4 strict parsing rejects ambiguous input PASSED
+
+CoreTest > strict echo refuses version coercion PASSED
+
+CoreTest > disabled or not started probes remain not run PASSED
+
+CoreTest > endpoint refuses credentials secrets paths and non https PASSED
+
+CoreTest > minimal export redacts hosts and all addresses PASSED
+
+CoreTest > run timeout must be bounded PASSED
+
+CoreTest > vpn presence never overrides mismatching echo PASSED
+
+CoreTest > ip equivalence compares canonical addresses PASSED
+
+CoreTest > all error categories and cancellations remain insufficient PASSED
+
+CoreTest > missing tls and unsuccessful http cannot produce pass PASSED
+
+CoreTest > dns host validates without regex crashes or implicit network PASSED
+
+CoreTest > ipv6 canonicalizes equivalent values and mapped ipv4 PASSED
+
+CoreTest > matching echo is scoped match not a global safety score PASSED
+
+CoreTest > full export is explicit and structured without raw payload fields PASSED
+
+CoreTest > strict echo refuses missing mismatched wrong type and extra fields PASSED
+
+CoreTest > inconsistent network snapshot and missing endpoint cannot pass PASSED
+
+CoreTest > json encoding escapes control characters and quotes PASSED
+
+CoreTest > same network id with changed DNS capabilities or links cannot produce a verdict PASSED
+
+CoreTest > endpoint strips default port and allows explicit origin only PASSED
+
+CoreTest > vpn absence does not negate narrowly matching source address PASSED
+
+CoreTest > strict echo accepts exact contract and field ordering PASSED
+
+CoreTest > strict echo rejects duplicates escaped duplicates malformed and trailing content PASSED
+
+CoreTest > only explicit ipv6 exclusion produces not applicable PASSED
+
+CoreTest > expected ips enforce numeric bounded unambiguous list PASSED
+
+CoreTest > empty expectation or untrusted endpoint remains insufficient PASSED
+
+CoreTest > wrong nonce invalid ip network change missing snapshot cannot produce pass PASSED
+
+RawDnsTest > transaction question type class QR opcode and reserved flag must match PASSED
+
+RawDnsTest > query is one standard recursive question without EDNS or hidden followup PASSED
+
+RawDnsTest > NXDOMAIN and truncated answers remain explicit observations without address success PASSED
+
+RawDnsTest > authority and additional records cannot masquerade as answer addresses PASSED
+
+RawDnsTest > close cancels an active UDP receive PASSED
+
+RawDnsTest > close before execute sends no packet and one instance cannot run twice PASSED
+
+RawDnsTest > schema two redacts raw DNS identifiers and keeps error and coverage evidence PASSED
+
+RawDnsTest > bounded random malformed packet inputs terminate without unchecked parser crashes PASSED
+
+RawDnsTest > UDP timeout returns no claim and no retry PASSED
+
+RawDnsTest > matching A AAAA and case insensitive question responses are observed PASSED
+
+RawDnsTest > answer extraction follows CNAME and excludes unrelated and wrong class records PASSED
+
+RawDnsTest > TCP loopback handles split length prefix and fragmented response PASSED
+
+RawDnsTest > TCP slow drip is limited by total deadline rather than per read timeout PASSED
+
+RawDnsTest > UDP truncation preserves TC and does not open a TCP fallback PASSED
+
+RawDnsTest > configuration rejects ambiguous targets bad hosts ports and disabled protocols PASSED
+
+RawDnsTest > oversized UDP payload and TCP length are bounded before parsing PASSED
+
+RawDnsTest > UDP loopback sends one query and validates the actual response PASSED
+
+RawDnsTest > message and resource length bounds reject truncation trailing garbage and invalid addresses PASSED
+
+RawDnsTest > numeric sockets use address bytes with explicit IPv6 literal family PASSED
+
+RawDnsTest > invalid UDP reply and premature TCP EOF cannot complete PASSED
+
+RawDnsTest > close before TCP execute does not connect PASSED
+
+RawDnsTest > OPT extended response code is not misreported as NOERROR PASSED
+
+RawDnsTest > close cancels an active TCP read PASSED
+
+RawDnsTest > compressed names reject out of range forward interior and cyclic pointers PASSED
+
+IndependentAdversarialTest > dns and ipv6 never become privacy pass or failure from incidental results PASSED
+
+IndependentAdversarialTest > request URL nonce format matches the declared UUID wire contract PASSED
+
+IndependentAdversarialTest > host and expected list length boundaries are enforced PASSED
+
+IndependentAdversarialTest > ip canonicalization covers compression boundaries and embedded ipv4 PASSED
+
+IndependentAdversarialTest > canonical duplicate expected addresses collapse without false disagreement PASSED
+
+IndependentAdversarialTest > five verdicts stay distinct and narrowly scoped PASSED
+
+IndependentAdversarialTest > random numeric parser inputs terminate and canonical output is idempotent PASSED
+
+IndependentAdversarialTest > random echo parser input is rejected without unchecked crashes PASSED
+
+IndependentAdversarialTest > strict echo rejects duplicate decoded keys arrays nesting illegal JSON and excessive size PASSED
+
+IndependentAdversarialTest > endpoint does not tolerate URL authority ambiguity PASSED
+
+IndependentAdversarialTest > echo nonce is exact and replay wrong case and whitespace are refused PASSED
+
+IndependentAdversarialTest > missing network identifiers unavailable snapshots and any change prevent match PASSED
+
+IndependentAdversarialTest > untrusted missing policy and unavailable actual data fail closed PASSED
+
+IndependentAdversarialTest > exhaustive execution failure tls status matrix never produces false match PASSED
+
+IndependentAdversarialTest > minimal export redacts every network identifier location while retaining limitations PASSED
+
+> Task :app:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:mergeDebugAndroidTestGlobalSynthetics
+> Task :app:processDebugAndroidTestJavaRes
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect
+> Task :app:assembleDebugAndroidTest
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:lintAnalyzeDebugAndroidTest
+
+> Task :app:testDebugUnitTest
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename[29] PASSED
+
+> Task :app:lintAnalyzeDebug
+
+> Task :app:testDebugUnitTest
+
+MainActivityTest > redacted_export_uses_system_document_picker_with_demo_filename PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing[29] PASSED
+
+MainActivityTest > restored_picker_identity_is_not_reused_when_process_payload_is_missing PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network[29] PASSED
+
+MainActivityTest > empty_target_validation_does_not_start_network PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path[29] PASSED
+
+MainActivityTest > raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation[29] PASSED
+
+MainActivityTest > raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe[29] PASSED
+
+MainActivityTest > cancelling_target_confirmation_does_not_start_probe PASSED
+
+MainActivityTest > launch_has_no_target_no_report_and_no_running_probe[29] PASSED
+
+MainActivityTest > launch_has_no_target_no_report_and_no_running_probe PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns[29] PASSED
+
+MainActivityTest > raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers[29] PASSED
+
+MainActivityTest > input_draft_survives_rotation_only_in_process_without_saved_state_identifiers PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation[29] PASSED
+
+MainActivityTest > offline_demo_is_labeled_and_survives_activity_recreation PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry[29] PASSED
+
+MainActivityTest > cancelled_export_after_rotation_clears_pending_and_allows_retry PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once[29] PASSED
+
+MainActivityTest > export_survives_rotation_and_writes_frozen_redacted_payload_once PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation[29] PASSED
+
+MainActivityTest > mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network[29] PASSED
+
+MainActivityTest > clear_removes_report_without_scheduling_network PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope[29] PASSED
+
+MainActivityTest > raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope PASSED
+
+> Task :app:lintAnalyzeDebugUnitTest
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///D:/gpt/clashandroid/android-proxy-diagnostics-0.1.0-source/app/build/reports/lint-results-debug.html
+
+> Task :app:lintDebug
+
+BUILD SUCCESSFUL in 29s
+80 actionable tasks: 43 executed, 37 up-to-date

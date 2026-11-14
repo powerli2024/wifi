@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.proxyaudit.android.MainActivityTest" tests="30" skipped="0" failures="0" errors="0" timestamp="2026-10-20T08:06:00.450Z" hostname="DESKTOP-63D1DH2" time="15.701">
+  <properties/>
+  <testcase name="redacted_export_uses_system_document_picker_with_demo_filename[29]" classname="dev.proxyaudit.android.MainActivityTest" time="5.176"/>
+  <testcase name="redacted_export_uses_system_document_picker_with_demo_filename" classname="dev.proxyaudit.android.MainActivityTest" time="4.109"/>
+  <testcase name="restored_picker_identity_is_not_reused_when_process_payload_is_missing[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.318"/>
+  <testcase name="restored_picker_identity_is_not_reused_when_process_payload_is_missing" classname="dev.proxyaudit.android.MainActivityTest" time="0.302"/>
+  <testcase name="empty_target_validation_does_not_start_network[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.169"/>
+  <testcase name="empty_target_validation_does_not_start_network" classname="dev.proxyaudit.android.MainActivityTest" time="0.238"/>
+  <testcase name="raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.373"/>
+  <testcase name="raw_dns_results_show_each_protocol_without_claiming_an_outer_ipv6_path" classname="dev.proxyaudit.android.MainActivityTest" time="0.34"/>
+  <testcase name="raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.258"/>
+  <testcase name="raw_dns_missing_or_invalid_inputs_are_rejected_before_confirmation" classname="dev.proxyaudit.android.MainActivityTest" time="0.249"/>
+  <testcase name="cancelling_target_confirmation_does_not_start_probe[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.168"/>
+  <testcase name="cancelling_target_confirmation_does_not_start_probe" classname="dev.proxyaudit.android.MainActivityTest" time="0.239"/>
+  <testcase name="launch_has_no_target_no_report_and_no_running_probe[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.12"/>
+  <testcase name="launch_has_no_target_no_report_and_no_running_probe" classname="dev.proxyaudit.android.MainActivityTest" time="0.123"/>
+  <testcase name="raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.169"/>
+  <testcase name="raw_dns_only_ipv4_a_target_can_be_confirmed_without_https_or_system_dns" classname="dev.proxyaudit.android.MainActivityTest" time="0.244"/>
+  <testcase name="input_draft_survives_rotation_only_in_process_without_saved_state_identifiers[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.185"/>
+  <testcase name="input_draft_survives_rotation_only_in_process_without_saved_state_identifiers" classname="dev.proxyaudit.android.MainActivityTest" time="0.234"/>
+  <testcase name="offline_demo_is_labeled_and_survives_activity_recreation[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.176"/>
+  <testcase name="offline_demo_is_labeled_and_survives_activity_recreation" classname="dev.proxyaudit.android.MainActivityTest" time="0.248"/>
+  <testcase name="cancelled_export_after_rotation_clears_pending_and_allows_retry[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.391"/>
+  <testcase name="cancelled_export_after_rotation_clears_pending_and_allows_retry" classname="dev.proxyaudit.android.MainActivityTest" time="0.471"/>
+  <testcase name="export_survives_rotation_and_writes_frozen_redacted_payload_once[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.445"/>
+  <testcase name="export_survives_rotation_and_writes_frozen_redacted_payload_once" classname="dev.proxyaudit.android.MainActivityTest" time="0.326"/>
+  <testcase name="mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.081"/>
+  <testcase name="mapped_ipv6_literal_keeps_the_requested_address_family_in_confirmation" classname="dev.proxyaudit.android.MainActivityTest" time="0.097"/>
+  <testcase name="clear_removes_report_without_scheduling_network[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.086"/>
+  <testcase name="clear_removes_report_without_scheduling_network" classname="dev.proxyaudit.android.MainActivityTest" time="0.125"/>
+  <testcase name="raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope[29]" classname="dev.proxyaudit.android.MainActivityTest" time="0.099"/>
+  <testcase name="raw_dns_ipv6_aaaa_confirmation_lists_each_transport_and_scope" classname="dev.proxyaudit.android.MainActivityTest" time="0.14"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
